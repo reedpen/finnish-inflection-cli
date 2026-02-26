@@ -31,6 +31,12 @@
       "pos": "N"
     },
     {
+      "fin": "puhuttava",
+      "lemma": "puhua",
+      "eng": "speakable",
+      "pos": "A"
+    },
+    {
       "fin": "isä",
       "lemma": "isä",
       "eng": "father",
@@ -91,9 +97,21 @@
       "pos": "N"
     },
     {
+      "fin": "hävitetty",
+      "lemma": "hävittää",
+      "eng": "devastated",
+      "pos": "A"
+    },
+    {
       "fin": "nimittäin",
       "lemma": "nimittäin",
       "eng": "namely",
+      "pos": "A"
+    },
+    {
+      "fin": "tuo",
+      "lemma": "tuo",
+      "eng": "that",
       "pos": "A"
     },
     {
@@ -115,6 +133,12 @@
       "pos": "N"
     },
     {
+      "fin": "viety",
+      "lemma": "viedä",
+      "eng": "transferred",
+      "pos": "N"
+    },
+    {
       "fin": "vanki",
       "lemma": "vanki",
       "eng": "prisoner",
@@ -133,6 +157,12 @@
       "pos": "A"
     },
     {
+      "fin": "näkemä",
+      "lemma": "näkemä",
+      "eng": "intuition",
+      "pos": "A"
+    },
+    {
       "fin": "aika",
       "lemma": "aika",
       "eng": "time",
@@ -146,7 +176,7 @@
     },
     {
       "fin": "niin",
-      "lemma": "niin",
+      "lemma": "ne",
       "eng": "so",
       "pos": "A"
     },
@@ -154,6 +184,12 @@
       "fin": "vankeus",
       "lemma": "vankeus",
       "eng": "captivity",
+      "pos": "N"
+    },
+    {
+      "fin": "tuotu",
+      "lemma": "tuoda",
+      "eng": "brought",
       "pos": "N"
     },
     {
@@ -167,6 +203,12 @@
       "lemma": "kuusisataa",
       "eng": "six hundred",
       "pos": "N"
+    },
+    {
+      "fin": "vuosi",
+      "lemma": "vuotaa",
+      "eng": "year",
+      "pos": "A"
     },
     {
       "fin": "jumala",
@@ -259,6 +301,18 @@
       "pos": "N"
     },
     {
+      "fin": "kadotettu",
+      "lemma": "kadotettu",
+      "eng": "lost",
+      "pos": "A"
+    },
+    {
+      "fin": "langennut",
+      "lemma": "langennut",
+      "eng": "fallen",
+      "pos": "A"
+    },
+    {
       "fin": "tila",
       "lemma": "tila",
       "eng": "space",
@@ -268,6 +322,12 @@
       "fin": "aina",
       "lemma": "aina",
       "eng": "always",
+      "pos": "A"
+    },
+    {
+      "fin": "ellei",
+      "lemma": "josei",
+      "eng": "unless",
       "pos": "A"
     },
     {
@@ -313,6 +373,12 @@
       "pos": "A"
     },
     {
+      "fin": "ei",
+      "lemma": "ei",
+      "eng": "no",
+      "pos": "A"
+    },
+    {
       "fin": "väkevä",
       "lemma": "väkevä",
       "eng": "strong",
@@ -320,7 +386,7 @@
     },
     {
       "fin": "kengännauha",
-      "lemma": "kengännauha",
+      "lemma": "kenkänauha",
       "eng": "shoelace",
       "pos": "N"
     },
@@ -355,6 +421,12 @@
       "pos": "A"
     },
     {
+      "fin": "kastettu",
+      "lemma": "kastettu",
+      "eng": "baptised",
+      "pos": "A"
+    },
+    {
       "fin": "karitsa",
       "lemma": "karitsa",
       "eng": "lamb",
@@ -373,6 +445,12 @@
       "pos": "N"
     },
     {
+      "fin": "puhuttu",
+      "lemma": "puhua",
+      "eng": "spoken",
+      "pos": "A"
+    },
+    {
       "fin": "sana",
       "lemma": "sana",
       "eng": "word",
@@ -386,9 +464,39 @@
     },
     {
       "fin": "epäusko",
-      "lemma": "epäusko",
+      "lemma": "epä-usko",
       "eng": "disbelief",
       "pos": "N"
+    },
+    {
+      "fin": "surmattu",
+      "lemma": "surmata",
+      "eng": "homicide",
+      "pos": "A"
+    },
+    {
+      "fin": "tuleva",
+      "lemma": "tuleva",
+      "eng": "future",
+      "pos": "A"
+    },
+    {
+      "fin": "nouseva",
+      "lemma": "nouseva",
+      "eng": "rising",
+      "pos": "A"
+    },
+    {
+      "fin": "kuollut",
+      "lemma": "kuollut",
+      "eng": "dead",
+      "pos": "A"
+    },
+    {
+      "fin": "ilmaiseva",
+      "lemma": "ilmaista",
+      "eng": "expressive",
+      "pos": "A"
     },
     {
       "fin": "itse",
@@ -400,6 +508,12 @@
       "fin": "pyhä",
       "lemma": "pyhä",
       "eng": "holy",
+      "pos": "A"
+    },
+    {
+      "fin": "henki",
+      "lemma": "henki",
+      "eng": "spirit",
       "pos": "A"
     },
     {
@@ -452,8 +566,20 @@
     },
     {
       "fin": "vuoksi",
-      "lemma": "vuo",
+      "lemma": "vuoksi",
       "eng": "flow",
+      "pos": "A"
+    },
+    {
+      "fin": "oleva",
+      "lemma": "oleva",
+      "eng": "available",
+      "pos": "A"
+    },
+    {
+      "fin": "välttämätön",
+      "lemma": "välttämätön",
+      "eng": "necessary",
       "pos": "A"
     },
     {
@@ -476,7 +602,7 @@
     },
     {
       "fin": "yksi",
-      "lemma": "yksi",
+      "lemma": "yksI",
       "eng": "one",
       "pos": "N"
     },
@@ -517,6 +643,12 @@
       "pos": "N"
     },
     {
+      "fin": "kirjoittanut",
+      "lemma": "kirjoittaa",
+      "eng": "written",
+      "pos": "A"
+    },
+    {
       "fin": "kuu",
       "lemma": "kuu",
       "eng": "moon",
@@ -535,10 +667,22 @@
       "pos": "N"
     },
     {
+      "fin": "kuultu",
+      "lemma": "kuulla",
+      "eng": "heard",
+      "pos": "A"
+    },
+    {
       "fin": "näky",
       "lemma": "näky",
       "eng": "vision",
       "pos": "N"
+    },
+    {
+      "fin": "voima",
+      "lemma": "voida",
+      "eng": "force",
+      "pos": "A"
     },
     {
       "fin": "poika",
@@ -604,6 +748,18 @@
       "fin": "ikuinen",
       "lemma": "ikuinen",
       "eng": "eternal",
+      "pos": "A"
+    },
+    {
+      "fin": "oltu",
+      "lemma": "olla",
+      "eng": "been",
+      "pos": "N"
+    },
+    {
+      "fin": "valmistettu",
+      "lemma": "valmistaa",
+      "eng": "made",
       "pos": "A"
     },
     {
@@ -674,7 +830,7 @@
     },
     {
       "fin": "sinä",
-      "lemma": "se",
+      "lemma": "sinä",
       "eng": "you",
       "pos": "N"
     },
@@ -703,6 +859,12 @@
       "pos": "N"
     },
     {
+      "fin": "voi",
+      "lemma": "voida",
+      "eng": "butter",
+      "pos": "A"
+    },
+    {
       "fin": "ikä",
       "lemma": "ikä",
       "eng": "age",
@@ -713,6 +875,12 @@
       "lemma": "valtuus",
       "eng": "authorization",
       "pos": "N"
+    },
+    {
+      "fin": "kykenevä",
+      "lemma": "kykenevä",
+      "eng": "able",
+      "pos": "A"
     },
     {
       "fin": "sydän",
@@ -782,9 +950,15 @@
     },
     {
       "fin": "yläpuoli",
-      "lemma": "yläpuoli",
+      "lemma": "ylä-puoli",
       "eng": "upper side",
       "pos": "N"
+    },
+    {
+      "fin": "siunattu",
+      "lemma": "siunattu",
+      "eng": "blessed",
+      "pos": "A"
     },
     {
       "fin": "koska",
@@ -809,6 +983,12 @@
       "lemma": "mies",
       "eng": "man",
       "pos": "N"
+    },
+    {
+      "fin": "laskeutuva",
+      "lemma": "laskeutua",
+      "eng": "cascading",
+      "pos": "A"
     },
     {
       "fin": "taivas",
@@ -878,7 +1058,7 @@
     },
     {
       "fin": "mutta",
-      "lemma": "mutta",
+      "lemma": "mä",
       "eng": "but",
       "pos": "A"
     },
@@ -890,7 +1070,7 @@
     },
     {
       "fin": "neitsyt",
-      "lemma": "neitsy",
+      "lemma": "neitsyt",
       "eng": "virgin",
       "pos": "N"
     },
@@ -973,6 +1153,12 @@
       "pos": "N"
     },
     {
+      "fin": "haluttava",
+      "lemma": "haluttava",
+      "eng": "desirable",
+      "pos": "A"
+    },
+    {
       "fin": "riemullinen",
       "lemma": "riemullinen",
       "eng": "angelic",
@@ -985,10 +1171,52 @@
       "pos": "N"
     },
     {
+      "fin": "sanottu",
+      "lemma": "sanottu",
+      "eng": "said",
+      "pos": "A"
+    },
+    {
+      "fin": "menevä",
+      "lemma": "mennä",
+      "eng": "bound",
+      "pos": "A"
+    },
+    {
+      "fin": "lankeava",
+      "lemma": "langeta",
+      "eng": "incident",
+      "pos": "A"
+    },
+    {
+      "fin": "juuri",
+      "lemma": "juuri",
+      "eng": "root",
+      "pos": "A"
+    },
+    {
+      "fin": "elävä",
+      "lemma": "elävä",
+      "eng": "living",
+      "pos": "A"
+    },
+    {
+      "fin": "lähde",
+      "lemma": "lähde",
+      "eng": "source",
+      "pos": "A"
+    },
+    {
       "fin": "kuva",
       "lemma": "kuva",
       "eng": "image",
       "pos": "N"
+    },
+    {
+      "fin": "valmistava",
+      "lemma": "valmistaa",
+      "eng": "preparatory",
+      "pos": "A"
     },
     {
       "fin": "kyyhkynen",
@@ -1010,8 +1238,14 @@
     },
     {
       "fin": "kaksitoista",
-      "lemma": "kaksitoista",
+      "lemma": "kaksitoinen",
       "eng": "twelve",
+      "pos": "A"
+    },
+    {
+      "fin": "seuraava",
+      "lemma": "seurata",
+      "eng": "next",
       "pos": "A"
     },
     {
@@ -1057,6 +1291,18 @@
       "pos": "A"
     },
     {
+      "fin": "tuomittava",
+      "lemma": "tuomittava",
+      "eng": "reprehensible",
+      "pos": "A"
+    },
+    {
+      "fin": "risti",
+      "lemma": "risti",
+      "eng": "cross",
+      "pos": "A"
+    },
+    {
       "fin": "tähti",
       "lemma": "tähti",
       "eng": "star",
@@ -1073,6 +1319,12 @@
       "lemma": "apostoli",
       "eng": "apostle",
       "pos": "N"
+    },
+    {
+      "fin": "vastaan",
+      "lemma": "vasta",
+      "eng": "against",
+      "pos": "A"
     },
     {
       "fin": "avara",
@@ -1115,6 +1367,12 @@
       "lemma": "suku",
       "eng": "genus",
       "pos": "N"
+    },
+    {
+      "fin": "kieli",
+      "lemma": "kieliä",
+      "eng": "language",
+      "pos": "A"
     },
     {
       "fin": "kansa",
@@ -1171,10 +1429,28 @@
       "pos": "N"
     },
     {
+      "fin": "kuoleva",
+      "lemma": "kuolla",
+      "eng": "dying",
+      "pos": "A"
+    },
+    {
       "fin": "kiista",
       "lemma": "kiista",
       "eng": "dispute",
       "pos": "N"
+    },
+    {
+      "fin": "ettei",
+      "lemma": "ettäei",
+      "eng": "lest",
+      "pos": "A"
+    },
+    {
+      "fin": "laskenut",
+      "lemma": "laskenut",
+      "eng": "set",
+      "pos": "A"
     },
     {
       "fin": "pimeys",
@@ -1214,7 +1490,7 @@
     },
     {
       "fin": "maanjäristys",
-      "lemma": "maajäristys",
+      "lemma": "maanjäristys",
       "eng": "earthquake",
       "pos": "N"
     },
@@ -1222,6 +1498,12 @@
       "fin": "melskeinen",
       "lemma": "melskeinen",
       "eng": "boisterous",
+      "pos": "A"
+    },
+    {
+      "fin": "halkeava",
+      "lemma": "halkeava",
+      "eng": "fissile",
       "pos": "A"
     },
     {
@@ -1237,16 +1519,58 @@
       "pos": "A"
     },
     {
+      "fin": "palava",
+      "lemma": "palaa",
+      "eng": "burning",
+      "pos": "A"
+    },
+    {
+      "fin": "tuli",
+      "lemma": "tulla",
+      "eng": "fire",
+      "pos": "A"
+    },
+    {
+      "fin": "nähty",
+      "lemma": "nähdä",
+      "eng": "seen",
+      "pos": "N"
+    },
+    {
       "fin": "huuru",
       "lemma": "huuru",
       "eng": "mist",
       "pos": "N"
     },
     {
+      "fin": "haihtuva",
+      "lemma": "haihtuva",
+      "eng": "ethereal",
+      "pos": "A"
+    },
+    {
+      "fin": "ollut",
+      "lemma": "olla",
+      "eng": "been",
+      "pos": "A"
+    },
+    {
       "fin": "surma",
       "lemma": "surma",
       "eng": "kill",
       "pos": "N"
+    },
+    {
+      "fin": "kauhistava",
+      "lemma": "kauhistava",
+      "eng": "terrible",
+      "pos": "A"
+    },
+    {
+      "fin": "valittu",
+      "lemma": "valittu",
+      "eng": "selected",
+      "pos": "A"
     },
     {
       "fin": "opetuslapsi",
@@ -1270,6 +1594,12 @@
       "fin": "vanhurskas",
       "lemma": "vanhurskas",
       "eng": "righteous",
+      "pos": "A"
+    },
+    {
+      "fin": "usko",
+      "lemma": "usko",
+      "eng": "belief",
       "pos": "A"
     },
     {
@@ -1300,6 +1630,12 @@
       "fin": "vanhurskaus",
       "lemma": "vanhurskaus",
       "eng": "righteousness",
+      "pos": "N"
+    },
+    {
+      "fin": "tehty",
+      "lemma": "tehdä",
+      "eng": "done",
       "pos": "N"
     },
     {
@@ -1381,9 +1717,21 @@
       "pos": "A"
     },
     {
+      "fin": "voittanut",
+      "lemma": "voittaa",
+      "eng": "superior",
+      "pos": "A"
+    },
+    {
       "fin": "synkkä",
       "lemma": "synkkä",
       "eng": "gloomy",
+      "pos": "A"
+    },
+    {
+      "fin": "inhottava",
+      "lemma": "inhota",
+      "eng": "hideous",
       "pos": "A"
     },
     {
@@ -1406,7 +1754,7 @@
     },
     {
       "fin": "valtakunta",
-      "lemma": "valta-kunta",
+      "lemma": "valtakunta",
       "eng": "empire",
       "pos": "N"
     },
@@ -1415,6 +1763,12 @@
       "lemma": "kirkko",
       "eng": "church",
       "pos": "N"
+    },
+    {
+      "fin": "iljettävä",
+      "lemma": "iljetä",
+      "eng": "execrable",
+      "pos": "A"
     },
     {
       "fin": "rautainen",
@@ -1442,7 +1796,7 @@
     },
     {
       "fin": "kulta",
-      "lemma": "kulta",
+      "lemma": "kuka",
       "eng": "gold",
       "pos": "A"
     },
@@ -1489,9 +1843,21 @@
       "pos": "N"
     },
     {
+      "fin": "vaikuttava",
+      "lemma": "vaikuttava",
+      "eng": "effective",
+      "pos": "A"
+    },
+    {
       "fin": "yli",
       "lemma": "yli",
       "eng": "over",
+      "pos": "A"
+    },
+    {
+      "fin": "luvattu",
+      "lemma": "luvata",
+      "eng": "votive",
       "pos": "A"
     },
     {
@@ -1499,6 +1865,12 @@
       "lemma": "perintö",
       "eng": "inheritance",
       "pos": "N"
+    },
+    {
+      "fin": "lähtenyt",
+      "lemma": "lähteä",
+      "eng": "departed",
+      "pos": "A"
     },
     {
       "fin": "joki",
@@ -1579,6 +1951,12 @@
       "pos": "A"
     },
     {
+      "fin": "otettu",
+      "lemma": "ottaa",
+      "eng": "flattered",
+      "pos": "A"
+    },
+    {
       "fin": "ymmärrys",
       "lemma": "ymmärrys",
       "eng": "understanding",
@@ -1639,6 +2017,18 @@
       "pos": "A"
     },
     {
+      "fin": "rangaistu",
+      "lemma": "rangaista",
+      "eng": "convict",
+      "pos": "A"
+    },
+    {
+      "fin": "lyöty",
+      "lemma": "lyödä",
+      "eng": "subdued",
+      "pos": "A"
+    },
+    {
       "fin": "paha",
       "lemma": "paha",
       "eng": "bad",
@@ -1681,10 +2071,28 @@
       "pos": "A"
     },
     {
+      "fin": "sanoma",
+      "lemma": "sanoma",
+      "eng": "message",
+      "pos": "A"
+    },
+    {
       "fin": "ilo",
       "lemma": "ilo",
       "eng": "joy",
       "pos": "N"
+    },
+    {
+      "fin": "hajotettu",
+      "lemma": "hajotettu",
+      "eng": "demolished",
+      "pos": "A"
+    },
+    {
+      "fin": "vakuuttunut",
+      "lemma": "vakuuttua",
+      "eng": "convinced",
+      "pos": "A"
     },
     {
       "fin": "ensimmäinen",
@@ -1700,7 +2108,7 @@
     },
     {
       "fin": "molempi",
-      "lemma": "molempi",
+      "lemma": "molemmat",
       "eng": "best of both worlds",
       "pos": "N"
     },
@@ -1747,6 +2155,12 @@
       "pos": "A"
     },
     {
+      "fin": "kaivettu",
+      "lemma": "kaivaa",
+      "eng": "dredged",
+      "pos": "N"
+    },
+    {
       "fin": "täydellinen",
       "lemma": "täydellinen",
       "eng": "perfect",
@@ -1778,7 +2192,7 @@
     },
     {
       "fin": "hyvin",
-      "lemma": "hyvin",
+      "lemma": "hyvä",
       "eng": "well",
       "pos": "A"
     },
@@ -1802,7 +2216,7 @@
     },
     {
       "fin": "joko",
-      "lemma": "joko",
+      "lemma": "jo",
       "eng": "either",
       "pos": "A"
     },
@@ -1811,6 +2225,12 @@
       "lemma": "paatumus",
       "eng": "obduracy",
       "pos": "N"
+    },
+    {
+      "fin": "mieli",
+      "lemma": "mieliä",
+      "eng": "mind",
+      "pos": "A"
     },
     {
       "fin": "ajallinen",
@@ -1850,7 +2270,7 @@
     },
     {
       "fin": "valtapiiri",
-      "lemma": "valta-piiri",
+      "lemma": "valtapiiri",
       "eng": "realm",
       "pos": "N"
     },
@@ -1858,6 +2278,12 @@
       "fin": "vähäinen",
       "lemma": "vähäinen",
       "eng": "slight",
+      "pos": "A"
+    },
+    {
+      "fin": "kokoava",
+      "lemma": "koota",
+      "eng": "collective",
       "pos": "A"
     },
     {
@@ -1873,6 +2299,12 @@
       "pos": "N"
     },
     {
+      "fin": "pukeutunut",
+      "lemma": "pukeutua",
+      "eng": "dressed",
+      "pos": "A"
+    },
+    {
       "fin": "viitta",
       "lemma": "viitta",
       "eng": "cloak",
@@ -1885,9 +2317,33 @@
       "pos": "A"
     },
     {
+      "fin": "näkevä",
+      "lemma": "näkevä",
+      "eng": "seeing",
+      "pos": "A"
+    },
+    {
+      "fin": "lähtevä",
+      "lemma": "lähtevä",
+      "eng": "outbound",
+      "pos": "A"
+    },
+    {
+      "fin": "kirjoitettu",
+      "lemma": "kirjoitettu",
+      "eng": "written",
+      "pos": "A"
+    },
+    {
       "fin": "helppo",
       "lemma": "helppo",
       "eng": "easy",
+      "pos": "A"
+    },
+    {
+      "fin": "sinetöity",
+      "lemma": "sinetöity",
+      "eng": "sealed",
       "pos": "A"
     },
     {
@@ -1901,6 +2357,18 @@
       "lemma": "nimi",
       "eng": "name",
       "pos": "N"
+    },
+    {
+      "fin": "kielletty",
+      "lemma": "kieltää",
+      "eng": "forbidden",
+      "pos": "A"
+    },
+    {
+      "fin": "pieni",
+      "lemma": "pieni",
+      "eng": "small",
+      "pos": "A"
     },
     {
       "fin": "aamen",
@@ -1927,6 +2395,12 @@
       "pos": "A"
     },
     {
+      "fin": "paatunut",
+      "lemma": "paatunut",
+      "eng": "abandoned",
+      "pos": "A"
+    },
+    {
       "fin": "murhe",
       "lemma": "murhe",
       "eng": "sorrow",
@@ -1936,6 +2410,12 @@
       "fin": "ahdistus",
       "lemma": "ahdistus",
       "eng": "anxiety",
+      "pos": "N"
+    },
+    {
+      "fin": "saatu",
+      "lemma": "saada",
+      "eng": "acquired",
       "pos": "N"
     },
     {
@@ -1951,6 +2431,12 @@
       "pos": "N"
     },
     {
+      "fin": "sanonut",
+      "lemma": "sanoa",
+      "eng": "said",
+      "pos": "A"
+    },
+    {
       "fin": "tunnollinen",
       "lemma": "tunnollinen",
       "eng": "conscientious",
@@ -1963,9 +2449,21 @@
       "pos": "A"
     },
     {
+      "fin": "taitettu",
+      "lemma": "taitettu",
+      "eng": "soft",
+      "pos": "A"
+    },
+    {
       "fin": "myöhä",
       "lemma": "myöhä",
       "eng": "late",
+      "pos": "A"
+    },
+    {
+      "fin": "vaipunut",
+      "lemma": "vaipua",
+      "eng": "deep in",
       "pos": "A"
     },
     {
@@ -1973,6 +2471,18 @@
       "lemma": "ruumis",
       "eng": "body",
       "pos": "N"
+    },
+    {
+      "fin": "tietävä",
+      "lemma": "tietävä",
+      "eng": "in the know",
+      "pos": "A"
+    },
+    {
+      "fin": "oppi",
+      "lemma": "oppia",
+      "eng": "doctrine",
+      "pos": "A"
     },
     {
       "fin": "ravinto",
@@ -1988,7 +2498,7 @@
     },
     {
       "fin": "yksin",
-      "lemma": "yksi",
+      "lemma": "yksin",
       "eng": "alone",
       "pos": "A"
     },
@@ -2023,6 +2533,18 @@
       "pos": "N"
     },
     {
+      "fin": "erottava",
+      "lemma": "erottava",
+      "eng": "divisive",
+      "pos": "A"
+    },
+    {
+      "fin": "leimuava",
+      "lemma": "leimuava",
+      "eng": "ardent",
+      "pos": "A"
+    },
+    {
       "fin": "ylös",
       "lemma": "ylös",
       "eng": "up",
@@ -2038,6 +2560,24 @@
       "fin": "lopullinen",
       "lemma": "lopullinen",
       "eng": "final",
+      "pos": "A"
+    },
+    {
+      "fin": "kuolema",
+      "lemma": "kuolema",
+      "eng": "death",
+      "pos": "A"
+    },
+    {
+      "fin": "kuvaava",
+      "lemma": "kuvata",
+      "eng": "figurative",
+      "pos": "A"
+    },
+    {
+      "fin": "tuomittu",
+      "lemma": "tuomittu",
+      "eng": "convict",
       "pos": "A"
     },
     {
@@ -2113,6 +2653,12 @@
       "pos": "N"
     },
     {
+      "fin": "otin",
+      "lemma": "ottaa",
+      "eng": "handle",
+      "pos": "A"
+    },
+    {
       "fin": "tytär",
       "lemma": "tytär",
       "eng": "daughter",
@@ -2134,6 +2680,12 @@
       "fin": "siten",
       "lemma": "siten",
       "eng": "thus",
+      "pos": "A"
+    },
+    {
+      "fin": "annettu",
+      "lemma": "antaa",
+      "eng": "given",
       "pos": "A"
     },
     {
@@ -2185,6 +2737,12 @@
       "pos": "N"
     },
     {
+      "fin": "osoitin",
+      "lemma": "osoittaa",
+      "eng": "pointer",
+      "pos": "A"
+    },
+    {
       "fin": "siemen",
       "lemma": "siemen",
       "eng": "seed",
@@ -2221,6 +2779,12 @@
       "pos": "N"
     },
     {
+      "fin": "luo",
+      "lemma": "luoda",
+      "eng": "Luo",
+      "pos": "A"
+    },
+    {
       "fin": "hedelmällinen",
       "lemma": "hedelmällinen",
       "eng": "fertile",
@@ -2243,6 +2807,12 @@
       "lemma": "matka",
       "eng": "trip",
       "pos": "N"
+    },
+    {
+      "fin": "nuoli",
+      "lemma": "nuolla",
+      "eng": "arrow",
+      "pos": "A"
     },
     {
       "fin": "kivi",
@@ -2269,6 +2839,12 @@
       "pos": "N"
     },
     {
+      "fin": "rikottu",
+      "lemma": "rikkoa",
+      "eng": "broken",
+      "pos": "A"
+    },
+    {
       "fin": "vihko",
       "lemma": "vihko",
       "eng": "notebook",
@@ -2279,6 +2855,12 @@
       "lemma": "menetys",
       "eng": "loss",
       "pos": "N"
+    },
+    {
+      "fin": "perin",
+      "lemma": "perin",
+      "eng": "exceedingly",
+      "pos": "A"
     },
     {
       "fin": "uuvuksissa",
@@ -2306,7 +2888,7 @@
     },
     {
       "fin": "ahdinko",
-      "lemma": "ahdinko",
+      "lemma": "ahti",
       "eng": "plight",
       "pos": "N"
     },
@@ -2314,6 +2896,12 @@
       "fin": "murheellinen",
       "lemma": "murheellinen",
       "eng": "tragic",
+      "pos": "A"
+    },
+    {
+      "fin": "menettänyt",
+      "lemma": "menettää",
+      "eng": "mourning",
       "pos": "A"
     },
     {
@@ -2345,6 +2933,12 @@
       "lemma": "kirjoitus",
       "eng": "writing",
       "pos": "N"
+    },
+    {
+      "fin": "luettava",
+      "lemma": "lukea",
+      "eng": "legible",
+      "pos": "A"
     },
     {
       "fin": "huippu",
@@ -2413,6 +3007,12 @@
       "pos": "A"
     },
     {
+      "fin": "juoni",
+      "lemma": "juonia",
+      "eng": "plot",
+      "pos": "A"
+    },
+    {
       "fin": "outo",
       "lemma": "outo",
       "eng": "strange",
@@ -2444,8 +3044,14 @@
     },
     {
       "fin": "päin",
-      "lemma": "päin",
+      "lemma": "pää",
       "eng": "seaward",
+      "pos": "A"
+    },
+    {
+      "fin": "nainen",
+      "lemma": "nainen",
+      "eng": "woman",
       "pos": "A"
     },
     {
@@ -2467,6 +3073,12 @@
       "pos": "A"
     },
     {
+      "fin": "täytettävä",
+      "lemma": "täyttää",
+      "eng": "refillable",
+      "pos": "N"
+    },
+    {
       "fin": "kahdeksan",
       "lemma": "kahdeksan",
       "eng": "eight",
@@ -2485,6 +3097,12 @@
       "pos": "N"
     },
     {
+      "fin": "käännetty",
+      "lemma": "käännetty",
+      "eng": "hot",
+      "pos": "A"
+    },
+    {
       "fin": "vaikeus",
       "lemma": "vaikeus",
       "eng": "difficulty",
@@ -2501,6 +3119,12 @@
       "lemma": "laiva",
       "eng": "ship",
       "pos": "N"
+    },
+    {
+      "fin": "voinen",
+      "lemma": "voida",
+      "eng": "buttery",
+      "pos": "A"
     },
     {
       "fin": "väki",
@@ -2617,6 +3241,12 @@
       "pos": "A"
     },
     {
+      "fin": "synnyttänyt",
+      "lemma": "synnyttää",
+      "eng": "parous",
+      "pos": "A"
+    },
+    {
       "fin": "lähtö",
       "lemma": "lähtö",
       "eng": "departure",
@@ -2626,6 +3256,12 @@
       "fin": "laki",
       "lemma": "laki",
       "eng": "law",
+      "pos": "N"
+    },
+    {
+      "fin": "tehtävä",
+      "lemma": "tehtävä",
+      "eng": "task",
       "pos": "N"
     },
     {
@@ -2731,6 +3367,24 @@
       "pos": "N"
     },
     {
+      "fin": "syntynyt",
+      "lemma": "syntynyt",
+      "eng": "born",
+      "pos": "A"
+    },
+    {
+      "fin": "mennyt",
+      "lemma": "mennä",
+      "eng": "past",
+      "pos": "A"
+    },
+    {
+      "fin": "käsketty",
+      "lemma": "käskeä",
+      "eng": "mandatory",
+      "pos": "N"
+    },
+    {
       "fin": "eteenpäin",
       "lemma": "eteenpäin",
       "eng": "forward",
@@ -2803,6 +3457,12 @@
       "pos": "N"
     },
     {
+      "fin": "turvonnut",
+      "lemma": "turvota",
+      "eng": "bloated",
+      "pos": "A"
+    },
+    {
       "fin": "nilkka",
       "lemma": "nilkka",
       "eng": "ankle",
@@ -2813,6 +3473,12 @@
       "lemma": "uhkaus",
       "eng": "threat",
       "pos": "N"
+    },
+    {
+      "fin": "painama",
+      "lemma": "painaa",
+      "eng": "impress",
+      "pos": "A"
     },
     {
       "fin": "suru",
@@ -2845,6 +3511,12 @@
       "pos": "N"
     },
     {
+      "fin": "heitetty",
+      "lemma": "heittää",
+      "eng": "cast",
+      "pos": "N"
+    },
+    {
       "fin": "vetinen",
       "lemma": "vetinen",
       "eng": "watery",
@@ -2864,7 +3536,7 @@
     },
     {
       "fin": "tyven",
-      "lemma": "tyvi",
+      "lemma": "tyven",
       "eng": "calm",
       "pos": "A"
     },
@@ -2923,6 +3595,12 @@
       "pos": "N"
     },
     {
+      "fin": "kerrottu",
+      "lemma": "kertoa",
+      "eng": "double",
+      "pos": "N"
+    },
+    {
       "fin": "opetus",
       "lemma": "opetus",
       "eng": "teaching",
@@ -2971,6 +3649,12 @@
       "pos": "N"
     },
     {
+      "fin": "neuvo",
+      "lemma": "neuvoa",
+      "eng": "advice",
+      "pos": "A"
+    },
+    {
       "fin": "pitkämielisyys",
       "lemma": "pitkämielisyys",
       "eng": "forbearance",
@@ -2984,13 +3668,13 @@
     },
     {
       "fin": "jyrinä",
-      "lemma": "jyrä",
+      "lemma": "jyrinä",
       "eng": "thunder",
       "pos": "N"
     },
     {
       "fin": "ilmansuunta",
-      "lemma": "ilmansuunta",
+      "lemma": "ilmasuunta",
       "eng": "compass point",
       "pos": "N"
     },
@@ -3013,6 +3697,12 @@
       "pos": "A"
     },
     {
+      "fin": "koskeva",
+      "lemma": "koskea",
+      "eng": "concerning",
+      "pos": "A"
+    },
+    {
       "fin": "tietämys",
       "lemma": "tietämys",
       "eng": "scholarship",
@@ -3029,6 +3719,12 @@
       "lemma": "elinaika",
       "eng": "lifetime",
       "pos": "N"
+    },
+    {
+      "fin": "toimittanut",
+      "lemma": "toimittaa",
+      "eng": "edited by",
+      "pos": "A"
     },
     {
       "fin": "väri",
@@ -3049,6 +3745,12 @@
       "pos": "A"
     },
     {
+      "fin": "lukematon",
+      "lemma": "lukea",
+      "eng": "myriad",
+      "pos": "A"
+    },
+    {
       "fin": "keskipäivä",
       "lemma": "keskipäivä",
       "eng": "noon",
@@ -3056,7 +3758,7 @@
     },
     {
       "fin": "taivaankansi",
-      "lemma": "taivaskansi",
+      "lemma": "taivaankansi",
       "eng": "firmament",
       "pos": "N"
     },
@@ -3067,8 +3769,14 @@
       "pos": "A"
     },
     {
+      "fin": "lyhennetty",
+      "lemma": "lyhentää",
+      "eng": "abbreviated",
+      "pos": "A"
+    },
+    {
       "fin": "lempeä",
-      "lemma": "lempi",
+      "lemma": "lempeä",
       "eng": "soft",
       "pos": "A"
     },
@@ -3104,9 +3812,27 @@
     },
     {
       "fin": "epäjumala",
-      "lemma": "epäjumala",
+      "lemma": "epä-jumala",
       "eng": "god",
       "pos": "N"
+    },
+    {
+      "fin": "veistetty",
+      "lemma": "veistetty",
+      "eng": "carved",
+      "pos": "A"
+    },
+    {
+      "fin": "valettu",
+      "lemma": "valettu",
+      "eng": "die-cast",
+      "pos": "A"
+    },
+    {
+      "fin": "salattu",
+      "lemma": "salata",
+      "eng": "occult",
+      "pos": "A"
     },
     {
       "fin": "korva",
@@ -3121,6 +3847,12 @@
       "pos": "A"
     },
     {
+      "fin": "kutsuttu",
+      "lemma": "kutsuttu",
+      "eng": "inductee",
+      "pos": "N"
+    },
+    {
       "fin": "kohtu",
       "lemma": "kohtu",
       "eng": "womb",
@@ -3131,6 +3863,12 @@
       "lemma": "perustus",
       "eng": "foundation",
       "pos": "N"
+    },
+    {
+      "fin": "kutsu",
+      "lemma": "kutsu",
+      "eng": "invitation",
+      "pos": "A"
     },
     {
       "fin": "kuka",
@@ -3151,16 +3889,34 @@
       "pos": "A"
     },
     {
+      "fin": "menestyvä",
+      "lemma": "menestyä",
+      "eng": "successful",
+      "pos": "A"
+    },
+    {
       "fin": "jyvä",
       "lemma": "jyvä",
       "eng": "grain",
       "pos": "N"
     },
     {
+      "fin": "tuhottu",
+      "lemma": "tuhottu",
+      "eng": "devastated",
+      "pos": "A"
+    },
+    {
       "fin": "ääri",
       "lemma": "ääri",
       "eng": "verge",
       "pos": "N"
+    },
+    {
+      "fin": "ajettu",
+      "lemma": "ajaa",
+      "eng": "driven",
+      "pos": "A"
     },
     {
       "fin": "vieras",
@@ -3191,6 +3947,12 @@
       "lemma": "varjo",
       "eng": "shadow",
       "pos": "N"
+    },
+    {
+      "fin": "hiottu",
+      "lemma": "hioa",
+      "eng": "polished",
+      "pos": "A"
     },
     {
       "fin": "viini",
@@ -3229,10 +3991,22 @@
       "pos": "A"
     },
     {
+      "fin": "jäänyt",
+      "lemma": "jäädä",
+      "eng": "left",
+      "pos": "A"
+    },
+    {
       "fin": "orja",
       "lemma": "orja",
       "eng": "slave",
       "pos": "N"
+    },
+    {
+      "fin": "seisoma",
+      "lemma": "seisoa",
+      "eng": "stand",
+      "pos": "A"
     },
     {
       "fin": "ruhtinas",
@@ -3248,9 +4022,21 @@
     },
     {
       "fin": "perintöosa",
-      "lemma": "perintöosa",
+      "lemma": "perintö-osa",
       "eng": "inheritance",
       "pos": "N"
+    },
+    {
+      "fin": "vangittu",
+      "lemma": "vangita",
+      "eng": "captive",
+      "pos": "A"
+    },
+    {
+      "fin": "istuva",
+      "lemma": "istuva",
+      "eng": "incumbent",
+      "pos": "A"
     },
     {
       "fin": "laidun",
@@ -3295,6 +4081,12 @@
       "pos": "N"
     },
     {
+      "fin": "osoittava",
+      "lemma": "osoittava",
+      "eng": "indicative",
+      "pos": "A"
+    },
+    {
       "fin": "rintalapsi",
       "lemma": "rintalapsi",
       "eng": "suckling",
@@ -3329,6 +4121,12 @@
       "lemma": "morsian",
       "eng": "bride",
       "pos": "N"
+    },
+    {
+      "fin": "menetetty",
+      "lemma": "menetetty",
+      "eng": "lost",
+      "pos": "A"
     },
     {
       "fin": "täällä",
@@ -3385,14 +4183,38 @@
       "pos": "N"
     },
     {
+      "fin": "lukema",
+      "lemma": "lukea",
+      "eng": "reading",
+      "pos": "A"
+    },
+    {
+      "fin": "ymmärrettävä",
+      "lemma": "ymmärtää",
+      "eng": "understandable",
+      "pos": "A"
+    },
+    {
       "fin": "seassa",
       "lemma": "seassa",
       "eng": "among",
       "pos": "A"
     },
     {
+      "fin": "kannettu",
+      "lemma": "kantaa",
+      "eng": "born",
+      "pos": "N"
+    },
+    {
+      "fin": "arvo",
+      "lemma": "arpoa",
+      "eng": "value",
+      "pos": "A"
+    },
+    {
       "fin": "ainoastaan",
-      "lemma": "ainoa",
+      "lemma": "ainoastaan",
       "eng": "only",
       "pos": "A"
     },
@@ -3421,6 +4243,12 @@
       "pos": "N"
     },
     {
+      "fin": "vääristelty",
+      "lemma": "vääristelty",
+      "eng": "distorted",
+      "pos": "A"
+    },
+    {
       "fin": "ylpeä",
       "lemma": "ylpeä",
       "eng": "proud",
@@ -3431,6 +4259,12 @@
       "lemma": "olkikorsi",
       "eng": "lifeline",
       "pos": "N"
+    },
+    {
+      "fin": "poltettava",
+      "lemma": "poltettava",
+      "eng": "burnable",
+      "pos": "A"
     },
     {
       "fin": "vihollinen",
@@ -3529,6 +4363,12 @@
       "pos": "A"
     },
     {
+      "fin": "järkkymätön",
+      "lemma": "järkkymätön",
+      "eng": "adamant",
+      "pos": "A"
+    },
+    {
       "fin": "uppiniskaisuus",
       "lemma": "uppiniskaisuus",
       "eng": "obstinacy",
@@ -3571,6 +4411,12 @@
       "pos": "N"
     },
     {
+      "fin": "muisti",
+      "lemma": "muistaa",
+      "eng": "memory",
+      "pos": "A"
+    },
+    {
       "fin": "arpa",
       "lemma": "arpa",
       "eng": "lot",
@@ -3590,9 +4436,15 @@
     },
     {
       "fin": "nykyhetki",
-      "lemma": "nyky-hetki",
+      "lemma": "nykyhetki",
       "eng": "present",
       "pos": "N"
+    },
+    {
+      "fin": "koottu",
+      "lemma": "koota",
+      "eng": "collected",
+      "pos": "A"
     },
     {
       "fin": "pakko",
@@ -3637,6 +4489,18 @@
       "pos": "N"
     },
     {
+      "fin": "piiloutunut",
+      "lemma": "piiloutua",
+      "eng": "obscure",
+      "pos": "A"
+    },
+    {
+      "fin": "kaatunut",
+      "lemma": "kaatunut",
+      "eng": "fallen",
+      "pos": "A"
+    },
+    {
       "fin": "tuppi",
       "lemma": "tuppi",
       "eng": "sheath",
@@ -3661,9 +4525,21 @@
       "pos": "A"
     },
     {
+      "fin": "tavoiteltu",
+      "lemma": "tavoiteltu",
+      "eng": "coveted",
+      "pos": "A"
+    },
+    {
       "fin": "hius",
       "lemma": "hius",
       "eng": "hair",
+      "pos": "N"
+    },
+    {
+      "fin": "isketty",
+      "lemma": "iskeä",
+      "eng": "hit",
       "pos": "N"
     },
     {
@@ -3698,7 +4574,7 @@
     },
     {
       "fin": "vapaa",
-      "lemma": "vapa",
+      "lemma": "vapaa",
       "eng": "free",
       "pos": "A"
     },
@@ -3722,8 +4598,14 @@
     },
     {
       "fin": "takana",
-      "lemma": "takana",
+      "lemma": "taka",
       "eng": "behind",
+      "pos": "A"
+    },
+    {
+      "fin": "luultu",
+      "lemma": "luultu",
+      "eng": "supposed",
       "pos": "A"
     },
     {
@@ -3731,6 +4613,12 @@
       "lemma": "lohtu",
       "eng": "solace",
       "pos": "N"
+    },
+    {
+      "fin": "suojeltu",
+      "lemma": "suojella",
+      "eng": "protected",
+      "pos": "A"
     },
     {
       "fin": "polttouhri",
@@ -3794,7 +4682,7 @@
     },
     {
       "fin": "esimerkki",
-      "lemma": "esi-merkki",
+      "lemma": "esimerkki",
       "eng": "example",
       "pos": "N"
     },
@@ -3811,6 +4699,12 @@
       "pos": "N"
     },
     {
+      "fin": "sidottu",
+      "lemma": "sidottu",
+      "eng": "bound",
+      "pos": "A"
+    },
+    {
       "fin": "anteeksi",
       "lemma": "anteeksi",
       "eng": "excuse me",
@@ -3820,6 +4714,12 @@
       "fin": "aulis",
       "lemma": "aulis",
       "eng": "happy",
+      "pos": "A"
+    },
+    {
+      "fin": "tullut",
+      "lemma": "tulla",
+      "eng": "in",
       "pos": "A"
     },
     {
@@ -3838,6 +4738,12 @@
       "fin": "kolkko",
       "lemma": "kolkko",
       "eng": "bleak",
+      "pos": "A"
+    },
+    {
+      "fin": "puettu",
+      "lemma": "pukea",
+      "eng": "clad",
       "pos": "A"
     },
     {
@@ -3871,6 +4777,12 @@
       "pos": "A"
     },
     {
+      "fin": "vieri",
+      "lemma": "vieri",
+      "eng": "side",
+      "pos": "A"
+    },
+    {
       "fin": "ohitse",
       "lemma": "ohitse",
       "eng": "past",
@@ -3878,13 +4790,19 @@
     },
     {
       "fin": "ihmisjoukko",
-      "lemma": "ihminenjoukko",
+      "lemma": "ihmisjoukko",
       "eng": "throng",
       "pos": "N"
     },
     {
+      "fin": "alkanut",
+      "lemma": "alkaa",
+      "eng": "begun",
+      "pos": "A"
+    },
+    {
       "fin": "hukassa",
-      "lemma": "hukassa",
+      "lemma": "hukka",
       "eng": "missing",
       "pos": "A"
     },
@@ -3901,9 +4819,21 @@
       "pos": "A"
     },
     {
+      "fin": "jatkuva",
+      "lemma": "jatkuva",
+      "eng": "continuous",
+      "pos": "A"
+    },
+    {
       "fin": "perillä",
-      "lemma": "perillä",
+      "lemma": "perä",
       "eng": "privy",
+      "pos": "A"
+    },
+    {
+      "fin": "näkyvä",
+      "lemma": "näkyä",
+      "eng": "visible",
       "pos": "A"
     },
     {
@@ -3932,7 +4862,7 @@
     },
     {
       "fin": "iso",
-      "lemma": "iso",
+      "lemma": "iso-",
       "eng": "big",
       "pos": "A"
     },
@@ -3955,6 +4885,12 @@
       "pos": "N"
     },
     {
+      "fin": "oppinut",
+      "lemma": "oppia",
+      "eng": "learned",
+      "pos": "A"
+    },
+    {
       "fin": "ryöstösaalis",
       "lemma": "ryöstösaalis",
       "eng": "booty",
@@ -3970,6 +4906,12 @@
       "fin": "hiljaa",
       "lemma": "hiljaa",
       "eng": "quietly",
+      "pos": "A"
+    },
+    {
+      "fin": "virtaava",
+      "lemma": "virrata",
+      "eng": "quick",
       "pos": "A"
     },
     {
@@ -4045,9 +4987,21 @@
       "pos": "N"
     },
     {
+      "fin": "ahdistettu",
+      "lemma": "ahdistaa",
+      "eng": "at bay",
+      "pos": "N"
+    },
+    {
       "fin": "nälkäinen",
       "lemma": "nälkäinen",
       "eng": "hungry",
+      "pos": "A"
+    },
+    {
+      "fin": "ensin",
+      "lemma": "entää",
+      "eng": "firstly",
       "pos": "A"
     },
     {
@@ -4123,6 +5077,18 @@
       "pos": "N"
     },
     {
+      "fin": "sortunut",
+      "lemma": "sortunut",
+      "eng": "fallen",
+      "pos": "A"
+    },
+    {
+      "fin": "kaadettu",
+      "lemma": "kaadettu",
+      "eng": "down",
+      "pos": "A"
+    },
+    {
       "fin": "häntä",
       "lemma": "häntä",
       "eng": "tail",
@@ -4154,7 +5120,7 @@
     },
     {
       "fin": "tekopyhä",
-      "lemma": "teko-pyhä",
+      "lemma": "tekopyhä",
       "eng": "hypocrite",
       "pos": "A"
     },
@@ -4207,6 +5173,12 @@
       "pos": "A"
     },
     {
+      "fin": "kirottu",
+      "lemma": "kirota",
+      "eng": "accursed",
+      "pos": "A"
+    },
+    {
       "fin": "ääretön",
       "lemma": "ääretön",
       "eng": "infinite",
@@ -4217,6 +5189,12 @@
       "lemma": "rangaistus",
       "eng": "punishment",
       "pos": "N"
+    },
+    {
+      "fin": "kuuleva",
+      "lemma": "kuuleva",
+      "eng": "hearing",
+      "pos": "A"
     },
     {
       "fin": "syvä",
@@ -4231,6 +5209,12 @@
       "pos": "N"
     },
     {
+      "fin": "kahlittu",
+      "lemma": "kahlittu",
+      "eng": "enchained",
+      "pos": "A"
+    },
+    {
       "fin": "kurjuus",
       "lemma": "kurjuus",
       "eng": "misery",
@@ -4241,6 +5225,18 @@
       "lemma": "onnettomuus",
       "eng": "accident",
       "pos": "N"
+    },
+    {
+      "fin": "vapiseva",
+      "lemma": "vapista",
+      "eng": "tremulous",
+      "pos": "A"
+    },
+    {
+      "fin": "laskettava",
+      "lemma": "laskettaa",
+      "eng": "computable",
+      "pos": "A"
     },
     {
       "fin": "kylmä",
@@ -4255,15 +5251,39 @@
       "pos": "N"
     },
     {
+      "fin": "ympäröity",
+      "lemma": "ympäröidä",
+      "eng": "enclosed",
+      "pos": "A"
+    },
+    {
+      "fin": "huoli",
+      "lemma": "huoli",
+      "eng": "worry",
+      "pos": "A"
+    },
+    {
       "fin": "kimppu",
       "lemma": "kimppu",
       "eng": "bundle",
       "pos": "N"
     },
     {
+      "fin": "päättäväinen",
+      "lemma": "päättää",
+      "eng": "determined",
+      "pos": "A"
+    },
+    {
       "fin": "yksimielinen",
       "lemma": "yksimielinen",
       "eng": "unanimous",
+      "pos": "A"
+    },
+    {
+      "fin": "jottei",
+      "lemma": "jottaei",
+      "eng": "lest",
       "pos": "A"
     },
     {
@@ -4315,6 +5335,12 @@
       "pos": "A"
     },
     {
+      "fin": "tekemä",
+      "lemma": "tehdä",
+      "eng": "paternal",
+      "pos": "A"
+    },
+    {
       "fin": "katala",
       "lemma": "katala",
       "eng": "vile",
@@ -4325,6 +5351,12 @@
       "lemma": "päätös",
       "eng": "decision",
       "pos": "N"
+    },
+    {
+      "fin": "tarvitseva",
+      "lemma": "tarvita",
+      "eng": "dependent",
+      "pos": "A"
     },
     {
       "fin": "assyrialainen",
@@ -4358,7 +5390,7 @@
     },
     {
       "fin": "muna",
-      "lemma": "muna",
+      "lemma": "mä",
       "eng": "egg",
       "pos": "N"
     },
@@ -4388,7 +5420,7 @@
     },
     {
       "fin": "itsestään",
-      "lemma": "itsestään",
+      "lemma": "itse",
       "eng": "spontaneously",
       "pos": "A"
     },
@@ -4441,6 +5473,12 @@
       "pos": "N"
     },
     {
+      "fin": "säädetty",
+      "lemma": "säädetty",
+      "eng": "prescribed",
+      "pos": "A"
+    },
+    {
       "fin": "tulva",
       "lemma": "tulva",
       "eng": "flood",
@@ -4481,6 +5519,12 @@
       "lemma": "kanto",
       "eng": "stump",
       "pos": "N"
+    },
+    {
+      "fin": "verso",
+      "lemma": "versoa",
+      "eng": "shoot",
+      "pos": "A"
     },
     {
       "fin": "vesa",
@@ -4532,7 +5576,7 @@
     },
     {
       "fin": "leijonanpentu",
-      "lemma": "leijonapentu",
+      "lemma": "leijonanpentu",
       "eng": "lion cub",
       "pos": "N"
     },
@@ -4561,10 +5605,28 @@
       "pos": "N"
     },
     {
+      "fin": "imeväinen",
+      "lemma": "imeä",
+      "eng": "infant",
+      "pos": "A"
+    },
+    {
       "fin": "kyy",
       "lemma": "kyy",
       "eng": "viper",
       "pos": "N"
+    },
+    {
+      "fin": "kolo",
+      "lemma": "kolo",
+      "eng": "hole",
+      "pos": "A"
+    },
+    {
+      "fin": "vieroitettu",
+      "lemma": "vieroitettu",
+      "eng": "weaned",
+      "pos": "A"
     },
     {
       "fin": "myrkkykäärme",
@@ -4603,6 +5665,18 @@
       "pos": "N"
     },
     {
+      "fin": "loistava",
+      "lemma": "loistaa",
+      "eng": "brilliant",
+      "pos": "A"
+    },
+    {
+      "fin": "karkotettu",
+      "lemma": "karkottaa",
+      "eng": "deportee",
+      "pos": "N"
+    },
+    {
       "fin": "kerä",
       "lemma": "kerä",
       "eng": "ball",
@@ -4628,7 +5702,7 @@
     },
     {
       "fin": "merenlahti",
-      "lemma": "merenlahti",
+      "lemma": "merilahti",
       "eng": "gulf",
       "pos": "N"
     },
@@ -4688,7 +5762,7 @@
     },
     {
       "fin": "ylimielisyys",
-      "lemma": "yli-mielisyys",
+      "lemma": "ylimielisyys",
       "eng": "arrogance",
       "pos": "N"
     },
@@ -4703,6 +5777,12 @@
       "lemma": "gaselli",
       "eng": "gazelle",
       "pos": "N"
+    },
+    {
+      "fin": "liittynyt",
+      "lemma": "liittynyt",
+      "eng": "affiliated",
+      "pos": "A"
     },
     {
       "fin": "murska",
@@ -4747,6 +5827,12 @@
       "pos": "N"
     },
     {
+      "fin": "ulvova",
+      "lemma": "ulvova",
+      "eng": "wailful",
+      "pos": "A"
+    },
+    {
       "fin": "otus",
       "lemma": "otus",
       "eng": "creature",
@@ -4775,6 +5861,12 @@
       "lemma": "vangitsija",
       "eng": "captor",
       "pos": "N"
+    },
+    {
+      "fin": "pantu",
+      "lemma": "pantu",
+      "eng": "applied",
+      "pos": "A"
     },
     {
       "fin": "valtikka",
@@ -4831,6 +5923,12 @@
       "pos": "N"
     },
     {
+      "fin": "pudonnut",
+      "lemma": "pudonnut",
+      "eng": "fallen",
+      "pos": "A"
+    },
+    {
       "fin": "sarastus",
       "lemma": "sarastus",
       "eng": "dawn",
@@ -4855,6 +5953,30 @@
       "pos": "N"
     },
     {
+      "fin": "viskattu",
+      "lemma": "viskata",
+      "eng": "cast",
+      "pos": "N"
+    },
+    {
+      "fin": "lävistetty",
+      "lemma": "lävistää",
+      "eng": "impaled",
+      "pos": "A"
+    },
+    {
+      "fin": "tallattu",
+      "lemma": "tallata",
+      "eng": "beaten",
+      "pos": "N"
+    },
+    {
+      "fin": "liittymä",
+      "lemma": "liittymä",
+      "eng": "interface",
+      "pos": "A"
+    },
+    {
       "fin": "veljenpoika",
       "lemma": "veljenpoika",
       "eng": "nephew",
@@ -4874,9 +5996,39 @@
     },
     {
       "fin": "luuta",
-      "lemma": "luuta",
+      "lemma": "luu",
       "eng": "broom",
       "pos": "N"
+    },
+    {
+      "fin": "tapahtuva",
+      "lemma": "tapahtua",
+      "eng": "happening",
+      "pos": "A"
+    },
+    {
+      "fin": "päättänyt",
+      "lemma": "päättää",
+      "eng": "set",
+      "pos": "A"
+    },
+    {
+      "fin": "pysyvä",
+      "lemma": "pysyvä",
+      "eng": "permanent",
+      "pos": "A"
+    },
+    {
+      "fin": "päätetty",
+      "lemma": "päättää",
+      "eng": "set",
+      "pos": "A"
+    },
+    {
+      "fin": "katkennut",
+      "lemma": "katketa",
+      "eng": "broken",
+      "pos": "A"
     },
     {
       "fin": "esikoinen",
@@ -4885,9 +6037,21 @@
       "pos": "N"
     },
     {
+      "fin": "lamautunut",
+      "lemma": "lamautunut",
+      "eng": "benumbed",
+      "pos": "A"
+    },
+    {
       "fin": "poissa",
       "lemma": "poissa",
       "eng": "away",
+      "pos": "A"
+    },
+    {
+      "fin": "vastattava",
+      "lemma": "vastata",
+      "eng": "open-ended",
       "pos": "A"
     },
     {
@@ -4900,6 +6064,12 @@
       "fin": "turva",
       "lemma": "turva",
       "eng": "security",
+      "pos": "N"
+    },
+    {
+      "fin": "opetettu",
+      "lemma": "opettaa",
+      "eng": "instructed",
       "pos": "N"
     },
     {
@@ -4927,9 +6097,27 @@
       "pos": "N"
     },
     {
+      "fin": "noussut",
+      "lemma": "nousta",
+      "eng": "risen",
+      "pos": "A"
+    },
+    {
       "fin": "tahraton",
       "lemma": "tahraton",
       "eng": "unblemished",
+      "pos": "A"
+    },
+    {
+      "fin": "nähtävä",
+      "lemma": "nähtävä",
+      "eng": "remain to be seen",
+      "pos": "A"
+    },
+    {
+      "fin": "täytetty",
+      "lemma": "täytetty",
+      "eng": "stuffed",
       "pos": "A"
     },
     {
@@ -4945,6 +6133,12 @@
       "pos": "N"
     },
     {
+      "fin": "syntymä",
+      "lemma": "syntymä",
+      "eng": "birth",
+      "pos": "A"
+    },
+    {
       "fin": "huuto",
       "lemma": "huuto",
       "eng": "cry",
@@ -4952,7 +6146,7 @@
     },
     {
       "fin": "ukonilma",
-      "lemma": "ukonilma",
+      "lemma": "ukkoilma",
       "eng": "thunderstorm",
       "pos": "N"
     },
@@ -4981,6 +6175,12 @@
       "pos": "A"
     },
     {
+      "fin": "tuova",
+      "lemma": "tuoda",
+      "eng": "afferent",
+      "pos": "A"
+    },
+    {
       "fin": "valli",
       "lemma": "valli",
       "eng": "embankment",
@@ -4991,6 +6191,12 @@
       "lemma": "linnoitus",
       "eng": "fortress",
       "pos": "N"
+    },
+    {
+      "fin": "painettu",
+      "lemma": "painaa",
+      "eng": "print",
+      "pos": "A"
     },
     {
       "fin": "puhe",
@@ -5072,7 +6278,7 @@
     },
     {
       "fin": "pahansuopa",
-      "lemma": "pahasuopa",
+      "lemma": "pahansuopa",
       "eng": "malevolent",
       "pos": "A"
     },
@@ -5125,6 +6331,12 @@
       "pos": "N"
     },
     {
+      "fin": "vahvistava",
+      "lemma": "vahvistaa",
+      "eng": "confirmatory",
+      "pos": "A"
+    },
+    {
       "fin": "kajo",
       "lemma": "kajo",
       "eng": "shimmer",
@@ -5138,7 +6350,7 @@
     },
     {
       "fin": "savenvalaja",
-      "lemma": "savivalaja",
+      "lemma": "savenvalaja",
       "eng": "potter",
       "pos": "N"
     },
@@ -5203,6 +6415,12 @@
       "pos": "N"
     },
     {
+      "fin": "perustettu",
+      "lemma": "perustaa",
+      "eng": "founded",
+      "pos": "N"
+    },
+    {
       "fin": "huomenna",
       "lemma": "huomenna",
       "eng": "tomorrow",
@@ -5210,9 +6428,21 @@
     },
     {
       "fin": "raipanisku",
-      "lemma": "raippaisku",
+      "lemma": "raipanisku",
       "eng": "lash",
       "pos": "N"
+    },
+    {
+      "fin": "turmeltunut",
+      "lemma": "turmeltunut",
+      "eng": "corrupt",
+      "pos": "A"
+    },
+    {
+      "fin": "vaatimaton",
+      "lemma": "vaatia",
+      "eng": "modest",
+      "pos": "A"
     },
     {
       "fin": "pystypäinen",
@@ -5260,6 +6490,12 @@
       "fin": "huoleton",
       "lemma": "huoleton",
       "eng": "carefree",
+      "pos": "A"
+    },
+    {
+      "fin": "rakennettu",
+      "lemma": "rakennettu",
+      "eng": "built-up",
       "pos": "A"
     },
     {
@@ -5311,6 +6547,12 @@
       "pos": "N"
     },
     {
+      "fin": "kadonnut",
+      "lemma": "kadota",
+      "eng": "lost",
+      "pos": "A"
+    },
+    {
       "fin": "koti",
       "lemma": "koti",
       "eng": "home",
@@ -5327,6 +6569,12 @@
       "lemma": "karkeus",
       "eng": "grit",
       "pos": "N"
+    },
+    {
+      "fin": "lunastettu",
+      "lemma": "lunastettu",
+      "eng": "cashed",
+      "pos": "A"
     },
     {
       "fin": "nuoruus",
@@ -5359,6 +6607,18 @@
       "pos": "N"
     },
     {
+      "fin": "särkynyt",
+      "lemma": "särkyä",
+      "eng": "broken",
+      "pos": "A"
+    },
+    {
+      "fin": "murtunut",
+      "lemma": "murtua",
+      "eng": "cracked",
+      "pos": "A"
+    },
+    {
       "fin": "tärkeä",
       "lemma": "tärkeä",
       "eng": "important",
@@ -5371,6 +6631,12 @@
       "pos": "N"
     },
     {
+      "fin": "ensi",
+      "lemma": "ensi",
+      "eng": "next",
+      "pos": "A"
+    },
+    {
       "fin": "pyhyys",
       "lemma": "pyhyys",
       "eng": "holiness",
@@ -5378,7 +6644,7 @@
     },
     {
       "fin": "vastakohta",
-      "lemma": "vastakohta",
+      "lemma": "vasta-kohta",
       "eng": "opposite",
       "pos": "N"
     },
@@ -5399,6 +6665,18 @@
       "lemma": "kokonaisuus",
       "eng": "entirety",
       "pos": "N"
+    },
+    {
+      "fin": "jäätävä",
+      "lemma": "jäätävä",
+      "eng": "frigid",
+      "pos": "A"
+    },
+    {
+      "fin": "katoava",
+      "lemma": "katoava",
+      "eng": "transient",
+      "pos": "A"
     },
     {
       "fin": "tietoisuus",
@@ -5425,6 +6703,12 @@
       "pos": "N"
     },
     {
+      "fin": "olematon",
+      "lemma": "olla",
+      "eng": "minuscule",
+      "pos": "A"
+    },
+    {
       "fin": "päämäärä",
       "lemma": "pää-määrä",
       "eng": "goal",
@@ -5435,6 +6719,12 @@
       "lemma": "lintu",
       "eng": "bird",
       "pos": "N"
+    },
+    {
+      "fin": "oletettava",
+      "lemma": "olettaa",
+      "eng": "presumable",
+      "pos": "A"
     },
     {
       "fin": "eeden",
@@ -5479,10 +6769,28 @@
       "pos": "N"
     },
     {
+      "fin": "ihastuttava",
+      "lemma": "ihastua",
+      "eng": "exquisite",
+      "pos": "A"
+    },
+    {
+      "fin": "toimi",
+      "lemma": "toimia",
+      "eng": "function",
+      "pos": "A"
+    },
+    {
       "fin": "jako",
       "lemma": "jako",
       "eng": "division",
       "pos": "N"
+    },
+    {
+      "fin": "ilmoitettu",
+      "lemma": "ilmoitettu",
+      "eng": "advertised",
+      "pos": "A"
     },
     {
       "fin": "epäpyhä",
@@ -5504,7 +6812,7 @@
     },
     {
       "fin": "vakain",
-      "lemma": "vakain",
+      "lemma": "vakaa",
       "eng": "flight",
       "pos": "A"
     },
@@ -5513,6 +6821,18 @@
       "lemma": "aie",
       "eng": "intention",
       "pos": "N"
+    },
+    {
+      "fin": "uusi",
+      "lemma": "uusi",
+      "eng": "new",
+      "pos": "A"
+    },
+    {
+      "fin": "luotettava",
+      "lemma": "luottaa",
+      "eng": "reliable",
+      "pos": "A"
     },
     {
       "fin": "tietämättömyys",
@@ -5551,6 +6871,12 @@
       "pos": "A"
     },
     {
+      "fin": "huutava",
+      "lemma": "huutaa",
+      "eng": "flagrant",
+      "pos": "A"
+    },
+    {
       "fin": "hyvästi",
       "lemma": "hyvästi",
       "eng": "goodbye",
@@ -5569,6 +6895,12 @@
       "pos": "N"
     },
     {
+      "fin": "levinnyt",
+      "lemma": "levitä",
+      "eng": "pervading",
+      "pos": "A"
+    },
+    {
       "fin": "puhemies",
       "lemma": "puhemies",
       "eng": "speaker",
@@ -5578,6 +6910,24 @@
       "fin": "entinen",
       "lemma": "entinen",
       "eng": "former",
+      "pos": "A"
+    },
+    {
+      "fin": "lakattu",
+      "lemma": "lakata",
+      "eng": "stained",
+      "pos": "A"
+    },
+    {
+      "fin": "perivä",
+      "lemma": "perivä",
+      "eng": "inheriting",
+      "pos": "A"
+    },
+    {
+      "fin": "kulunut",
+      "lemma": "kulunut",
+      "eng": "hackneyed",
       "pos": "A"
     },
     {
@@ -5596,6 +6946,12 @@
       "fin": "kurja",
       "lemma": "kurja",
       "eng": "sleazy",
+      "pos": "A"
+    },
+    {
+      "fin": "tuki",
+      "lemma": "tukkia",
+      "eng": "support",
       "pos": "A"
     }
   ],
@@ -5625,12 +6981,6 @@
       "pos": "V"
     },
     {
-      "fin": "puhuttava",
-      "lemma": "puhua",
-      "eng": "speakable",
-      "pos": "V"
-    },
-    {
       "fin": "katsoa",
       "lemma": "katsoa",
       "eng": "watch",
@@ -5655,30 +7005,6 @@
       "pos": "V"
     },
     {
-      "fin": "hävitetty",
-      "lemma": "hävitetty",
-      "eng": "devastated",
-      "pos": "V"
-    },
-    {
-      "fin": "tuo",
-      "lemma": "tuo",
-      "eng": "that",
-      "pos": "V"
-    },
-    {
-      "fin": "viety",
-      "lemma": "viedä",
-      "eng": "transferred",
-      "pos": "V"
-    },
-    {
-      "fin": "näkemä",
-      "lemma": "näkemä",
-      "eng": "intuition",
-      "pos": "V"
-    },
-    {
       "fin": "palata",
       "lemma": "palata",
       "eng": "revert",
@@ -5691,21 +7017,9 @@
       "pos": "V"
     },
     {
-      "fin": "tuotu",
-      "lemma": "tuoda",
-      "eng": "brought",
-      "pos": "V"
-    },
-    {
       "fin": "omistaa",
       "lemma": "omistaa",
       "eng": "own",
-      "pos": "V"
-    },
-    {
-      "fin": "vuosi",
-      "lemma": "vuosi",
-      "eng": "year",
       "pos": "V"
     },
     {
@@ -5733,27 +7047,9 @@
       "pos": "V"
     },
     {
-      "fin": "kadotettu",
-      "lemma": "kadottaa",
-      "eng": "lost",
-      "pos": "V"
-    },
-    {
-      "fin": "langennut",
-      "lemma": "langeta",
-      "eng": "fallen",
-      "pos": "V"
-    },
-    {
       "fin": "tulla",
       "lemma": "tulla",
       "eng": "come",
-      "pos": "V"
-    },
-    {
-      "fin": "ellei",
-      "lemma": "josei",
-      "eng": "unless",
       "pos": "V"
     },
     {
@@ -5793,12 +7089,6 @@
       "pos": "V"
     },
     {
-      "fin": "ei",
-      "lemma": "ei",
-      "eng": "no",
-      "pos": "V"
-    },
-    {
       "fin": "tuntea",
       "lemma": "tuntea",
       "eng": "feel",
@@ -5814,12 +7104,6 @@
       "fin": "kastaa",
       "lemma": "kastaa",
       "eng": "dip",
-      "pos": "V"
-    },
-    {
-      "fin": "kastettu",
-      "lemma": "kastaa",
-      "eng": "baptised",
       "pos": "V"
     },
     {
@@ -5841,12 +7125,6 @@
       "pos": "V"
     },
     {
-      "fin": "puhuttu",
-      "lemma": "puhuttu",
-      "eng": "spoken",
-      "pos": "V"
-    },
-    {
       "fin": "saarnata",
       "lemma": "saarnata",
       "eng": "preach",
@@ -5856,42 +7134,6 @@
       "fin": "vaipua",
       "lemma": "vaipua",
       "eng": "dash",
-      "pos": "V"
-    },
-    {
-      "fin": "surmattu",
-      "lemma": "surmattu",
-      "eng": "homicide",
-      "pos": "V"
-    },
-    {
-      "fin": "tuleva",
-      "lemma": "tuleva",
-      "eng": "future",
-      "pos": "V"
-    },
-    {
-      "fin": "nouseva",
-      "lemma": "nousta",
-      "eng": "rising",
-      "pos": "V"
-    },
-    {
-      "fin": "kuollut",
-      "lemma": "kuolla",
-      "eng": "dead",
-      "pos": "V"
-    },
-    {
-      "fin": "ilmaiseva",
-      "lemma": "ilmaista",
-      "eng": "expressive",
-      "pos": "V"
-    },
-    {
-      "fin": "henki",
-      "lemma": "henkiä",
-      "eng": "spirit",
       "pos": "V"
     },
     {
@@ -5910,18 +7152,6 @@
       "fin": "hajottaa",
       "lemma": "hajottaa",
       "eng": "disperse",
-      "pos": "V"
-    },
-    {
-      "fin": "oleva",
-      "lemma": "oleva",
-      "eng": "available",
-      "pos": "V"
-    },
-    {
-      "fin": "välttämätön",
-      "lemma": "välttämätön",
-      "eng": "necessary",
       "pos": "V"
     },
     {
@@ -5950,7 +7180,7 @@
     },
     {
       "fin": "tapa",
-      "lemma": "tapa",
+      "lemma": "tappaa",
       "eng": "habit",
       "pos": "V"
     },
@@ -5973,12 +7203,6 @@
       "pos": "V"
     },
     {
-      "fin": "kirjoittanut",
-      "lemma": "kirjoittaa",
-      "eng": "written",
-      "pos": "V"
-    },
-    {
       "fin": "niistää",
       "lemma": "niistää",
       "eng": "blow one's nose",
@@ -5986,20 +7210,8 @@
     },
     {
       "fin": "asua",
-      "lemma": "asu",
+      "lemma": "asua",
       "eng": "live",
-      "pos": "V"
-    },
-    {
-      "fin": "kuultu",
-      "lemma": "kuultu",
-      "eng": "heard",
-      "pos": "V"
-    },
-    {
-      "fin": "voima",
-      "lemma": "voima",
-      "eng": "force",
       "pos": "V"
     },
     {
@@ -6016,7 +7228,7 @@
     },
     {
       "fin": "kuulla",
-      "lemma": "kuu",
+      "lemma": "kuulla",
       "eng": "hear",
       "pos": "V"
     },
@@ -6036,18 +7248,6 @@
       "fin": "ilmaista",
       "lemma": "ilmaista",
       "eng": "express",
-      "pos": "V"
-    },
-    {
-      "fin": "oltu",
-      "lemma": "olla",
-      "eng": "been",
-      "pos": "V"
-    },
-    {
-      "fin": "valmistettu",
-      "lemma": "valmistettu",
-      "eng": "made",
       "pos": "V"
     },
     {
@@ -6087,12 +7287,6 @@
       "pos": "V"
     },
     {
-      "fin": "voi",
-      "lemma": "voi",
-      "eng": "butter",
-      "pos": "V"
-    },
-    {
       "fin": "täytyä",
       "lemma": "täytyä",
       "eng": "have to",
@@ -6123,12 +7317,6 @@
       "pos": "V"
     },
     {
-      "fin": "kykenevä",
-      "lemma": "kyetä",
-      "eng": "able",
-      "pos": "V"
-    },
-    {
       "fin": "istua",
       "lemma": "istua",
       "eng": "sit",
@@ -6153,12 +7341,6 @@
       "pos": "V"
     },
     {
-      "fin": "siunattu",
-      "lemma": "siunattu",
-      "eng": "blessed",
-      "pos": "V"
-    },
-    {
       "fin": "kantaa",
       "lemma": "kantaa",
       "eng": "bear",
@@ -6168,12 +7350,6 @@
       "fin": "maistaa",
       "lemma": "maistaa",
       "eng": "taste",
-      "pos": "V"
-    },
-    {
-      "fin": "laskeutuva",
-      "lemma": "laskeutua",
-      "eng": "cascading",
       "pos": "V"
     },
     {
@@ -6214,38 +7390,8 @@
     },
     {
       "fin": "levitä",
-      "lemma": "levittää",
+      "lemma": "levitä",
       "eng": "spread",
-      "pos": "V"
-    },
-    {
-      "fin": "haluttava",
-      "lemma": "haluttava",
-      "eng": "desirable",
-      "pos": "V"
-    },
-    {
-      "fin": "sanottu",
-      "lemma": "sanoa",
-      "eng": "said",
-      "pos": "V"
-    },
-    {
-      "fin": "menevä",
-      "lemma": "menevä",
-      "eng": "bound",
-      "pos": "V"
-    },
-    {
-      "fin": "lankeava",
-      "lemma": "langeta",
-      "eng": "incident",
-      "pos": "V"
-    },
-    {
-      "fin": "juuri",
-      "lemma": "juuri",
-      "eng": "root",
       "pos": "V"
     },
     {
@@ -6255,27 +7401,9 @@
       "pos": "V"
     },
     {
-      "fin": "elävä",
-      "lemma": "elävä",
-      "eng": "living",
-      "pos": "V"
-    },
-    {
-      "fin": "lähde",
-      "lemma": "lähde",
-      "eng": "source",
-      "pos": "V"
-    },
-    {
       "fin": "kuvata",
       "lemma": "kuvata",
       "eng": "describe",
-      "pos": "V"
-    },
-    {
-      "fin": "valmistava",
-      "lemma": "valmistaa",
-      "eng": "preparatory",
       "pos": "V"
     },
     {
@@ -6292,14 +7420,8 @@
     },
     {
       "fin": "voimassa",
-      "lemma": "voima",
+      "lemma": "voida",
       "eng": "effective",
-      "pos": "V"
-    },
-    {
-      "fin": "seuraava",
-      "lemma": "seurata",
-      "eng": "next",
       "pos": "V"
     },
     {
@@ -6327,21 +7449,9 @@
       "pos": "V"
     },
     {
-      "fin": "tuomittava",
-      "lemma": "tuomita",
-      "eng": "reprehensible",
-      "pos": "V"
-    },
-    {
       "fin": "korottaa",
       "lemma": "korottaa",
       "eng": "raise",
-      "pos": "V"
-    },
-    {
-      "fin": "risti",
-      "lemma": "ristiä",
-      "eng": "cross",
       "pos": "V"
     },
     {
@@ -6357,12 +7467,6 @@
       "pos": "V"
     },
     {
-      "fin": "vastaan",
-      "lemma": "vastaan",
-      "eng": "against",
-      "pos": "V"
-    },
-    {
       "fin": "nimittää",
       "lemma": "nimittää",
       "eng": "designate",
@@ -6375,21 +7479,9 @@
       "pos": "V"
     },
     {
-      "fin": "kieli",
-      "lemma": "kieli",
-      "eng": "language",
-      "pos": "V"
-    },
-    {
       "fin": "sotia",
-      "lemma": "sota",
+      "lemma": "sotia",
       "eng": "war",
-      "pos": "V"
-    },
-    {
-      "fin": "kuoleva",
-      "lemma": "kuolla",
-      "eng": "dying",
       "pos": "V"
     },
     {
@@ -6399,63 +7491,9 @@
       "pos": "V"
     },
     {
-      "fin": "ettei",
-      "lemma": "ettäei",
-      "eng": "lest",
-      "pos": "V"
-    },
-    {
-      "fin": "laskenut",
-      "lemma": "laskenut",
-      "eng": "set",
-      "pos": "V"
-    },
-    {
       "fin": "yltää",
       "lemma": "yltää",
       "eng": "run",
-      "pos": "V"
-    },
-    {
-      "fin": "halkeava",
-      "lemma": "haljeta",
-      "eng": "fissile",
-      "pos": "V"
-    },
-    {
-      "fin": "palava",
-      "lemma": "palaa",
-      "eng": "burning",
-      "pos": "V"
-    },
-    {
-      "fin": "tuli",
-      "lemma": "tuli",
-      "eng": "fire",
-      "pos": "V"
-    },
-    {
-      "fin": "nähty",
-      "lemma": "nähdä",
-      "eng": "seen",
-      "pos": "V"
-    },
-    {
-      "fin": "haihtuva",
-      "lemma": "haihtuva",
-      "eng": "ethereal",
-      "pos": "V"
-    },
-    {
-      "fin": "ollut",
-      "lemma": "olla",
-      "eng": "been",
-      "pos": "V"
-    },
-    {
-      "fin": "kauhistava",
-      "lemma": "kauhistaa",
-      "eng": "terrible",
       "pos": "V"
     },
     {
@@ -6471,27 +7509,9 @@
       "pos": "V"
     },
     {
-      "fin": "valittu",
-      "lemma": "valita",
-      "eng": "selected",
-      "pos": "V"
-    },
-    {
       "fin": "tuomita",
       "lemma": "tuomita",
       "eng": "judge",
-      "pos": "V"
-    },
-    {
-      "fin": "usko",
-      "lemma": "uskoa",
-      "eng": "belief",
-      "pos": "V"
-    },
-    {
-      "fin": "tehty",
-      "lemma": "tehdä",
-      "eng": "done",
       "pos": "V"
     },
     {
@@ -6531,27 +7551,9 @@
       "pos": "V"
     },
     {
-      "fin": "voittanut",
-      "lemma": "voittanut",
-      "eng": "superior",
-      "pos": "V"
-    },
-    {
-      "fin": "inhottava",
-      "lemma": "inhottava",
-      "eng": "hideous",
-      "pos": "V"
-    },
-    {
       "fin": "muodostaa",
       "lemma": "muodostaa",
       "eng": "constitute",
-      "pos": "V"
-    },
-    {
-      "fin": "iljettävä",
-      "lemma": "iljettää",
-      "eng": "execrable",
       "pos": "V"
     },
     {
@@ -6585,18 +7587,6 @@
       "pos": "V"
     },
     {
-      "fin": "vaikuttava",
-      "lemma": "vaikuttaa",
-      "eng": "effective",
-      "pos": "V"
-    },
-    {
-      "fin": "luvattu",
-      "lemma": "luvata",
-      "eng": "votive",
-      "pos": "V"
-    },
-    {
       "fin": "lyödä",
       "lemma": "lyödä",
       "eng": "beat",
@@ -6609,12 +7599,6 @@
       "pos": "V"
     },
     {
-      "fin": "lähtenyt",
-      "lemma": "lähteä",
-      "eng": "departed",
-      "pos": "V"
-    },
-    {
       "fin": "nöyrtyä",
       "lemma": "nöyrtyä",
       "eng": "humble",
@@ -6622,7 +7606,7 @@
     },
     {
       "fin": "vapautua",
-      "lemma": "vapautu",
+      "lemma": "vapautua",
       "eng": "liberalize",
       "pos": "V"
     },
@@ -6660,12 +7644,6 @@
       "fin": "oikea",
       "lemma": "oieta",
       "eng": "right",
-      "pos": "V"
-    },
-    {
-      "fin": "otettu",
-      "lemma": "otettu",
-      "eng": "flattered",
       "pos": "V"
     },
     {
@@ -6711,18 +7689,6 @@
       "pos": "V"
     },
     {
-      "fin": "rangaistu",
-      "lemma": "rangaista",
-      "eng": "convict",
-      "pos": "V"
-    },
-    {
-      "fin": "lyöty",
-      "lemma": "lyöttyä",
-      "eng": "subdued",
-      "pos": "V"
-    },
-    {
       "fin": "opettaa",
       "lemma": "opettaa",
       "eng": "teach",
@@ -6765,24 +7731,6 @@
       "pos": "V"
     },
     {
-      "fin": "sanoma",
-      "lemma": "sanoma",
-      "eng": "message",
-      "pos": "V"
-    },
-    {
-      "fin": "hajotettu",
-      "lemma": "hajotettu",
-      "eng": "demolished",
-      "pos": "V"
-    },
-    {
-      "fin": "vakuuttunut",
-      "lemma": "vakuuttua",
-      "eng": "convinced",
-      "pos": "V"
-    },
-    {
       "fin": "vahvistaa",
       "lemma": "vahvistaa",
       "eng": "confirm",
@@ -6813,12 +7761,6 @@
       "pos": "V"
     },
     {
-      "fin": "kaivettu",
-      "lemma": "kaivaa",
-      "eng": "dredged",
-      "pos": "V"
-    },
-    {
       "fin": "täyttää",
       "lemma": "täyttää",
       "eng": "fill",
@@ -6838,7 +7780,7 @@
     },
     {
       "fin": "loppua",
-      "lemma": "loppu",
+      "lemma": "loppua",
       "eng": "end",
       "pos": "V"
     },
@@ -6861,18 +7803,6 @@
       "pos": "V"
     },
     {
-      "fin": "mieli",
-      "lemma": "mieli",
-      "eng": "mind",
-      "pos": "V"
-    },
-    {
-      "fin": "kokoava",
-      "lemma": "koota",
-      "eng": "collective",
-      "pos": "V"
-    },
-    {
       "fin": "varustaa",
       "lemma": "varustaa",
       "eng": "endow",
@@ -6892,7 +7822,7 @@
     },
     {
       "fin": "kuulua",
-      "lemma": "kuulu",
+      "lemma": "kuulua",
       "eng": "belong",
       "pos": "V"
     },
@@ -6900,30 +7830,6 @@
       "fin": "toteuttaa",
       "lemma": "toteuttaa",
       "eng": "implement",
-      "pos": "V"
-    },
-    {
-      "fin": "pukeutunut",
-      "lemma": "pukeutua",
-      "eng": "dressed",
-      "pos": "V"
-    },
-    {
-      "fin": "näkevä",
-      "lemma": "näkevä",
-      "eng": "seeing",
-      "pos": "V"
-    },
-    {
-      "fin": "lähtevä",
-      "lemma": "lähtevä",
-      "eng": "outbound",
-      "pos": "V"
-    },
-    {
-      "fin": "kirjoitettu",
-      "lemma": "kirjoitettu",
-      "eng": "written",
       "pos": "V"
     },
     {
@@ -6939,27 +7845,9 @@
       "pos": "V"
     },
     {
-      "fin": "sinetöity",
-      "lemma": "sinetöidä",
-      "eng": "sealed",
-      "pos": "V"
-    },
-    {
-      "fin": "kielletty",
-      "lemma": "kieltää",
-      "eng": "forbidden",
-      "pos": "V"
-    },
-    {
       "fin": "riittää",
       "lemma": "riittää",
       "eng": "suffice",
-      "pos": "V"
-    },
-    {
-      "fin": "pieni",
-      "lemma": "pieni",
-      "eng": "small",
       "pos": "V"
     },
     {
@@ -6975,27 +7863,9 @@
       "pos": "V"
     },
     {
-      "fin": "paatunut",
-      "lemma": "paatunut",
-      "eng": "abandoned",
-      "pos": "V"
-    },
-    {
       "fin": "väistää",
       "lemma": "väistää",
       "eng": "dodge",
-      "pos": "V"
-    },
-    {
-      "fin": "saatu",
-      "lemma": "saada",
-      "eng": "acquired",
-      "pos": "V"
-    },
-    {
-      "fin": "sanonut",
-      "lemma": "sanoa",
-      "eng": "said",
       "pos": "V"
     },
     {
@@ -7005,33 +7875,9 @@
       "pos": "V"
     },
     {
-      "fin": "taitettu",
-      "lemma": "taitettu",
-      "eng": "soft",
-      "pos": "V"
-    },
-    {
       "fin": "tarkoittaa",
       "lemma": "tarkoittaa",
       "eng": "mean",
-      "pos": "V"
-    },
-    {
-      "fin": "vaipunut",
-      "lemma": "vaipua",
-      "eng": "deep in",
-      "pos": "V"
-    },
-    {
-      "fin": "tietävä",
-      "lemma": "tietää",
-      "eng": "in the know",
-      "pos": "V"
-    },
-    {
-      "fin": "oppi",
-      "lemma": "oppi",
-      "eng": "doctrine",
       "pos": "V"
     },
     {
@@ -7078,7 +7924,7 @@
     },
     {
       "fin": "palaa",
-      "lemma": "palaa",
+      "lemma": "palata",
       "eng": "burn",
       "pos": "V"
     },
@@ -7086,18 +7932,6 @@
       "fin": "nuolla",
       "lemma": "nuolla",
       "eng": "lick",
-      "pos": "V"
-    },
-    {
-      "fin": "erottava",
-      "lemma": "erottava",
-      "eng": "divisive",
-      "pos": "V"
-    },
-    {
-      "fin": "leimuava",
-      "lemma": "leimuava",
-      "eng": "ardent",
       "pos": "V"
     },
     {
@@ -7113,24 +7947,6 @@
       "pos": "V"
     },
     {
-      "fin": "kuolema",
-      "lemma": "kuolla",
-      "eng": "death",
-      "pos": "V"
-    },
-    {
-      "fin": "kuvaava",
-      "lemma": "kuvata",
-      "eng": "figurative",
-      "pos": "V"
-    },
-    {
-      "fin": "tuomittu",
-      "lemma": "tuomittu",
-      "eng": "convict",
-      "pos": "V"
-    },
-    {
       "fin": "kuolla",
       "lemma": "kuolla",
       "eng": "die",
@@ -7138,7 +7954,7 @@
     },
     {
       "fin": "päästä",
-      "lemma": "päästää",
+      "lemma": "päästä",
       "eng": "access",
       "pos": "V"
     },
@@ -7174,20 +7990,8 @@
     },
     {
       "fin": "kutsua",
-      "lemma": "kutsu",
+      "lemma": "kutsua",
       "eng": "invite",
-      "pos": "V"
-    },
-    {
-      "fin": "otin",
-      "lemma": "otin",
-      "eng": "handle",
-      "pos": "V"
-    },
-    {
-      "fin": "annettu",
-      "lemma": "annettu",
-      "eng": "given",
       "pos": "V"
     },
     {
@@ -7209,14 +8013,8 @@
       "pos": "V"
     },
     {
-      "fin": "osoitin",
-      "lemma": "osoitin",
-      "eng": "pointer",
-      "pos": "V"
-    },
-    {
       "fin": "suunnata",
-      "lemma": "suunata",
+      "lemma": "suunnata",
       "eng": "head",
       "pos": "V"
     },
@@ -7224,12 +8022,6 @@
       "fin": "pystyttää",
       "lemma": "pystyttää",
       "eng": "erect",
-      "pos": "V"
-    },
-    {
-      "fin": "luo",
-      "lemma": "luoda",
-      "eng": "Luo",
       "pos": "V"
     },
     {
@@ -7251,12 +8043,6 @@
       "pos": "V"
     },
     {
-      "fin": "nuoli",
-      "lemma": "nuoli",
-      "eng": "arrow",
-      "pos": "V"
-    },
-    {
       "fin": "seurata",
       "lemma": "seurata",
       "eng": "follow",
@@ -7275,27 +8061,9 @@
       "pos": "V"
     },
     {
-      "fin": "rikottu",
-      "lemma": "rikkoa",
-      "eng": "broken",
-      "pos": "V"
-    },
-    {
-      "fin": "perin",
-      "lemma": "periä",
-      "eng": "exceedingly",
-      "pos": "V"
-    },
-    {
       "fin": "kärsiä",
       "lemma": "kärsiä",
       "eng": "suffer",
-      "pos": "V"
-    },
-    {
-      "fin": "menettänyt",
-      "lemma": "menettänyt",
-      "eng": "mourning",
       "pos": "V"
     },
     {
@@ -7324,7 +8092,7 @@
     },
     {
       "fin": "vavista",
-      "lemma": "vav",
+      "lemma": "vavista",
       "eng": "shudder",
       "pos": "V"
     },
@@ -7338,12 +8106,6 @@
       "fin": "uusia",
       "lemma": "uusia",
       "eng": "renew",
-      "pos": "V"
-    },
-    {
-      "fin": "luettava",
-      "lemma": "lukea",
-      "eng": "legible",
       "pos": "V"
     },
     {
@@ -7390,14 +8152,8 @@
     },
     {
       "fin": "kertoa",
-      "lemma": "kerto",
+      "lemma": "kertoa",
       "eng": "tell",
-      "pos": "V"
-    },
-    {
-      "fin": "juoni",
-      "lemma": "juonia",
-      "eng": "plot",
       "pos": "V"
     },
     {
@@ -7437,12 +8193,6 @@
       "pos": "V"
     },
     {
-      "fin": "nainen",
-      "lemma": "naida",
-      "eng": "woman",
-      "pos": "V"
-    },
-    {
       "fin": "synnyttää",
       "lemma": "synnyttää",
       "eng": "generate",
@@ -7452,12 +8202,6 @@
       "fin": "imettää",
       "lemma": "imettää",
       "eng": "breastfeed",
-      "pos": "V"
-    },
-    {
-      "fin": "täytettävä",
-      "lemma": "täyttää",
-      "eng": "refillable",
       "pos": "V"
     },
     {
@@ -7473,21 +8217,9 @@
       "pos": "V"
     },
     {
-      "fin": "käännetty",
-      "lemma": "kääntää",
-      "eng": "hot",
-      "pos": "V"
-    },
-    {
       "fin": "rakentaa",
       "lemma": "rakentaa",
       "eng": "build",
-      "pos": "V"
-    },
-    {
-      "fin": "voinen",
-      "lemma": "voinen",
-      "eng": "buttery",
       "pos": "V"
     },
     {
@@ -7528,7 +8260,7 @@
     },
     {
       "fin": "luulla",
-      "lemma": "luu",
+      "lemma": "luulla",
       "eng": "think",
       "pos": "V"
     },
@@ -7540,7 +8272,7 @@
     },
     {
       "fin": "käypä",
-      "lemma": "käypä",
+      "lemma": "käydä",
       "eng": "decent",
       "pos": "V"
     },
@@ -7569,21 +8301,9 @@
       "pos": "V"
     },
     {
-      "fin": "synnyttänyt",
-      "lemma": "synnyttää",
-      "eng": "parous",
-      "pos": "V"
-    },
-    {
       "fin": "nauttia",
       "lemma": "nauttia",
       "eng": "enjoy",
-      "pos": "V"
-    },
-    {
-      "fin": "tehtävä",
-      "lemma": "tehdä",
-      "eng": "task",
       "pos": "V"
     },
     {
@@ -7630,7 +8350,7 @@
     },
     {
       "fin": "oppia",
-      "lemma": "oppi",
+      "lemma": "oppia",
       "eng": "learn",
       "pos": "V"
     },
@@ -7638,24 +8358,6 @@
       "fin": "rukoilla",
       "lemma": "rukoilla",
       "eng": "pray",
-      "pos": "V"
-    },
-    {
-      "fin": "syntynyt",
-      "lemma": "syntynyt",
-      "eng": "born",
-      "pos": "V"
-    },
-    {
-      "fin": "mennyt",
-      "lemma": "mennä",
-      "eng": "past",
-      "pos": "V"
-    },
-    {
-      "fin": "käsketty",
-      "lemma": "käskeä",
-      "eng": "mandatory",
       "pos": "V"
     },
     {
@@ -7725,12 +8427,6 @@
       "pos": "V"
     },
     {
-      "fin": "turvonnut",
-      "lemma": "turvonnut",
-      "eng": "bloated",
-      "pos": "V"
-    },
-    {
       "fin": "turvautua",
       "lemma": "turvautua",
       "eng": "resort",
@@ -7749,21 +8445,9 @@
       "pos": "V"
     },
     {
-      "fin": "painama",
-      "lemma": "painama",
-      "eng": "impress",
-      "pos": "V"
-    },
-    {
       "fin": "ajastaa",
       "lemma": "ajastaa",
       "eng": "time",
-      "pos": "V"
-    },
-    {
-      "fin": "heitetty",
-      "lemma": "heittää",
-      "eng": "cast",
       "pos": "V"
     },
     {
@@ -7809,12 +8493,6 @@
       "pos": "V"
     },
     {
-      "fin": "kerrottu",
-      "lemma": "kertoa",
-      "eng": "double",
-      "pos": "V"
-    },
-    {
       "fin": "säilyttää",
       "lemma": "säilyttää",
       "eng": "preserve",
@@ -7839,20 +8517,14 @@
       "pos": "V"
     },
     {
-      "fin": "neuvo",
-      "lemma": "neuvoa",
-      "eng": "advice",
-      "pos": "V"
-    },
-    {
       "fin": "ruoskia",
-      "lemma": "ruoska",
+      "lemma": "ruoskia",
       "eng": "lash",
       "pos": "V"
     },
     {
       "fin": "sylkeä",
-      "lemma": "sylki",
+      "lemma": "sylkeä",
       "eng": "spit",
       "pos": "V"
     },
@@ -7899,12 +8571,6 @@
       "pos": "V"
     },
     {
-      "fin": "koskeva",
-      "lemma": "koskea",
-      "eng": "concerning",
-      "pos": "V"
-    },
-    {
       "fin": "soveltaa",
       "lemma": "soveltaa",
       "eng": "apply",
@@ -7912,20 +8578,14 @@
     },
     {
       "fin": "toivoa",
-      "lemma": "toivo",
+      "lemma": "toivoa",
       "eng": "hope",
       "pos": "V"
     },
     {
       "fin": "syntyä",
-      "lemma": "synty",
+      "lemma": "syntyä",
       "eng": "arise",
-      "pos": "V"
-    },
-    {
-      "fin": "toimittanut",
-      "lemma": "toimittaa",
-      "eng": "edited by",
       "pos": "V"
     },
     {
@@ -7935,21 +8595,9 @@
       "pos": "V"
     },
     {
-      "fin": "lukematon",
-      "lemma": "lukea",
-      "eng": "myriad",
-      "pos": "V"
-    },
-    {
       "fin": "seisahtua",
       "lemma": "seisahtua",
       "eng": "stall",
-      "pos": "V"
-    },
-    {
-      "fin": "lyhennetty",
-      "lemma": "lyhennetty",
-      "eng": "abbreviated",
       "pos": "V"
     },
     {
@@ -7965,27 +8613,9 @@
       "pos": "V"
     },
     {
-      "fin": "veistetty",
-      "lemma": "veistetty",
-      "eng": "carved",
-      "pos": "V"
-    },
-    {
-      "fin": "valettu",
-      "lemma": "valettu",
-      "eng": "die-cast",
-      "pos": "V"
-    },
-    {
       "fin": "myöntää",
       "lemma": "myöntää",
       "eng": "grant",
-      "pos": "V"
-    },
-    {
-      "fin": "salattu",
-      "lemma": "salata",
-      "eng": "occult",
       "pos": "V"
     },
     {
@@ -7995,21 +8625,9 @@
       "pos": "V"
     },
     {
-      "fin": "kutsuttu",
-      "lemma": "kutsua",
-      "eng": "inductee",
-      "pos": "V"
-    },
-    {
       "fin": "hillitä",
       "lemma": "hillitä",
       "eng": "check",
-      "pos": "V"
-    },
-    {
-      "fin": "kutsu",
-      "lemma": "kutsu",
-      "eng": "invitation",
       "pos": "V"
     },
     {
@@ -8019,21 +8637,9 @@
       "pos": "V"
     },
     {
-      "fin": "menestyvä",
-      "lemma": "menestyä",
-      "eng": "successful",
-      "pos": "V"
-    },
-    {
       "fin": "lähestyä",
       "lemma": "lähestyä",
       "eng": "approach",
-      "pos": "V"
-    },
-    {
-      "fin": "tuhottu",
-      "lemma": "tuhottu",
-      "eng": "devastated",
       "pos": "V"
     },
     {
@@ -8043,51 +8649,15 @@
       "pos": "V"
     },
     {
-      "fin": "ajettu",
-      "lemma": "ajettu",
-      "eng": "driven",
-      "pos": "V"
-    },
-    {
       "fin": "mainita",
       "lemma": "mainita",
       "eng": "mention",
       "pos": "V"
     },
     {
-      "fin": "hiottu",
-      "lemma": "hioa",
-      "eng": "polished",
-      "pos": "V"
-    },
-    {
       "fin": "kirkastaa",
       "lemma": "kirkastaa",
       "eng": "fine",
-      "pos": "V"
-    },
-    {
-      "fin": "jäänyt",
-      "lemma": "jäädä",
-      "eng": "left",
-      "pos": "V"
-    },
-    {
-      "fin": "seisoma",
-      "lemma": "seisoa",
-      "eng": "stand",
-      "pos": "V"
-    },
-    {
-      "fin": "vangittu",
-      "lemma": "vangittu",
-      "eng": "captive",
-      "pos": "V"
-    },
-    {
-      "fin": "istuva",
-      "lemma": "istuva",
-      "eng": "incumbent",
       "pos": "V"
     },
     {
@@ -8115,12 +8685,6 @@
       "pos": "V"
     },
     {
-      "fin": "osoittava",
-      "lemma": "osoittava",
-      "eng": "indicative",
-      "pos": "V"
-    },
-    {
       "fin": "naida",
       "lemma": "naida",
       "eng": "fuck",
@@ -8128,7 +8692,7 @@
     },
     {
       "fin": "sääliä",
-      "lemma": "sääli",
+      "lemma": "sääliä",
       "eng": "pity",
       "pos": "V"
     },
@@ -8164,7 +8728,7 @@
     },
     {
       "fin": "yllä",
-      "lemma": "yllä",
+      "lemma": "yltää",
       "eng": "above",
       "pos": "V"
     },
@@ -8175,14 +8739,8 @@
       "pos": "V"
     },
     {
-      "fin": "menetetty",
-      "lemma": "menetetty",
-      "eng": "lost",
-      "pos": "V"
-    },
-    {
       "fin": "jää",
-      "lemma": "jää",
+      "lemma": "jäädä",
       "eng": "ice",
       "pos": "V"
     },
@@ -8194,7 +8752,7 @@
     },
     {
       "fin": "häpeä",
-      "lemma": "häpeä",
+      "lemma": "hävetä",
       "eng": "shame",
       "pos": "V"
     },
@@ -8202,30 +8760,6 @@
       "fin": "vapauttaa",
       "lemma": "vapauttaa",
       "eng": "relieve",
-      "pos": "V"
-    },
-    {
-      "fin": "lukema",
-      "lemma": "lukea",
-      "eng": "reading",
-      "pos": "V"
-    },
-    {
-      "fin": "ymmärrettävä",
-      "lemma": "ymmärtää",
-      "eng": "understandable",
-      "pos": "V"
-    },
-    {
-      "fin": "kannettu",
-      "lemma": "kantaa",
-      "eng": "born",
-      "pos": "V"
-    },
-    {
-      "fin": "arvo",
-      "lemma": "arpoa",
-      "eng": "value",
       "pos": "V"
     },
     {
@@ -8244,18 +8778,6 @@
       "fin": "pudota",
       "lemma": "pudota",
       "eng": "fall",
-      "pos": "V"
-    },
-    {
-      "fin": "vääristelty",
-      "lemma": "vääristelty",
-      "eng": "distorted",
-      "pos": "V"
-    },
-    {
-      "fin": "poltettava",
-      "lemma": "poltettava",
-      "eng": "burnable",
       "pos": "V"
     },
     {
@@ -8289,12 +8811,6 @@
       "pos": "V"
     },
     {
-      "fin": "järkkymätön",
-      "lemma": "järkkyä",
-      "eng": "adamant",
-      "pos": "V"
-    },
-    {
       "fin": "puhutella",
       "lemma": "puhutella",
       "eng": "address",
@@ -8313,12 +8829,6 @@
       "pos": "V"
     },
     {
-      "fin": "muisti",
-      "lemma": "muisti",
-      "eng": "memory",
-      "pos": "V"
-    },
-    {
       "fin": "neuvotella",
       "lemma": "neuvotella",
       "eng": "negotiate",
@@ -8328,12 +8838,6 @@
       "fin": "suostutella",
       "lemma": "suostutella",
       "eng": "prevail",
-      "pos": "V"
-    },
-    {
-      "fin": "koottu",
-      "lemma": "koota",
-      "eng": "collected",
       "pos": "V"
     },
     {
@@ -8356,26 +8860,14 @@
     },
     {
       "fin": "piiloutua",
-      "lemma": "piiloutu",
-      "eng": "hide",
-      "pos": "V"
-    },
-    {
-      "fin": "piiloutunut",
       "lemma": "piiloutua",
-      "eng": "obscure",
+      "eng": "hide",
       "pos": "V"
     },
     {
       "fin": "hiipiä",
       "lemma": "hiipiä",
       "eng": "creep",
-      "pos": "V"
-    },
-    {
-      "fin": "kaatunut",
-      "lemma": "kaatunut",
-      "eng": "fallen",
       "pos": "V"
     },
     {
@@ -8388,18 +8880,6 @@
       "fin": "kavahtaa",
       "lemma": "kavahtaa",
       "eng": "startle",
-      "pos": "V"
-    },
-    {
-      "fin": "tavoiteltu",
-      "lemma": "tavoiteltu",
-      "eng": "coveted",
-      "pos": "V"
-    },
-    {
-      "fin": "isketty",
-      "lemma": "iskeä",
-      "eng": "hit",
       "pos": "V"
     },
     {
@@ -8433,21 +8913,9 @@
       "pos": "V"
     },
     {
-      "fin": "luultu",
-      "lemma": "luulla",
-      "eng": "supposed",
-      "pos": "V"
-    },
-    {
       "fin": "lohduttaa",
       "lemma": "lohduttaa",
       "eng": "comfort",
-      "pos": "V"
-    },
-    {
-      "fin": "suojeltu",
-      "lemma": "suojella",
-      "eng": "protected",
       "pos": "V"
     },
     {
@@ -8464,7 +8932,7 @@
     },
     {
       "fin": "tuhoutua",
-      "lemma": "tuhoutu",
+      "lemma": "tuhoutua",
       "eng": "consume",
       "pos": "V"
     },
@@ -8493,33 +8961,15 @@
       "pos": "V"
     },
     {
-      "fin": "sidottu",
-      "lemma": "sidottu",
-      "eng": "bound",
-      "pos": "V"
-    },
-    {
       "fin": "vedota",
       "lemma": "vedota",
       "eng": "appeal",
       "pos": "V"
     },
     {
-      "fin": "tullut",
-      "lemma": "tulla",
-      "eng": "in",
-      "pos": "V"
-    },
-    {
       "fin": "näkyä",
-      "lemma": "näky",
+      "lemma": "näkyä",
       "eng": "show",
-      "pos": "V"
-    },
-    {
-      "fin": "puettu",
-      "lemma": "pukea",
-      "eng": "clad",
       "pos": "V"
     },
     {
@@ -8535,21 +8985,9 @@
       "pos": "V"
     },
     {
-      "fin": "vieri",
-      "lemma": "vieri",
-      "eng": "side",
-      "pos": "V"
-    },
-    {
       "fin": "ponnistella",
       "lemma": "ponnistella",
       "eng": "strive",
-      "pos": "V"
-    },
-    {
-      "fin": "alkanut",
-      "lemma": "alkaa",
-      "eng": "begun",
       "pos": "V"
     },
     {
@@ -8565,21 +9003,9 @@
       "pos": "V"
     },
     {
-      "fin": "jatkuva",
-      "lemma": "jatkua",
-      "eng": "continuous",
-      "pos": "V"
-    },
-    {
       "fin": "hapuilla",
       "lemma": "hapuilla",
       "eng": "fumble",
-      "pos": "V"
-    },
-    {
-      "fin": "näkyvä",
-      "lemma": "näkyä",
-      "eng": "visible",
       "pos": "V"
     },
     {
@@ -8589,20 +9015,8 @@
       "pos": "V"
     },
     {
-      "fin": "oppinut",
-      "lemma": "oppinut",
-      "eng": "learned",
-      "pos": "V"
-    },
-    {
-      "fin": "virtaava",
-      "lemma": "virrata",
-      "eng": "quick",
-      "pos": "V"
-    },
-    {
       "fin": "tulvia",
-      "lemma": "tulva",
+      "lemma": "tulvia",
       "eng": "flood",
       "pos": "V"
     },
@@ -8661,21 +9075,9 @@
       "pos": "V"
     },
     {
-      "fin": "ahdistettu",
-      "lemma": "ahdistaa",
-      "eng": "at bay",
-      "pos": "V"
-    },
-    {
       "fin": "ärtyä",
       "lemma": "ärtyä",
       "eng": "chafe",
-      "pos": "V"
-    },
-    {
-      "fin": "ensin",
-      "lemma": "ensin",
-      "eng": "firstly",
       "pos": "V"
     },
     {
@@ -8688,18 +9090,6 @@
       "fin": "enentyä",
       "lemma": "enentyä",
       "eng": "grow",
-      "pos": "V"
-    },
-    {
-      "fin": "sortunut",
-      "lemma": "sortua",
-      "eng": "fallen",
-      "pos": "V"
-    },
-    {
-      "fin": "kaadettu",
-      "lemma": "kaadettu",
-      "eng": "down",
       "pos": "V"
     },
     {
@@ -8739,12 +9129,6 @@
       "pos": "V"
     },
     {
-      "fin": "kirottu",
-      "lemma": "kirottu",
-      "eng": "accursed",
-      "pos": "V"
-    },
-    {
       "fin": "levittäytyä",
       "lemma": "levittäytyä",
       "eng": "unfold",
@@ -8757,63 +9141,15 @@
       "pos": "V"
     },
     {
-      "fin": "kuuleva",
-      "lemma": "kuuleva",
-      "eng": "hearing",
-      "pos": "V"
-    },
-    {
       "fin": "ravistaa",
       "lemma": "ravistaa",
       "eng": "shake",
       "pos": "V"
     },
     {
-      "fin": "kahlittu",
-      "lemma": "kahlittu",
-      "eng": "enchained",
-      "pos": "V"
-    },
-    {
       "fin": "kahlita",
       "lemma": "kahlita",
       "eng": "fetter",
-      "pos": "V"
-    },
-    {
-      "fin": "vapiseva",
-      "lemma": "vapiseva",
-      "eng": "tremulous",
-      "pos": "V"
-    },
-    {
-      "fin": "laskettava",
-      "lemma": "laskettaa",
-      "eng": "computable",
-      "pos": "V"
-    },
-    {
-      "fin": "ympäröity",
-      "lemma": "ympäröidä",
-      "eng": "enclosed",
-      "pos": "V"
-    },
-    {
-      "fin": "huoli",
-      "lemma": "huoli",
-      "eng": "worry",
-      "pos": "V"
-    },
-    {
-      "fin": "päättäväinen",
-      "lemma": "päättäväinen",
-      "eng": "determined",
-      "pos": "V"
-    },
-    {
-      "fin": "jottei",
-      "lemma": "jottaei",
-      "eng": "lest",
       "pos": "V"
     },
     {
@@ -8836,7 +9172,7 @@
     },
     {
       "fin": "poikia",
-      "lemma": "poika",
+      "lemma": "poikia",
       "eng": "calve",
       "pos": "V"
     },
@@ -8853,21 +9189,9 @@
       "pos": "V"
     },
     {
-      "fin": "tekemä",
-      "lemma": "tehdä",
-      "eng": "paternal",
-      "pos": "V"
-    },
-    {
       "fin": "estää",
       "lemma": "estää",
       "eng": "prevent",
-      "pos": "V"
-    },
-    {
-      "fin": "tarvitseva",
-      "lemma": "tarvita",
-      "eng": "dependent",
       "pos": "V"
     },
     {
@@ -8919,12 +9243,6 @@
       "pos": "V"
     },
     {
-      "fin": "säädetty",
-      "lemma": "säädetty",
-      "eng": "prescribed",
-      "pos": "V"
-    },
-    {
       "fin": "heristää",
       "lemma": "heristää",
       "eng": "shake",
@@ -8943,14 +9261,8 @@
       "pos": "V"
     },
     {
-      "fin": "verso",
-      "lemma": "verso",
-      "eng": "shoot",
-      "pos": "V"
-    },
-    {
       "fin": "jaa",
-      "lemma": "jaa",
+      "lemma": "jakaa",
       "eng": "yes",
       "pos": "V"
     },
@@ -8961,45 +9273,15 @@
       "pos": "V"
     },
     {
-      "fin": "imeväinen",
-      "lemma": "imeä",
-      "eng": "infant",
-      "pos": "V"
-    },
-    {
       "fin": "leikkiä",
       "lemma": "leikkiä",
       "eng": "play",
       "pos": "V"
     },
     {
-      "fin": "kolo",
-      "lemma": "kolo",
-      "eng": "hole",
-      "pos": "V"
-    },
-    {
-      "fin": "vieroitettu",
-      "lemma": "vieroitettu",
-      "eng": "weaned",
-      "pos": "V"
-    },
-    {
       "fin": "pistää",
       "lemma": "pistää",
       "eng": "sting",
-      "pos": "V"
-    },
-    {
-      "fin": "loistava",
-      "lemma": "loistava",
-      "eng": "brilliant",
-      "pos": "V"
-    },
-    {
-      "fin": "karkotettu",
-      "lemma": "karkottaa",
-      "eng": "deportee",
       "pos": "V"
     },
     {
@@ -9052,13 +9334,13 @@
     },
     {
       "fin": "säteillä",
-      "lemma": "säde",
+      "lemma": "säteillä",
       "eng": "radiate",
       "pos": "V"
     },
     {
       "fin": "järkkyä",
-      "lemma": "järkky",
+      "lemma": "järkkyä",
       "eng": "shake",
       "pos": "V"
     },
@@ -9066,12 +9348,6 @@
       "fin": "lävistää",
       "lemma": "lävistää",
       "eng": "pierce",
-      "pos": "V"
-    },
-    {
-      "fin": "liittynyt",
-      "lemma": "liittynyt",
-      "eng": "affiliated",
       "pos": "V"
     },
     {
@@ -9105,12 +9381,6 @@
       "pos": "V"
     },
     {
-      "fin": "ulvova",
-      "lemma": "ulvoa",
-      "eng": "wailful",
-      "pos": "V"
-    },
-    {
       "fin": "ulvoa",
       "lemma": "ulvoa",
       "eng": "howl",
@@ -9135,12 +9405,6 @@
       "pos": "V"
     },
     {
-      "fin": "pantu",
-      "lemma": "panna",
-      "eng": "applied",
-      "pos": "V"
-    },
-    {
       "fin": "virittää",
       "lemma": "virittää",
       "eng": "tune",
@@ -9150,12 +9414,6 @@
       "fin": "vainota",
       "lemma": "vainota",
       "eng": "persecute",
-      "pos": "V"
-    },
-    {
-      "fin": "pudonnut",
-      "lemma": "pudota",
-      "eng": "fallen",
       "pos": "V"
     },
     {
@@ -9177,33 +9435,9 @@
       "pos": "V"
     },
     {
-      "fin": "viskattu",
-      "lemma": "viskata",
-      "eng": "cast",
-      "pos": "V"
-    },
-    {
-      "fin": "lävistetty",
-      "lemma": "lävistetty",
-      "eng": "impaled",
-      "pos": "V"
-    },
-    {
       "fin": "suistua",
       "lemma": "suistua",
       "eng": "derailment",
-      "pos": "V"
-    },
-    {
-      "fin": "tallattu",
-      "lemma": "tallata",
-      "eng": "beaten",
-      "pos": "V"
-    },
-    {
-      "fin": "liittymä",
-      "lemma": "liittyä",
-      "eng": "interface",
       "pos": "V"
     },
     {
@@ -9213,63 +9447,15 @@
       "pos": "V"
     },
     {
-      "fin": "tapahtuva",
-      "lemma": "tapahtua",
-      "eng": "happening",
-      "pos": "V"
-    },
-    {
-      "fin": "päättänyt",
-      "lemma": "päättää",
-      "eng": "set",
-      "pos": "V"
-    },
-    {
-      "fin": "pysyvä",
-      "lemma": "pysyvä",
-      "eng": "permanent",
-      "pos": "V"
-    },
-    {
       "fin": "hellitä",
-      "lemma": "hellittää",
+      "lemma": "hellitä",
       "eng": "relax",
-      "pos": "V"
-    },
-    {
-      "fin": "päätetty",
-      "lemma": "päätetty",
-      "eng": "set",
       "pos": "V"
     },
     {
       "fin": "kumota",
       "lemma": "kumota",
       "eng": "overturn",
-      "pos": "V"
-    },
-    {
-      "fin": "katkennut",
-      "lemma": "katkennut",
-      "eng": "broken",
-      "pos": "V"
-    },
-    {
-      "fin": "lamautunut",
-      "lemma": "lamautua",
-      "eng": "benumbed",
-      "pos": "V"
-    },
-    {
-      "fin": "vastattava",
-      "lemma": "vastattava",
-      "eng": "open-ended",
-      "pos": "V"
-    },
-    {
-      "fin": "opetettu",
-      "lemma": "opettaa",
-      "eng": "instructed",
       "pos": "V"
     },
     {
@@ -9291,18 +9477,6 @@
       "pos": "V"
     },
     {
-      "fin": "noussut",
-      "lemma": "noussut",
-      "eng": "risen",
-      "pos": "V"
-    },
-    {
-      "fin": "nähtävä",
-      "lemma": "nähtävä",
-      "eng": "remain to be seen",
-      "pos": "V"
-    },
-    {
       "fin": "nimetä",
       "lemma": "nimetä",
       "eng": "name",
@@ -9315,12 +9489,6 @@
       "pos": "V"
     },
     {
-      "fin": "täytetty",
-      "lemma": "täyttää",
-      "eng": "stuffed",
-      "pos": "V"
-    },
-    {
       "fin": "laistaa",
       "lemma": "laistaa",
       "eng": "duck",
@@ -9330,12 +9498,6 @@
       "fin": "sukia",
       "lemma": "sukia",
       "eng": "groom",
-      "pos": "V"
-    },
-    {
-      "fin": "syntymä",
-      "lemma": "syntyä",
-      "eng": "birth",
       "pos": "V"
     },
     {
@@ -9372,18 +9534,6 @@
       "fin": "surettaa",
       "lemma": "surettaa",
       "eng": "repent",
-      "pos": "V"
-    },
-    {
-      "fin": "tuova",
-      "lemma": "tuoda",
-      "eng": "afferent",
-      "pos": "V"
-    },
-    {
-      "fin": "painettu",
-      "lemma": "painettu",
-      "eng": "print",
       "pos": "V"
     },
     {
@@ -9436,7 +9586,7 @@
     },
     {
       "fin": "aitoa",
-      "lemma": "aito",
+      "lemma": "aitoa",
       "eng": "genuine",
       "pos": "V"
     },
@@ -9484,7 +9634,7 @@
     },
     {
       "fin": "parkua",
-      "lemma": "parku",
+      "lemma": "parkua",
       "eng": "cry",
       "pos": "V"
     },
@@ -9504,12 +9654,6 @@
       "fin": "ilmoittaa",
       "lemma": "ilmoittaa",
       "eng": "declare",
-      "pos": "V"
-    },
-    {
-      "fin": "vahvistava",
-      "lemma": "vahvistava",
-      "eng": "confirmatory",
       "pos": "V"
     },
     {
@@ -9544,14 +9688,8 @@
     },
     {
       "fin": "kalveta",
-      "lemma": "kalvaa",
+      "lemma": "kalveta",
       "eng": "pale",
-      "pos": "V"
-    },
-    {
-      "fin": "perustettu",
-      "lemma": "perustaa",
-      "eng": "founded",
       "pos": "V"
     },
     {
@@ -9564,18 +9702,6 @@
       "fin": "pöyhkeillä",
       "lemma": "pöyhkeillä",
       "eng": "flaunt",
-      "pos": "V"
-    },
-    {
-      "fin": "turmeltunut",
-      "lemma": "turmeltua",
-      "eng": "corrupt",
-      "pos": "V"
-    },
-    {
-      "fin": "vaatimaton",
-      "lemma": "vaatia",
-      "eng": "modest",
       "pos": "V"
     },
     {
@@ -9615,51 +9741,15 @@
       "pos": "V"
     },
     {
-      "fin": "rakennettu",
-      "lemma": "rakentaa",
-      "eng": "built-up",
-      "pos": "V"
-    },
-    {
-      "fin": "kadonnut",
-      "lemma": "kadonnut",
-      "eng": "lost",
-      "pos": "V"
-    },
-    {
       "fin": "kulua",
       "lemma": "kulua",
       "eng": "pass",
       "pos": "V"
     },
     {
-      "fin": "lunastettu",
-      "lemma": "lunastaa",
-      "eng": "cashed",
-      "pos": "V"
-    },
-    {
-      "fin": "särkynyt",
-      "lemma": "särkynyt",
-      "eng": "broken",
-      "pos": "V"
-    },
-    {
-      "fin": "murtunut",
-      "lemma": "murtua",
-      "eng": "cracked",
-      "pos": "V"
-    },
-    {
       "fin": "mieliä",
-      "lemma": "mieli",
+      "lemma": "mieliä",
       "eng": "desire",
-      "pos": "V"
-    },
-    {
-      "fin": "ensi",
-      "lemma": "ensi",
-      "eng": "next",
       "pos": "V"
     },
     {
@@ -9669,33 +9759,9 @@
       "pos": "V"
     },
     {
-      "fin": "jäätävä",
-      "lemma": "jäätävä",
-      "eng": "frigid",
-      "pos": "V"
-    },
-    {
-      "fin": "katoava",
-      "lemma": "katoava",
-      "eng": "transient",
-      "pos": "V"
-    },
-    {
-      "fin": "olematon",
-      "lemma": "olematon",
-      "eng": "minuscule",
-      "pos": "V"
-    },
-    {
       "fin": "houkutella",
       "lemma": "houkutella",
       "eng": "attract",
-      "pos": "V"
-    },
-    {
-      "fin": "oletettava",
-      "lemma": "oletettava",
-      "eng": "presumable",
       "pos": "V"
     },
     {
@@ -9718,32 +9784,14 @@
     },
     {
       "fin": "suoda",
-      "lemma": "suotaa",
+      "lemma": "suoda",
       "eng": "grant",
-      "pos": "V"
-    },
-    {
-      "fin": "ihastuttava",
-      "lemma": "ihastuttaa",
-      "eng": "exquisite",
       "pos": "V"
     },
     {
       "fin": "aloittaa",
       "lemma": "aloittaa",
       "eng": "start",
-      "pos": "V"
-    },
-    {
-      "fin": "toimi",
-      "lemma": "toimia",
-      "eng": "function",
-      "pos": "V"
-    },
-    {
-      "fin": "ilmoitettu",
-      "lemma": "ilmoitettu",
-      "eng": "advertised",
       "pos": "V"
     },
     {
@@ -9759,20 +9807,8 @@
       "pos": "V"
     },
     {
-      "fin": "uusi",
-      "lemma": "uusia",
-      "eng": "new",
-      "pos": "V"
-    },
-    {
-      "fin": "luotettava",
-      "lemma": "luotettava",
-      "eng": "reliable",
-      "pos": "V"
-    },
-    {
       "fin": "kestitä",
-      "lemma": "kestittää",
+      "lemma": "kestitä",
       "eng": "feast",
       "pos": "V"
     },
@@ -9795,18 +9831,6 @@
       "pos": "V"
     },
     {
-      "fin": "huutava",
-      "lemma": "huutava",
-      "eng": "flagrant",
-      "pos": "V"
-    },
-    {
-      "fin": "levinnyt",
-      "lemma": "levitä",
-      "eng": "pervading",
-      "pos": "V"
-    },
-    {
       "fin": "kirvoittaa",
       "lemma": "kirvoittaa",
       "eng": "loosen",
@@ -9825,24 +9849,6 @@
       "pos": "V"
     },
     {
-      "fin": "lakattu",
-      "lemma": "lakattu",
-      "eng": "stained",
-      "pos": "V"
-    },
-    {
-      "fin": "perivä",
-      "lemma": "periä",
-      "eng": "inheriting",
-      "pos": "V"
-    },
-    {
-      "fin": "kulunut",
-      "lemma": "kulua",
-      "eng": "hackneyed",
-      "pos": "V"
-    },
-    {
       "fin": "kietoutua",
       "lemma": "kietoutua",
       "eng": "intertwine",
@@ -9852,12 +9858,6 @@
       "fin": "huoata",
       "lemma": "huoata",
       "eng": "sigh",
-      "pos": "V"
-    },
-    {
-      "fin": "tuki",
-      "lemma": "tukkia",
-      "eng": "support",
       "pos": "V"
     }
   ]

@@ -1,5 +1,7 @@
-import sys
 import os
+os.environ["INQUIRERPY_MOUSE_SUPPORT"] = "true"
+
+import sys
 import io
 
 # Add the root directory to sys.path so 'src' can be imported
@@ -19,8 +21,9 @@ def main():
         
         with console.status("[bold green]Loading NLP model & vocabulary...[/bold green]", spinner="dots"):
             ensure_model_downloaded("fin")
-            load_book_of_mormon_vocab()
+            nouns, verbs = load_book_of_mormon_vocab()
             
+        console.print(f"[dim]Loaded {len(nouns)} nouns/adjectives and {len(verbs)} verbs.[/dim]")
         print("\n")
         run_menu()
         

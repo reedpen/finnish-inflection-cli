@@ -3,13 +3,13 @@ from src.nlp.engine import inflect_noun, inflect_verb
 
 def test_inflect_noun_basic():
     # Test Illative Singular of "koira"
-    results = inflect_noun("koira", "Illative", "Singular")
+    results = inflect_noun("koira", "Illative (-aan/-iin)", "Singular")
     # "koiraan" should be in the results
     assert any("koiraan" == r.lower() for r in results)
 
 def test_inflect_noun_plural():
     # Test Inessive Plural of "lapsi" (lapsissa)
-    results = inflect_noun("lapsi", "Inessive", "Plural")
+    results = inflect_noun("lapsi", "Inessive (-ssa)", "Plural")
     assert any("lapsissa" == r.lower() for r in results)
 
 def test_inflect_verb_present():

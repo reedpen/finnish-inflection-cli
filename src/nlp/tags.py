@@ -3,17 +3,17 @@ Mapping of human-readable grammatical forms to Omorfi tags for uralicNLP.
 """
 
 NOUN_CASES = {
-    "Nominative": "+Nom",
-    "Genitive": "+Gen",
-    "Partitive": "+Par",
-    "Inessive": "+Ine",
-    "Elative": "+Ela",
-    "Illative": "+Ill",
-    "Adessive": "+Ade",
-    "Ablative": "+Abl",
-    "Allative": "+All",
-    "Essive": "+Ess",
-    "Translative": "+Tra"
+    "Nominative (---)": "+Nom",
+    "Genitive (-n)": "+Gen",
+    "Partitive (-a/-ta)": "+Par",
+    "Inessive (-ssa)": "+Ine",
+    "Elative (-sta)": "+Ela",
+    "Illative (-aan/-iin)": "+Ill",
+    "Adessive (-lla)": "+Ade",
+    "Ablative (-lta)": "+Abl",
+    "Allative (-lle)": "+All",
+    "Essive (-na)": "+Ess",
+    "Translative (-ksi)": "+Tra"
 }
 
 NOUN_NUMBERS = {

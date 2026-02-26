@@ -36,7 +36,7 @@ def setup_noun_drill():
         message="Select noun cases to practice:",
         choices=[{"name": k, "value": k} for k in NOUN_CASES.keys()],
         validate=lambda result: len(result) > 0,
-        invalid_message="Minimum 1 selection"
+        invalid_message="Minimum 1 selection",
     ).execute()
     if cases is None: return
     
@@ -44,7 +44,7 @@ def setup_noun_drill():
         message="Select numbers:",
         choices=[{"name": k, "value": k} for k in NOUN_NUMBERS.keys()],
         validate=lambda result: len(result) > 0,
-        invalid_message="Minimum 1 selection"
+        invalid_message="Minimum 1 selection",
     ).execute()
     if numbers is None: return
     
@@ -62,7 +62,10 @@ def setup_noun_drill():
             if not should_continue:
                 break
         except Exception as e:
-            console.print(f"[red]Encountered error: {e}[/red]")
+            console.print(f"[red]Encountered error in loop: {e}[/red]")
+            import traceback
+            traceback.print_exc()
+            console.input("\nPress Enter to return to main menu...")
             break
 
 def setup_verb_drill():
@@ -70,7 +73,7 @@ def setup_verb_drill():
         message="Select tenses and moods:",
         choices=[{"name": k, "value": k} for k in VERB_TENSES_MOODS.keys()],
         validate=lambda result: len(result) > 0,
-        invalid_message="Minimum 1 selection"
+        invalid_message="Minimum 1 selection",
     ).execute()
     if tenses is None: return
     
@@ -78,7 +81,7 @@ def setup_verb_drill():
         message="Select persons:",
         choices=[{"name": k, "value": k} for k in VERB_PERSONS.keys()],
         validate=lambda result: len(result) > 0,
-        invalid_message="Minimum 1 selection"
+        invalid_message="Minimum 1 selection",
     ).execute()
     if persons is None: return
     
@@ -96,5 +99,8 @@ def setup_verb_drill():
             if not should_continue:
                 break
         except Exception as e:
-            console.print(f"[red]Encountered error: {e}[/red]")
+            console.print(f"[red]Encountered error in loop: {e}[/red]")
+            import traceback
+            traceback.print_exc()
+            console.input("\nPress Enter to return to main menu...")
             break
