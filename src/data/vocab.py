@@ -1,10 +1,17 @@
 import csv
-import os
 import json
+import sys
 from pathlib import Path
 from uralicNLP import uralicApi
+from platformdirs import user_data_dir
 
-CACHE_FILE = Path("data/vocab_cache.json")
+# For packaged data access
+if sys.version_info >= (3, 9):
+    from importlib.resources import files
+else:
+    from importlib_resources import files
+
+APP_NAME = "finnish-inflection-cli"
 
 def categorize_word(word: str, english_hint: str = "") -> tuple[str, str]:
     """Uses uralicApi to categorize a word and find its lemma."""
@@ -65,54 +72,63 @@ def categorize_word(word: str, english_hint: str = "") -> tuple[str, str]:
 def load_book_of_mormon_vocab(filepath: str = None):
     """
     Loads and categorizes the BOM vocabulary based on omorfi parsing.
-    Caches the result to avoid parsing thousands of words every startup.
+    Caches the result in the user's data directory.
     """
-    if filepath is None:
-        # Default to root of the project
-        root_dir = Path(__file__).parent.parent.parent
-        filepath = root_dir / "book_of_mormon_complete.csv"
-    else:
-        filepath = Path(filepath)
-    
-    # Create data directory if it doesn't exist
-    # CACHE_FILE should also be relative to root
-    root_dir = Path(__file__).parent.parent.parent
-    cache_path = root_dir / "data" / "vocab_cache.json"
-    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    data_dir = Path(user_data_dir(APP_NAME))
+    data_dir.mkdir(parents=True, exist_ok=True)
+    cache_path = data_dir / "vocab_cache.json"
     
     if cache_path.exists():
-        with open(cache_path, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            nouns = data.get("nouns", [])
-            verbs = data.get("verbs", [])
-            if len(nouns) > 0 or len(verbs) > 0:
-                return nouns, verbs
-            else:
-                print("Cache appears empty. Reparsing...")
+        try:
+            with open(cache_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                nouns = data.get("nouns", [])
+                verbs = data.get("verbs", [])
+                if len(nouns) > 0 or len(verbs) > 0:
+                    return nouns, verbs
+        except Exception:
+            pass
             
-    if not filepath.exists():
-        print(f"Warning: {filepath} not found.")
-        return [], []
+    # If no cache or cache failed, load from CSV
+    if filepath is None:
+        # Look for the file in the project root (dev) or packaged location
+        # When installed as a package, it should be in the root of the install
+        # Hatch sdist/wheel config puts it in the root.
+        # importlib.resources.files('src') refers to the src/ directory.
+        # But our CSV is in the root. We can use a trick to find it relative to 'src'.
+        csv_resource = files('src').joinpath('../book_of_mormon_complete.csv')
+        if not csv_resource.exists():
+            # Fallback for development if run from root
+            csv_resource = Path("book_of_mormon_complete.csv")
+            
+        if not csv_resource.exists():
+            print(f"Warning: book_of_mormon_complete.csv not found.")
+            return [], []
         
+        # Open the resource context
+        with csv_resource.open(mode='r', encoding='utf-8') as f:
+            return _parse_csv(f, cache_path)
+    else:
+        with open(filepath, mode='r', encoding='utf-8') as f:
+            return _parse_csv(f, cache_path)
+
+def _parse_csv(f, cache_path):
     nouns = []
     verbs = []
-    
     print("Categorizing vocabulary using uralicNLP. This might take a few moments on the first run...")
-    with open(filepath, mode='r', encoding='utf-8') as f:
-        reader = csv.DictReader(f, delimiter=';')
-        for row in reader:
-            front = row.get("Front", "").strip()
-            back = row.get("Back", "").strip()
-            if not front:
-                continue
-            
-            category, lemma = categorize_word(front, back)
-            # Store the lemma for inflection, but keep original 'front' for display if needed
-            item = {"fin": front, "lemma": lemma, "eng": back, "pos": category}
-            if category == "N" or category == "A":
-                nouns.append(item)
-            elif category == "V":
-                verbs.append(item)
+    reader = csv.DictReader(f, delimiter=';')
+    for row in reader:
+        front = row.get("Front", "").strip()
+        back = row.get("Back", "").strip()
+        if not front:
+            continue
+        
+        category, lemma = categorize_word(front, back)
+        item = {"fin": front, "lemma": lemma, "eng": back, "pos": category}
+        if category == "N" or category == "A":
+            nouns.append(item)
+        elif category == "V":
+            verbs.append(item)
                 
     # Cache the result
     with open(cache_path, "w", encoding="utf-8") as f:
