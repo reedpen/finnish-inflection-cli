@@ -1,0 +1,30 @@
+
+
+==============================
+   Finnish Inflection Drill   
+==============================
+
+? Choose a drill: 
+❯ Practice Nouns
+  Practice Verbs
+  Exit
+
+
+
+                   
+  Practice Nouns
+❯ Practice Verbs  ? Choose a drill: 
+  Practice Nouns
+❯ Practice Verbs
+  Exit
+
+
+
+                   ? Choose a drill: 
+  Practice Nouns
+❯ Practice Verbs
+  Exit
+
+
+
+                   

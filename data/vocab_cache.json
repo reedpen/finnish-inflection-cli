@@ -1,0 +1,9864 @@
+{
+  "nouns": [
+    {
+      "fin": "nyt",
+      "lemma": "nyt",
+      "eng": "now",
+      "pos": "A"
+    },
+    {
+      "fin": "minä",
+      "lemma": "mikä",
+      "eng": "I",
+      "pos": "N"
+    },
+    {
+      "fin": "nämä",
+      "lemma": "nämä",
+      "eng": "these",
+      "pos": "N"
+    },
+    {
+      "fin": "levy",
+      "lemma": "levy",
+      "eng": "plate",
+      "pos": "N"
+    },
+    {
+      "fin": "hallituskausi",
+      "lemma": "hallituskausi",
+      "eng": "reign",
+      "pos": "N"
+    },
+    {
+      "fin": "isä",
+      "lemma": "isä",
+      "eng": "father",
+      "pos": "N"
+    },
+    {
+      "fin": "veli",
+      "lemma": "veli",
+      "eng": "brother",
+      "pos": "N"
+    },
+    {
+      "fin": "asia",
+      "lemma": "asia",
+      "eng": "business",
+      "pos": "N"
+    },
+    {
+      "fin": "se",
+      "lemma": "se",
+      "eng": "it",
+      "pos": "N"
+    },
+    {
+      "fin": "uni",
+      "lemma": "uni",
+      "eng": "dream",
+      "pos": "N"
+    },
+    {
+      "fin": "kaikki",
+      "lemma": "kaikki",
+      "eng": "all",
+      "pos": "N"
+    },
+    {
+      "fin": "uutteruus",
+      "lemma": "uutteruus",
+      "eng": "diligence",
+      "pos": "N"
+    },
+    {
+      "fin": "hän",
+      "lemma": "hän",
+      "eng": "he",
+      "pos": "N"
+    },
+    {
+      "fin": "juutalainen",
+      "lemma": "juutalainen",
+      "eng": "Jew",
+      "pos": "A"
+    },
+    {
+      "fin": "jälki",
+      "lemma": "jälki",
+      "eng": "track",
+      "pos": "N"
+    },
+    {
+      "fin": "nimittäin",
+      "lemma": "nimittäin",
+      "eng": "namely",
+      "pos": "A"
+    },
+    {
+      "fin": "suuri",
+      "lemma": "suuri",
+      "eng": "big",
+      "pos": "A"
+    },
+    {
+      "fin": "kaupunki",
+      "lemma": "kaupunki",
+      "eng": "city",
+      "pos": "N"
+    },
+    {
+      "fin": "moni",
+      "lemma": "moni",
+      "eng": "many",
+      "pos": "N"
+    },
+    {
+      "fin": "vanki",
+      "lemma": "vanki",
+      "eng": "prisoner",
+      "pos": "N"
+    },
+    {
+      "fin": "herra",
+      "lemma": "herra",
+      "eng": "sir",
+      "pos": "N"
+    },
+    {
+      "fin": "hyvä",
+      "lemma": "hyvä",
+      "eng": "good",
+      "pos": "A"
+    },
+    {
+      "fin": "aika",
+      "lemma": "aika",
+      "eng": "time",
+      "pos": "N"
+    },
+    {
+      "fin": "takainen",
+      "lemma": "takainen",
+      "eng": "back",
+      "pos": "A"
+    },
+    {
+      "fin": "niin",
+      "lemma": "niin",
+      "eng": "so",
+      "pos": "A"
+    },
+    {
+      "fin": "vankeus",
+      "lemma": "vankeus",
+      "eng": "captivity",
+      "pos": "N"
+    },
+    {
+      "fin": "jälleen",
+      "lemma": "jälleen",
+      "eng": "again",
+      "pos": "A"
+    },
+    {
+      "fin": "kuusisataa",
+      "lemma": "kuusisataa",
+      "eng": "six hundred",
+      "pos": "N"
+    },
+    {
+      "fin": "jumala",
+      "lemma": "jumala",
+      "eng": "god",
+      "pos": "N"
+    },
+    {
+      "fin": "keskuudessa",
+      "lemma": "keskuudessa",
+      "eng": "among",
+      "pos": "A"
+    },
+    {
+      "fin": "esillä",
+      "lemma": "esillä",
+      "eng": "out",
+      "pos": "A"
+    },
+    {
+      "fin": "profeetta",
+      "lemma": "profeetta",
+      "eng": "prophet",
+      "pos": "N"
+    },
+    {
+      "fin": "messias",
+      "lemma": "messias",
+      "eng": "messiah",
+      "pos": "N"
+    },
+    {
+      "fin": "toinen",
+      "lemma": "toinen",
+      "eng": "second",
+      "pos": "A"
+    },
+    {
+      "fin": "maailma",
+      "lemma": "maailma",
+      "eng": "world",
+      "pos": "N"
+    },
+    {
+      "fin": "vapahtaja",
+      "lemma": "vapahtaja",
+      "eng": "redeemer",
+      "pos": "N"
+    },
+    {
+      "fin": "myös",
+      "lemma": "myös",
+      "eng": "too",
+      "pos": "A"
+    },
+    {
+      "fin": "kuinka",
+      "lemma": "kuinka",
+      "eng": "how",
+      "pos": "A"
+    },
+    {
+      "fin": "joukko",
+      "lemma": "joukko",
+      "eng": "set",
+      "pos": "N"
+    },
+    {
+      "fin": "tämä",
+      "lemma": "tämä",
+      "eng": "this",
+      "pos": "N"
+    },
+    {
+      "fin": "joka",
+      "lemma": "joka",
+      "eng": "which",
+      "pos": "N"
+    },
+    {
+      "fin": "lunastaja",
+      "lemma": "lunastaja",
+      "eng": "redeemer",
+      "pos": "N"
+    },
+    {
+      "fin": "koko",
+      "lemma": "koko",
+      "eng": "size",
+      "pos": "N"
+    },
+    {
+      "fin": "tila",
+      "lemma": "tila",
+      "eng": "space",
+      "pos": "N"
+    },
+    {
+      "fin": "aina",
+      "lemma": "aina",
+      "eng": "always",
+      "pos": "A"
+    },
+    {
+      "fin": "ennen",
+      "lemma": "ennen",
+      "eng": "before",
+      "pos": "A"
+    },
+    {
+      "fin": "tie",
+      "lemma": "tie",
+      "eng": "road",
+      "pos": "N"
+    },
+    {
+      "fin": "erämaa",
+      "lemma": "erämaa",
+      "eng": "wilderness",
+      "pos": "N"
+    },
+    {
+      "fin": "polku",
+      "lemma": "polku",
+      "eng": "path",
+      "pos": "N"
+    },
+    {
+      "fin": "suora",
+      "lemma": "suora",
+      "eng": "straight",
+      "pos": "A"
+    },
+    {
+      "fin": "te",
+      "lemma": "te",
+      "eng": "you",
+      "pos": "N"
+    },
+    {
+      "fin": "keskellä",
+      "lemma": "keskellä",
+      "eng": "among",
+      "pos": "A"
+    },
+    {
+      "fin": "väkevä",
+      "lemma": "väkevä",
+      "eng": "strong",
+      "pos": "A"
+    },
+    {
+      "fin": "kengännauha",
+      "lemma": "kengännauha",
+      "eng": "shoelace",
+      "pos": "N"
+    },
+    {
+      "fin": "arvoton",
+      "lemma": "arvoton",
+      "eng": "worthless",
+      "pos": "A"
+    },
+    {
+      "fin": "paljo",
+      "lemma": "paljo",
+      "eng": "much",
+      "pos": "A"
+    },
+    {
+      "fin": "puoli",
+      "lemma": "puoli",
+      "eng": "half",
+      "pos": "N"
+    },
+    {
+      "fin": "vesi",
+      "lemma": "vesi",
+      "eng": "water",
+      "pos": "N"
+    },
+    {
+      "fin": "jo",
+      "lemma": "jo",
+      "eng": "already",
+      "pos": "A"
+    },
+    {
+      "fin": "karitsa",
+      "lemma": "karitsa",
+      "eng": "lamb",
+      "pos": "N"
+    },
+    {
+      "fin": "pois",
+      "lemma": "pois",
+      "eng": "away",
+      "pos": "A"
+    },
+    {
+      "fin": "synti",
+      "lemma": "synti",
+      "eng": "sin",
+      "pos": "N"
+    },
+    {
+      "fin": "sana",
+      "lemma": "sana",
+      "eng": "word",
+      "pos": "N"
+    },
+    {
+      "fin": "evankeliumi",
+      "lemma": "evankeliumi",
+      "eng": "gospel",
+      "pos": "N"
+    },
+    {
+      "fin": "epäusko",
+      "lemma": "epäusko",
+      "eng": "disbelief",
+      "pos": "N"
+    },
+    {
+      "fin": "itse",
+      "lemma": "itse",
+      "eng": "self",
+      "pos": "A"
+    },
+    {
+      "fin": "pyhä",
+      "lemma": "pyhä",
+      "eng": "holy",
+      "pos": "A"
+    },
+    {
+      "fin": "kausi",
+      "lemma": "kausi",
+      "eng": "period",
+      "pos": "N"
+    },
+    {
+      "fin": "pakana",
+      "lemma": "pakana",
+      "eng": "pagan",
+      "pos": "N"
+    },
+    {
+      "fin": "aivan",
+      "lemma": "aivan",
+      "eng": "right",
+      "pos": "A"
+    },
+    {
+      "fin": "huone",
+      "lemma": "huone",
+      "eng": "room",
+      "pos": "N"
+    },
+    {
+      "fin": "oliivipuu",
+      "lemma": "oliivipuu",
+      "eng": "olive",
+      "pos": "N"
+    },
+    {
+      "fin": "oksa",
+      "lemma": "oksa",
+      "eng": "branch",
+      "pos": "N"
+    },
+    {
+      "fin": "kaikkialla",
+      "lemma": "kaikkialla",
+      "eng": "everywhere",
+      "pos": "A"
+    },
+    {
+      "fin": "pää",
+      "lemma": "pää",
+      "eng": "head",
+      "pos": "N"
+    },
+    {
+      "fin": "vuoksi",
+      "lemma": "vuo",
+      "eng": "flow",
+      "pos": "A"
+    },
+    {
+      "fin": "me",
+      "lemma": "me",
+      "eng": "we",
+      "pos": "N"
+    },
+    {
+      "fin": "yhdessä",
+      "lemma": "yksi",
+      "eng": "together",
+      "pos": "A"
+    },
+    {
+      "fin": "lupaus",
+      "lemma": "lupaus",
+      "eng": "vow",
+      "pos": "N"
+    },
+    {
+      "fin": "yksi",
+      "lemma": "yksi",
+      "eng": "one",
+      "pos": "N"
+    },
+    {
+      "fin": "luonnollinen",
+      "lemma": "luonnollinen",
+      "eng": "natural",
+      "pos": "A"
+    },
+    {
+      "fin": "jäännös",
+      "lemma": "jäännös",
+      "eng": "residue",
+      "pos": "N"
+    },
+    {
+      "fin": "paikko",
+      "lemma": "paikko",
+      "eng": "spare",
+      "pos": "N"
+    },
+    {
+      "fin": "tosi",
+      "lemma": "tosi",
+      "eng": "true",
+      "pos": "A"
+    },
+    {
+      "fin": "mikä",
+      "lemma": "mikä",
+      "eng": "what",
+      "pos": "N"
+    },
+    {
+      "fin": "kirja",
+      "lemma": "kirja",
+      "eng": "book",
+      "pos": "N"
+    },
+    {
+      "fin": "kuu",
+      "lemma": "kuu",
+      "eng": "moon",
+      "pos": "N"
+    },
+    {
+      "fin": "teltta",
+      "lemma": "teltta",
+      "eng": "tent",
+      "pos": "N"
+    },
+    {
+      "fin": "laakso",
+      "lemma": "laakso",
+      "eng": "valley",
+      "pos": "N"
+    },
+    {
+      "fin": "näky",
+      "lemma": "näky",
+      "eng": "vision",
+      "pos": "N"
+    },
+    {
+      "fin": "poika",
+      "lemma": "poika",
+      "eng": "son",
+      "pos": "N"
+    },
+    {
+      "fin": "olka",
+      "lemma": "olka",
+      "eng": "shoulder",
+      "pos": "N"
+    },
+    {
+      "fin": "halukas",
+      "lemma": "halukas",
+      "eng": "willing",
+      "pos": "A"
+    },
+    {
+      "fin": "ne",
+      "lemma": "ne",
+      "eng": "they",
+      "pos": "N"
+    },
+    {
+      "fin": "uuttera",
+      "lemma": "uuttera",
+      "eng": "diligent",
+      "pos": "A"
+    },
+    {
+      "fin": "muinainen",
+      "lemma": "muinainen",
+      "eng": "ancient",
+      "pos": "A"
+    },
+    {
+      "fin": "jolloin",
+      "lemma": "jolloin",
+      "eng": "when",
+      "pos": "A"
+    },
+    {
+      "fin": "sama",
+      "lemma": "sama",
+      "eng": "same",
+      "pos": "N"
+    },
+    {
+      "fin": "eilen",
+      "lemma": "eilen",
+      "eng": "yesterday",
+      "pos": "A"
+    },
+    {
+      "fin": "tänään",
+      "lemma": "tänään",
+      "eng": "today",
+      "pos": "A"
+    },
+    {
+      "fin": "ikuinen",
+      "lemma": "ikuinen",
+      "eng": "eternal",
+      "pos": "A"
+    },
+    {
+      "fin": "ihminen",
+      "lemma": "ihminen",
+      "eng": "human being",
+      "pos": "N"
+    },
+    {
+      "fin": "asti",
+      "lemma": "asti",
+      "eng": "until",
+      "pos": "A"
+    },
+    {
+      "fin": "parannus",
+      "lemma": "parannus",
+      "eng": "upgrade",
+      "pos": "N"
+    },
+    {
+      "fin": "luokse",
+      "lemma": "luokse",
+      "eng": "to",
+      "pos": "A"
+    },
+    {
+      "fin": "salaisuus",
+      "lemma": "salaisuus",
+      "eng": "secret",
+      "pos": "N"
+    },
+    {
+      "fin": "kulku",
+      "lemma": "kulku",
+      "eng": "course",
+      "pos": "N"
+    },
+    {
+      "fin": "yhtä",
+      "lemma": "yksi",
+      "eng": "as",
+      "pos": "A"
+    },
+    {
+      "fin": "iankaikkinen",
+      "lemma": "iankaikkinen",
+      "eng": "eternal",
+      "pos": "A"
+    },
+    {
+      "fin": "kiertokulku",
+      "lemma": "kiertokulku",
+      "eng": "circulation",
+      "pos": "N"
+    },
+    {
+      "fin": "tuomio",
+      "lemma": "tuomio",
+      "eng": "sentence",
+      "pos": "N"
+    },
+    {
+      "fin": "jumalaton",
+      "lemma": "jumalaton",
+      "eng": "impious",
+      "pos": "A"
+    },
+    {
+      "fin": "sinä",
+      "lemma": "se",
+      "eng": "you",
+      "pos": "N"
+    },
+    {
+      "fin": "epäpuhdas",
+      "lemma": "epäpuhdas",
+      "eng": "unclean",
+      "pos": "A"
+    },
+    {
+      "fin": "tuomioistuin",
+      "lemma": "tuomioistuin",
+      "eng": "court",
+      "pos": "N"
+    },
+    {
+      "fin": "edessä",
+      "lemma": "edessä",
+      "eng": "ahead",
+      "pos": "A"
+    },
+    {
+      "fin": "mikään",
+      "lemma": "mikään",
+      "eng": "anything else",
+      "pos": "N"
+    },
+    {
+      "fin": "ikä",
+      "lemma": "ikä",
+      "eng": "age",
+      "pos": "N"
+    },
+    {
+      "fin": "valtuus",
+      "lemma": "valtuus",
+      "eng": "authorization",
+      "pos": "N"
+    },
+    {
+      "fin": "sydän",
+      "lemma": "sydän",
+      "eng": "heart",
+      "pos": "N"
+    },
+    {
+      "fin": "tavaton",
+      "lemma": "tavaton",
+      "eng": "exceptional",
+      "pos": "A"
+    },
+    {
+      "fin": "korkea",
+      "lemma": "korkea",
+      "eng": "high",
+      "pos": "A"
+    },
+    {
+      "fin": "vuori",
+      "lemma": "vuori",
+      "eng": "mountain",
+      "pos": "N"
+    },
+    {
+      "fin": "koskaan",
+      "lemma": "koskaan",
+      "eng": "never",
+      "pos": "A"
+    },
+    {
+      "fin": "jalka",
+      "lemma": "jalka",
+      "eng": "foot",
+      "pos": "N"
+    },
+    {
+      "fin": "puu",
+      "lemma": "puu",
+      "eng": "tree",
+      "pos": "N"
+    },
+    {
+      "fin": "kyllä",
+      "lemma": "kyllä",
+      "eng": "yes",
+      "pos": "A"
+    },
+    {
+      "fin": "kova",
+      "lemma": "kova",
+      "eng": "hard",
+      "pos": "A"
+    },
+    {
+      "fin": "ääni",
+      "lemma": "ääni",
+      "eng": "voice",
+      "pos": "N"
+    },
+    {
+      "fin": "hoosianna",
+      "lemma": "hoosianna",
+      "eng": "hosanna",
+      "pos": "N"
+    },
+    {
+      "fin": "yläpuoli",
+      "lemma": "yläpuoli",
+      "eng": "upper side",
+      "pos": "N"
+    },
+    {
+      "fin": "koska",
+      "lemma": "koska",
+      "eng": "because",
+      "pos": "A"
+    },
+    {
+      "fin": "merkki",
+      "lemma": "merkki",
+      "eng": "sign",
+      "pos": "N"
+    },
+    {
+      "fin": "hedelmä",
+      "lemma": "hedelmä",
+      "eng": "fruit",
+      "pos": "N"
+    },
+    {
+      "fin": "mies",
+      "lemma": "mies",
+      "eng": "man",
+      "pos": "N"
+    },
+    {
+      "fin": "taivas",
+      "lemma": "taivas",
+      "eng": "sky",
+      "pos": "N"
+    },
+    {
+      "fin": "oma",
+      "lemma": "oma",
+      "eng": "own",
+      "pos": "A"
+    },
+    {
+      "fin": "silmä",
+      "lemma": "silmä",
+      "eng": "eye",
+      "pos": "N"
+    },
+    {
+      "fin": "kaltainen",
+      "lemma": "kaltainen",
+      "eng": "like",
+      "pos": "A"
+    },
+    {
+      "fin": "kauneus",
+      "lemma": "kauneus",
+      "eng": "beauty",
+      "pos": "N"
+    },
+    {
+      "fin": "valkoisuus",
+      "lemma": "valkoisuus",
+      "eng": "whiteness",
+      "pos": "N"
+    },
+    {
+      "fin": "lumikinos",
+      "lemma": "lumikinos",
+      "eng": "snowdrift",
+      "pos": "N"
+    },
+    {
+      "fin": "muu",
+      "lemma": "muu",
+      "eng": "other",
+      "pos": "A"
+    },
+    {
+      "fin": "kallisarvoinen",
+      "lemma": "kallisarvoinen",
+      "eng": "precious",
+      "pos": "A"
+    },
+    {
+      "fin": "tulkinta",
+      "lemma": "tulkinta",
+      "eng": "interpretation",
+      "pos": "N"
+    },
+    {
+      "fin": "hahmo",
+      "lemma": "hahmo",
+      "eng": "figure",
+      "pos": "N"
+    },
+    {
+      "fin": "mutta",
+      "lemma": "mutta",
+      "eng": "but",
+      "pos": "A"
+    },
+    {
+      "fin": "kanssa",
+      "lemma": "kanssa",
+      "eng": "with",
+      "pos": "A"
+    },
+    {
+      "fin": "neitsyt",
+      "lemma": "neitsy",
+      "eng": "virgin",
+      "pos": "N"
+    },
+    {
+      "fin": "ihana",
+      "lemma": "ihana",
+      "eng": "sweet",
+      "pos": "A"
+    },
+    {
+      "fin": "valkea",
+      "lemma": "valkea",
+      "eng": "white",
+      "pos": "A"
+    },
+    {
+      "fin": "enkeli",
+      "lemma": "enkeli",
+      "eng": "angel",
+      "pos": "N"
+    },
+    {
+      "fin": "alas",
+      "lemma": "alas",
+      "eng": "down",
+      "pos": "A"
+    },
+    {
+      "fin": "kaunis",
+      "lemma": "kaunis",
+      "eng": "beautiful",
+      "pos": "A"
+    },
+    {
+      "fin": "lapsi",
+      "lemma": "lapsi",
+      "eng": "child",
+      "pos": "N"
+    },
+    {
+      "fin": "tarkoitus",
+      "lemma": "tarkoitus",
+      "eng": "purpose",
+      "pos": "N"
+    },
+    {
+      "fin": "äiti",
+      "lemma": "äiti",
+      "eng": "mother",
+      "pos": "N"
+    },
+    {
+      "fin": "liha",
+      "lemma": "liha",
+      "eng": "meat",
+      "pos": "N"
+    },
+    {
+      "fin": "mukaan",
+      "lemma": "mukaan",
+      "eng": "along",
+      "pos": "A"
+    },
+    {
+      "fin": "syli",
+      "lemma": "syli",
+      "eng": "lap",
+      "pos": "N"
+    },
+    {
+      "fin": "merkitys",
+      "lemma": "merkitys",
+      "eng": "meaning",
+      "pos": "N"
+    },
+    {
+      "fin": "rakkaus",
+      "lemma": "rakkaus",
+      "eng": "love",
+      "pos": "N"
+    },
+    {
+      "fin": "riemullinen",
+      "lemma": "riemullinen",
+      "eng": "angelic",
+      "pos": "A"
+    },
+    {
+      "fin": "sielu",
+      "lemma": "sielu",
+      "eng": "soul",
+      "pos": "N"
+    },
+    {
+      "fin": "kuva",
+      "lemma": "kuva",
+      "eng": "image",
+      "pos": "N"
+    },
+    {
+      "fin": "kyyhkynen",
+      "lemma": "kyyhkynen",
+      "eng": "dove",
+      "pos": "N"
+    },
+    {
+      "fin": "kirkkaus",
+      "lemma": "kirkkaus",
+      "eng": "brightness",
+      "pos": "N"
+    },
+    {
+      "fin": "joukoittain",
+      "lemma": "joukoittain",
+      "eng": "en masse",
+      "pos": "A"
+    },
+    {
+      "fin": "kaksitoista",
+      "lemma": "kaksitoista",
+      "eng": "twelve",
+      "pos": "A"
+    },
+    {
+      "fin": "sairas",
+      "lemma": "sairas",
+      "eng": "sick",
+      "pos": "A"
+    },
+    {
+      "fin": "kaikenlainen",
+      "lemma": "kaikenlainen",
+      "eng": "various",
+      "pos": "A"
+    },
+    {
+      "fin": "tauti",
+      "lemma": "tauti",
+      "eng": "disease",
+      "pos": "N"
+    },
+    {
+      "fin": "riivaaja",
+      "lemma": "riivaaja",
+      "eng": "devil",
+      "pos": "N"
+    },
+    {
+      "fin": "saastainen",
+      "lemma": "saastainen",
+      "eng": "filthy",
+      "pos": "A"
+    },
+    {
+      "fin": "ulos",
+      "lemma": "ulos",
+      "eng": "out",
+      "pos": "A"
+    },
+    {
+      "fin": "kiinni",
+      "lemma": "kiinni",
+      "eng": "closed",
+      "pos": "A"
+    },
+    {
+      "fin": "tähti",
+      "lemma": "tähti",
+      "eng": "star",
+      "pos": "N"
+    },
+    {
+      "fin": "ihmispaljous",
+      "lemma": "ihminenpaljous",
+      "eng": "mass",
+      "pos": "N"
+    },
+    {
+      "fin": "apostoli",
+      "lemma": "apostoli",
+      "eng": "apostle",
+      "pos": "N"
+    },
+    {
+      "fin": "avara",
+      "lemma": "avara",
+      "eng": "extensive",
+      "pos": "A"
+    },
+    {
+      "fin": "rakennus",
+      "lemma": "rakennus",
+      "eng": "building",
+      "pos": "N"
+    },
+    {
+      "fin": "viisaus",
+      "lemma": "viisaus",
+      "eng": "wisdom",
+      "pos": "N"
+    },
+    {
+      "fin": "ylpeys",
+      "lemma": "ylpeys",
+      "eng": "pride",
+      "pos": "N"
+    },
+    {
+      "fin": "tällainen",
+      "lemma": "tällainen",
+      "eng": "this",
+      "pos": "A"
+    },
+    {
+      "fin": "kansakunta",
+      "lemma": "kansakunta",
+      "eng": "nation",
+      "pos": "N"
+    },
+    {
+      "fin": "suku",
+      "lemma": "suku",
+      "eng": "genus",
+      "pos": "N"
+    },
+    {
+      "fin": "kansa",
+      "lemma": "kansa",
+      "eng": "people",
+      "pos": "N"
+    },
+    {
+      "fin": "tuho",
+      "lemma": "tuho",
+      "eng": "downfall",
+      "pos": "N"
+    },
+    {
+      "fin": "jälkeläinen",
+      "lemma": "jälkeläinen",
+      "eng": "offspring",
+      "pos": "N"
+    },
+    {
+      "fin": "meri",
+      "lemma": "meri",
+      "eng": "sea",
+      "pos": "N"
+    },
+    {
+      "fin": "hiekka",
+      "lemma": "hiekka",
+      "eng": "sand",
+      "pos": "N"
+    },
+    {
+      "fin": "väkijoukko",
+      "lemma": "väkijoukko",
+      "eng": "crowd",
+      "pos": "N"
+    },
+    {
+      "fin": "teurastus",
+      "lemma": "teurastus",
+      "eng": "slaughter",
+      "pos": "N"
+    },
+    {
+      "fin": "miekka",
+      "lemma": "miekka",
+      "eng": "sword",
+      "pos": "N"
+    },
+    {
+      "fin": "sukupolvi",
+      "lemma": "sukupolvi",
+      "eng": "generation",
+      "pos": "N"
+    },
+    {
+      "fin": "kiista",
+      "lemma": "kiista",
+      "eng": "dispute",
+      "pos": "N"
+    },
+    {
+      "fin": "pimeys",
+      "lemma": "pimeys",
+      "eng": "dark",
+      "pos": "N"
+    },
+    {
+      "fin": "sumu",
+      "lemma": "sumu",
+      "eng": "fog",
+      "pos": "N"
+    },
+    {
+      "fin": "salama",
+      "lemma": "salama",
+      "eng": "lightning",
+      "pos": "N"
+    },
+    {
+      "fin": "kuula",
+      "lemma": "kuula",
+      "eng": "ball",
+      "pos": "N"
+    },
+    {
+      "fin": "ukkonen",
+      "lemma": "ukkonen",
+      "eng": "thunderstorm",
+      "pos": "N"
+    },
+    {
+      "fin": "jylinä",
+      "lemma": "jylinä",
+      "eng": "thunder",
+      "pos": "N"
+    },
+    {
+      "fin": "maanjäristys",
+      "lemma": "maajäristys",
+      "eng": "earthquake",
+      "pos": "N"
+    },
+    {
+      "fin": "melskeinen",
+      "lemma": "melskeinen",
+      "eng": "boisterous",
+      "pos": "A"
+    },
+    {
+      "fin": "kappale",
+      "lemma": "kappale",
+      "eng": "paragraph",
+      "pos": "N"
+    },
+    {
+      "fin": "tasanko",
+      "lemma": "tasanko",
+      "eng": "plain",
+      "pos": "A"
+    },
+    {
+      "fin": "huuru",
+      "lemma": "huuru",
+      "eng": "mist",
+      "pos": "N"
+    },
+    {
+      "fin": "surma",
+      "lemma": "surma",
+      "eng": "kill",
+      "pos": "N"
+    },
+    {
+      "fin": "opetuslapsi",
+      "lemma": "opetuslapsi",
+      "eng": "Disciple",
+      "pos": "N"
+    },
+    {
+      "fin": "heimo",
+      "lemma": "heimo",
+      "eng": "tribe",
+      "pos": "N"
+    },
+    {
+      "fin": "palvelija",
+      "lemma": "palvelija",
+      "eng": "servant",
+      "pos": "N"
+    },
+    {
+      "fin": "vanhurskas",
+      "lemma": "vanhurskas",
+      "eng": "righteous",
+      "pos": "A"
+    },
+    {
+      "fin": "vaate",
+      "lemma": "vaate",
+      "eng": "cloth",
+      "pos": "N"
+    },
+    {
+      "fin": "valkoinen",
+      "lemma": "valkoinen",
+      "eng": "white",
+      "pos": "A"
+    },
+    {
+      "fin": "veri",
+      "lemma": "veri",
+      "eng": "blood",
+      "pos": "N"
+    },
+    {
+      "fin": "kolme",
+      "lemma": "kolme",
+      "eng": "three",
+      "pos": "N"
+    },
+    {
+      "fin": "vanhurskaus",
+      "lemma": "vanhurskaus",
+      "eng": "righteousness",
+      "pos": "N"
+    },
+    {
+      "fin": "neljäs",
+      "lemma": "neljäs",
+      "eng": "fourth",
+      "pos": "A"
+    },
+    {
+      "fin": "virta",
+      "lemma": "virta",
+      "eng": "current",
+      "pos": "N"
+    },
+    {
+      "fin": "syvyys",
+      "lemma": "syvyys",
+      "eng": "depth",
+      "pos": "N"
+    },
+    {
+      "fin": "helvetti",
+      "lemma": "helvetti",
+      "eng": "hell",
+      "pos": "N"
+    },
+    {
+      "fin": "paholainen",
+      "lemma": "paholainen",
+      "eng": "devil",
+      "pos": "N"
+    },
+    {
+      "fin": "kiusaus",
+      "lemma": "kiusaus",
+      "eng": "temptation",
+      "pos": "N"
+    },
+    {
+      "fin": "lavea",
+      "lemma": "lavea",
+      "eng": "diffuse",
+      "pos": "A"
+    },
+    {
+      "fin": "turhamainen",
+      "lemma": "turhamainen",
+      "eng": "vain",
+      "pos": "A"
+    },
+    {
+      "fin": "kuvitelma",
+      "lemma": "kuvitelma",
+      "eng": "fiction",
+      "pos": "N"
+    },
+    {
+      "fin": "kuilu",
+      "lemma": "kuilu",
+      "eng": "shaft",
+      "pos": "N"
+    },
+    {
+      "fin": "oikeudenmukaisuus",
+      "lemma": "oikeusmukaisuus",
+      "eng": "justice",
+      "pos": "N"
+    },
+    {
+      "fin": "hetki",
+      "lemma": "hetki",
+      "eng": "moment",
+      "pos": "N"
+    },
+    {
+      "fin": "vastedes",
+      "lemma": "vastedes",
+      "eng": "henceforth",
+      "pos": "A"
+    },
+    {
+      "fin": "synkkä",
+      "lemma": "synkkä",
+      "eng": "gloomy",
+      "pos": "A"
+    },
+    {
+      "fin": "täysi",
+      "lemma": "täysi",
+      "eng": "full",
+      "pos": "A"
+    },
+    {
+      "fin": "joutilaisuus",
+      "lemma": "joutilaisuus",
+      "eng": "idleness",
+      "pos": "N"
+    },
+    {
+      "fin": "iljetys",
+      "lemma": "iljetys",
+      "eng": "loathing",
+      "pos": "N"
+    },
+    {
+      "fin": "valtakunta",
+      "lemma": "valta-kunta",
+      "eng": "empire",
+      "pos": "N"
+    },
+    {
+      "fin": "kirkko",
+      "lemma": "kirkko",
+      "eng": "church",
+      "pos": "N"
+    },
+    {
+      "fin": "rautainen",
+      "lemma": "rautainen",
+      "eng": "iron",
+      "pos": "A"
+    },
+    {
+      "fin": "ies",
+      "lemma": "ies",
+      "eng": "yoke",
+      "pos": "N"
+    },
+    {
+      "fin": "orjuus",
+      "lemma": "orjuus",
+      "eng": "slavery",
+      "pos": "N"
+    },
+    {
+      "fin": "perustaja",
+      "lemma": "perustaja",
+      "eng": "founder",
+      "pos": "N"
+    },
+    {
+      "fin": "kulta",
+      "lemma": "kulta",
+      "eng": "gold",
+      "pos": "A"
+    },
+    {
+      "fin": "hopea",
+      "lemma": "hopea",
+      "eng": "silver",
+      "pos": "N"
+    },
+    {
+      "fin": "silkki",
+      "lemma": "silkki",
+      "eng": "silk",
+      "pos": "N"
+    },
+    {
+      "fin": "karmiininpunainen",
+      "lemma": "karmiininpunainen",
+      "eng": "carmine",
+      "pos": "A"
+    },
+    {
+      "fin": "pellava",
+      "lemma": "pellava",
+      "eng": "flax",
+      "pos": "N"
+    },
+    {
+      "fin": "portto",
+      "lemma": "portto",
+      "eng": "whore",
+      "pos": "N"
+    },
+    {
+      "fin": "ylistys",
+      "lemma": "ylistys",
+      "eng": "praise",
+      "pos": "N"
+    },
+    {
+      "fin": "viha",
+      "lemma": "viha",
+      "eng": "hatred",
+      "pos": "N"
+    },
+    {
+      "fin": "yli",
+      "lemma": "yli",
+      "eng": "over",
+      "pos": "A"
+    },
+    {
+      "fin": "perintö",
+      "lemma": "perintö",
+      "eng": "inheritance",
+      "pos": "N"
+    },
+    {
+      "fin": "joki",
+      "lemma": "joki",
+      "eng": "river",
+      "pos": "N"
+    },
+    {
+      "fin": "käsi",
+      "lemma": "käsi",
+      "eng": "hand",
+      "pos": "N"
+    },
+    {
+      "fin": "suu",
+      "lemma": "suu",
+      "eng": "mouth",
+      "pos": "N"
+    },
+    {
+      "fin": "aikakirja",
+      "lemma": "aikakirja",
+      "eng": "chronicle",
+      "pos": "N"
+    },
+    {
+      "fin": "liitto",
+      "lemma": "liitto",
+      "eng": "union",
+      "pos": "N"
+    },
+    {
+      "fin": "profetia",
+      "lemma": "profetia",
+      "eng": "prophecy",
+      "pos": "N"
+    },
+    {
+      "fin": "kaiverrus",
+      "lemma": "kaiverrus",
+      "eng": "engraving",
+      "pos": "N"
+    },
+    {
+      "fin": "paitsi",
+      "lemma": "paitsi",
+      "eng": "except",
+      "pos": "A"
+    },
+    {
+      "fin": "totuus",
+      "lemma": "totuus",
+      "eng": "truth",
+      "pos": "N"
+    },
+    {
+      "fin": "puhdas",
+      "lemma": "puhdas",
+      "eng": "clean",
+      "pos": "A"
+    },
+    {
+      "fin": "osa",
+      "lemma": "osa",
+      "eng": "part",
+      "pos": "N"
+    },
+    {
+      "fin": "erittäin",
+      "lemma": "erittäin",
+      "eng": "very",
+      "pos": "A"
+    },
+    {
+      "fin": "läpi",
+      "lemma": "läpi",
+      "eng": "through",
+      "pos": "A"
+    },
+    {
+      "fin": "ymmärrys",
+      "lemma": "ymmärrys",
+      "eng": "understanding",
+      "pos": "N"
+    },
+    {
+      "fin": "selkeys",
+      "lemma": "selkeys",
+      "eng": "clarity",
+      "pos": "N"
+    },
+    {
+      "fin": "saatana",
+      "lemma": "saatana",
+      "eng": "devil",
+      "pos": "N"
+    },
+    {
+      "fin": "valta",
+      "lemma": "valta",
+      "eng": "power",
+      "pos": "N"
+    },
+    {
+      "fin": "oivallinen",
+      "lemma": "oivallinen",
+      "eng": "fine",
+      "pos": "A"
+    },
+    {
+      "fin": "sekoitus",
+      "lemma": "sekoitus",
+      "eng": "mixture",
+      "pos": "N"
+    },
+    {
+      "fin": "kauhea",
+      "lemma": "kauhea",
+      "eng": "terrible",
+      "pos": "A"
+    },
+    {
+      "fin": "sokeus",
+      "lemma": "sokeus",
+      "eng": "blindness",
+      "pos": "N"
+    },
+    {
+      "fin": "sangen",
+      "lemma": "sangen",
+      "eng": "quite",
+      "pos": "A"
+    },
+    {
+      "fin": "armollinen",
+      "lemma": "armollinen",
+      "eng": "merciful",
+      "pos": "A"
+    },
+    {
+      "fin": "paha",
+      "lemma": "paha",
+      "eng": "bad",
+      "pos": "A"
+    },
+    {
+      "fin": "sellainen",
+      "lemma": "sellainen",
+      "eng": "such",
+      "pos": "A"
+    },
+    {
+      "fin": "jotta",
+      "lemma": "jotta",
+      "eng": "in order to",
+      "pos": "A"
+    },
+    {
+      "fin": "apu",
+      "lemma": "apu",
+      "eng": "help",
+      "pos": "N"
+    },
+    {
+      "fin": "pelastus",
+      "lemma": "pelastus",
+      "eng": "salvation",
+      "pos": "N"
+    },
+    {
+      "fin": "loppu",
+      "lemma": "loppu",
+      "eng": "end",
+      "pos": "A"
+    },
+    {
+      "fin": "viimeinen",
+      "lemma": "viimeinen",
+      "eng": "last",
+      "pos": "A"
+    },
+    {
+      "fin": "ilo",
+      "lemma": "ilo",
+      "eng": "joy",
+      "pos": "N"
+    },
+    {
+      "fin": "ensimmäinen",
+      "lemma": "ensimmäinen",
+      "eng": "first",
+      "pos": "A"
+    },
+    {
+      "fin": "tai",
+      "lemma": "tai",
+      "eng": "or",
+      "pos": "N"
+    },
+    {
+      "fin": "molempi",
+      "lemma": "molempi",
+      "eng": "best of both worlds",
+      "pos": "N"
+    },
+    {
+      "fin": "paimen",
+      "lemma": "paimen",
+      "eng": "shepherd",
+      "pos": "N"
+    },
+    {
+      "fin": "sitten",
+      "lemma": "sitten",
+      "eng": "then",
+      "pos": "A"
+    },
+    {
+      "fin": "todellinen",
+      "lemma": "todellinen",
+      "eng": "real",
+      "pos": "A"
+    },
+    {
+      "fin": "kompastuskivi",
+      "lemma": "kompastuskivi",
+      "eng": "stumbling block",
+      "pos": "N"
+    },
+    {
+      "fin": "enää",
+      "lemma": "enää",
+      "eng": "anymore",
+      "pos": "A"
+    },
+    {
+      "fin": "kuoppa",
+      "lemma": "kuoppa",
+      "eng": "pit",
+      "pos": "N"
+    },
+    {
+      "fin": "varten",
+      "lemma": "varten",
+      "eng": "for",
+      "pos": "A"
+    },
+    {
+      "fin": "täydellinen",
+      "lemma": "täydellinen",
+      "eng": "perfect",
+      "pos": "A"
+    },
+    {
+      "fin": "jolla",
+      "lemma": "joka",
+      "eng": "dinghy",
+      "pos": "A"
+    },
+    {
+      "fin": "mukainen",
+      "lemma": "mukainen",
+      "eng": "conform",
+      "pos": "A"
+    },
+    {
+      "fin": "kohta",
+      "lemma": "kohta",
+      "eng": "soon",
+      "pos": "A"
+    },
+    {
+      "fin": "jumalattomuus",
+      "lemma": "jumalattomuus",
+      "eng": "ungodliness",
+      "pos": "N"
+    },
+    {
+      "fin": "hyvin",
+      "lemma": "hyvin",
+      "eng": "well",
+      "pos": "A"
+    },
+    {
+      "fin": "jokainen",
+      "lemma": "jokainen",
+      "eng": "everybody",
+      "pos": "N"
+    },
+    {
+      "fin": "ihmeellinen",
+      "lemma": "ihmeellinen",
+      "eng": "miraculous",
+      "pos": "A"
+    },
+    {
+      "fin": "työ",
+      "lemma": "työ",
+      "eng": "work",
+      "pos": "N"
+    },
+    {
+      "fin": "joko",
+      "lemma": "joko",
+      "eng": "either",
+      "pos": "A"
+    },
+    {
+      "fin": "paatumus",
+      "lemma": "paatumus",
+      "eng": "obduracy",
+      "pos": "N"
+    },
+    {
+      "fin": "ajallinen",
+      "lemma": "ajallinen",
+      "eng": "temporal",
+      "pos": "A"
+    },
+    {
+      "fin": "hengellinen",
+      "lemma": "hengellinen",
+      "eng": "spiritual",
+      "pos": "A"
+    },
+    {
+      "fin": "vain",
+      "lemma": "vai",
+      "eng": "only",
+      "pos": "N"
+    },
+    {
+      "fin": "kaksi",
+      "lemma": "kaksi",
+      "eng": "two",
+      "pos": "N"
+    },
+    {
+      "fin": "huora",
+      "lemma": "huora",
+      "eng": "whore",
+      "pos": "N"
+    },
+    {
+      "fin": "jäsen",
+      "lemma": "jäsen",
+      "eng": "member",
+      "pos": "N"
+    },
+    {
+      "fin": "valtapiiri",
+      "lemma": "valta-piiri",
+      "eng": "realm",
+      "pos": "N"
+    },
+    {
+      "fin": "vähäinen",
+      "lemma": "vähäinen",
+      "eng": "slight",
+      "pos": "A"
+    },
+    {
+      "fin": "silta",
+      "lemma": "silta",
+      "eng": "bridge",
+      "pos": "N"
+    },
+    {
+      "fin": "keino",
+      "lemma": "keino",
+      "eng": "way",
+      "pos": "N"
+    },
+    {
+      "fin": "viitta",
+      "lemma": "viitta",
+      "eng": "cloak",
+      "pos": "N"
+    },
+    {
+      "fin": "apostolinen",
+      "lemma": "apostolinen",
+      "eng": "apostolic",
+      "pos": "A"
+    },
+    {
+      "fin": "helppo",
+      "lemma": "helppo",
+      "eng": "easy",
+      "pos": "A"
+    },
+    {
+      "fin": "puhtaus",
+      "lemma": "puhtaus",
+      "eng": "cleanness",
+      "pos": "N"
+    },
+    {
+      "fin": "nimi",
+      "lemma": "nimi",
+      "eng": "name",
+      "pos": "N"
+    },
+    {
+      "fin": "aamen",
+      "lemma": "aamen",
+      "eng": "amen",
+      "pos": "N"
+    },
+    {
+      "fin": "keskenään",
+      "lemma": "keskenään",
+      "eng": "among",
+      "pos": "A"
+    },
+    {
+      "fin": "totinen",
+      "lemma": "totinen",
+      "eng": "serious",
+      "pos": "A"
+    },
+    {
+      "fin": "vaikea",
+      "lemma": "vaikea",
+      "eng": "difficult",
+      "pos": "A"
+    },
+    {
+      "fin": "murhe",
+      "lemma": "murhe",
+      "eng": "sorrow",
+      "pos": "N"
+    },
+    {
+      "fin": "ahdistus",
+      "lemma": "ahdistus",
+      "eng": "anxiety",
+      "pos": "N"
+    },
+    {
+      "fin": "syy",
+      "lemma": "syy",
+      "eng": "reason",
+      "pos": "N"
+    },
+    {
+      "fin": "käsky",
+      "lemma": "käsky",
+      "eng": "command",
+      "pos": "N"
+    },
+    {
+      "fin": "tunnollinen",
+      "lemma": "tunnollinen",
+      "eng": "conscientious",
+      "pos": "A"
+    },
+    {
+      "fin": "varma",
+      "lemma": "varma",
+      "eng": "sure",
+      "pos": "A"
+    },
+    {
+      "fin": "myöhä",
+      "lemma": "myöhä",
+      "eng": "late",
+      "pos": "A"
+    },
+    {
+      "fin": "ruumis",
+      "lemma": "ruumis",
+      "eng": "body",
+      "pos": "N"
+    },
+    {
+      "fin": "ravinto",
+      "lemma": "ravinto",
+      "eng": "food",
+      "pos": "N"
+    },
+    {
+      "fin": "lauma",
+      "lemma": "lauma",
+      "eng": "herd",
+      "pos": "N"
+    },
+    {
+      "fin": "yksin",
+      "lemma": "yksi",
+      "eng": "alone",
+      "pos": "A"
+    },
+    {
+      "fin": "kukaan",
+      "lemma": "kukaan",
+      "eng": "anyone",
+      "pos": "N"
+    },
+    {
+      "fin": "vastustaja",
+      "lemma": "vastustaja",
+      "eng": "opponent",
+      "pos": "N"
+    },
+    {
+      "fin": "varsi",
+      "lemma": "varsi",
+      "eng": "stem",
+      "pos": "N"
+    },
+    {
+      "fin": "kyky",
+      "lemma": "kyky",
+      "eng": "ability",
+      "pos": "N"
+    },
+    {
+      "fin": "saastaisuus",
+      "lemma": "saastaisuus",
+      "eng": "filthiness",
+      "pos": "N"
+    },
+    {
+      "fin": "ylös",
+      "lemma": "ylös",
+      "eng": "up",
+      "pos": "A"
+    },
+    {
+      "fin": "vai",
+      "lemma": "vai",
+      "eng": "or",
+      "pos": "N"
+    },
+    {
+      "fin": "lopullinen",
+      "lemma": "lopullinen",
+      "eng": "final",
+      "pos": "A"
+    },
+    {
+      "fin": "teko",
+      "lemma": "teko",
+      "eng": "act",
+      "pos": "N"
+    },
+    {
+      "fin": "peruste",
+      "lemma": "peruste",
+      "eng": "principle",
+      "pos": "N"
+    },
+    {
+      "fin": "sisä",
+      "lemma": "sisä",
+      "eng": "interior",
+      "pos": "N"
+    },
+    {
+      "fin": "paikka",
+      "lemma": "paikka",
+      "eng": "place",
+      "pos": "N"
+    },
+    {
+      "fin": "valmistaja",
+      "lemma": "valmistaja",
+      "eng": "manufacturer",
+      "pos": "N"
+    },
+    {
+      "fin": "enemmän",
+      "lemma": "enempi",
+      "eng": "more",
+      "pos": "A"
+    },
+    {
+      "fin": "syytön",
+      "lemma": "syytön",
+      "eng": "innocent",
+      "pos": "A"
+    },
+    {
+      "fin": "syyllinen",
+      "lemma": "syyllinen",
+      "eng": "guilty",
+      "pos": "A"
+    },
+    {
+      "fin": "sisin",
+      "lemma": "sisin",
+      "eng": "innermost",
+      "pos": "A"
+    },
+    {
+      "fin": "oikeamielinen",
+      "lemma": "oikeamielinen",
+      "eng": "righteous",
+      "pos": "A"
+    },
+    {
+      "fin": "harras",
+      "lemma": "harras",
+      "eng": "pious",
+      "pos": "A"
+    },
+    {
+      "fin": "toive",
+      "lemma": "toive",
+      "eng": "wish",
+      "pos": "N"
+    },
+    {
+      "fin": "tytär",
+      "lemma": "tytär",
+      "eng": "daughter",
+      "pos": "N"
+    },
+    {
+      "fin": "vaimo",
+      "lemma": "vaimo",
+      "eng": "wife",
+      "pos": "N"
+    },
+    {
+      "fin": "vanha",
+      "lemma": "vanha",
+      "eng": "old",
+      "pos": "A"
+    },
+    {
+      "fin": "siten",
+      "lemma": "siten",
+      "eng": "thus",
+      "pos": "A"
+    },
+    {
+      "fin": "yö",
+      "lemma": "yö",
+      "eng": "night",
+      "pos": "N"
+    },
+    {
+      "fin": "ovi",
+      "lemma": "ovi",
+      "eng": "door",
+      "pos": "N"
+    },
+    {
+      "fin": "hämmästys",
+      "lemma": "hämmästys",
+      "eng": "surprise",
+      "pos": "N"
+    },
+    {
+      "fin": "taidokas",
+      "lemma": "taidokas",
+      "eng": "elaborate",
+      "pos": "A"
+    },
+    {
+      "fin": "pyöreä",
+      "lemma": "pyöreä",
+      "eng": "round",
+      "pos": "A"
+    },
+    {
+      "fin": "pallo",
+      "lemma": "pallo",
+      "eng": "ball",
+      "pos": "N"
+    },
+    {
+      "fin": "hieno",
+      "lemma": "hieno",
+      "eng": "fine",
+      "pos": "A"
+    },
+    {
+      "fin": "pronssi",
+      "lemma": "pronssi",
+      "eng": "bronze",
+      "pos": "N"
+    },
+    {
+      "fin": "siemen",
+      "lemma": "siemen",
+      "eng": "seed",
+      "pos": "N"
+    },
+    {
+      "fin": "poikki",
+      "lemma": "poikki",
+      "eng": "across",
+      "pos": "A"
+    },
+    {
+      "fin": "neljä",
+      "lemma": "neljä",
+      "eng": "four",
+      "pos": "N"
+    },
+    {
+      "fin": "eteläkaakko",
+      "lemma": "eteläkaakko",
+      "eng": "south-southeast",
+      "pos": "N"
+    },
+    {
+      "fin": "jousi",
+      "lemma": "jousi",
+      "eng": "bow",
+      "pos": "N"
+    },
+    {
+      "fin": "perhe",
+      "lemma": "perhe",
+      "eng": "family",
+      "pos": "N"
+    },
+    {
+      "fin": "hedelmällinen",
+      "lemma": "hedelmällinen",
+      "eng": "fertile",
+      "pos": "A"
+    },
+    {
+      "fin": "rajamaa",
+      "lemma": "rajamaa",
+      "eng": "march",
+      "pos": "N"
+    },
+    {
+      "fin": "lähellä",
+      "lemma": "lähellä",
+      "eng": "near",
+      "pos": "A"
+    },
+    {
+      "fin": "matka",
+      "lemma": "matka",
+      "eng": "trip",
+      "pos": "N"
+    },
+    {
+      "fin": "kivi",
+      "lemma": "kivi",
+      "eng": "stone",
+      "pos": "N"
+    },
+    {
+      "fin": "linko",
+      "lemma": "linko",
+      "eng": "sling",
+      "pos": "N"
+    },
+    {
+      "fin": "ohje",
+      "lemma": "ohje",
+      "eng": "instruction",
+      "pos": "N"
+    },
+    {
+      "fin": "teräs",
+      "lemma": "teräs",
+      "eng": "steel",
+      "pos": "N"
+    },
+    {
+      "fin": "vihko",
+      "lemma": "vihko",
+      "eng": "notebook",
+      "pos": "N"
+    },
+    {
+      "fin": "menetys",
+      "lemma": "menetys",
+      "eng": "loss",
+      "pos": "N"
+    },
+    {
+      "fin": "uuvuksissa",
+      "lemma": "uuvuksissa",
+      "eng": "tired",
+      "pos": "A"
+    },
+    {
+      "fin": "puute",
+      "lemma": "puute",
+      "eng": "lack",
+      "pos": "N"
+    },
+    {
+      "fin": "lama",
+      "lemma": "lama",
+      "eng": "depression",
+      "pos": "N"
+    },
+    {
+      "fin": "kärsimys",
+      "lemma": "kärsimys",
+      "eng": "suffering",
+      "pos": "N"
+    },
+    {
+      "fin": "ahdinko",
+      "lemma": "ahdinko",
+      "eng": "plight",
+      "pos": "N"
+    },
+    {
+      "fin": "murheellinen",
+      "lemma": "murheellinen",
+      "eng": "tragic",
+      "pos": "A"
+    },
+    {
+      "fin": "jäntevyys",
+      "lemma": "jäntevyys",
+      "eng": "sinew",
+      "pos": "N"
+    },
+    {
+      "fin": "keppi",
+      "lemma": "keppi",
+      "eng": "stick",
+      "pos": "N"
+    },
+    {
+      "fin": "nurina",
+      "lemma": "nurina",
+      "eng": "grumbling",
+      "pos": "N"
+    },
+    {
+      "fin": "tarkkuus",
+      "lemma": "tarkkuus",
+      "eng": "precision",
+      "pos": "N"
+    },
+    {
+      "fin": "kirjoitus",
+      "lemma": "kirjoitus",
+      "eng": "writing",
+      "pos": "N"
+    },
+    {
+      "fin": "huippu",
+      "lemma": "huippu",
+      "eng": "peak",
+      "pos": "N"
+    },
+    {
+      "fin": "villieläin",
+      "lemma": "villieläin",
+      "eng": "wild animal",
+      "pos": "N"
+    },
+    {
+      "fin": "eläin",
+      "lemma": "eläin",
+      "eng": "animal",
+      "pos": "N"
+    },
+    {
+      "fin": "alku",
+      "lemma": "alku",
+      "eng": "beginning",
+      "pos": "N"
+    },
+    {
+      "fin": "nälkä",
+      "lemma": "nälkä",
+      "eng": "hunger",
+      "pos": "N"
+    },
+    {
+      "fin": "jano",
+      "lemma": "jano",
+      "eng": "thirst",
+      "pos": "N"
+    },
+    {
+      "fin": "uupumus",
+      "lemma": "uupumus",
+      "eng": "fatigue",
+      "pos": "N"
+    },
+    {
+      "fin": "johtaja",
+      "lemma": "johtaja",
+      "eng": "director",
+      "pos": "N"
+    },
+    {
+      "fin": "opettaja",
+      "lemma": "opettaja",
+      "eng": "teacher",
+      "pos": "N"
+    },
+    {
+      "fin": "monenlainen",
+      "lemma": "monenlainen",
+      "eng": "various",
+      "pos": "A"
+    },
+    {
+      "fin": "viekas",
+      "lemma": "viekas",
+      "eng": "wily",
+      "pos": "A"
+    },
+    {
+      "fin": "outo",
+      "lemma": "outo",
+      "eng": "strange",
+      "pos": "A"
+    },
+    {
+      "fin": "kuningas",
+      "lemma": "kuningas",
+      "eng": "king",
+      "pos": "N"
+    },
+    {
+      "fin": "hallitsija",
+      "lemma": "hallitsija",
+      "eng": "ruler",
+      "pos": "N"
+    },
+    {
+      "fin": "tahto",
+      "lemma": "tahto",
+      "eng": "will",
+      "pos": "N"
+    },
+    {
+      "fin": "itä",
+      "lemma": "itä",
+      "eng": "east",
+      "pos": "N"
+    },
+    {
+      "fin": "päin",
+      "lemma": "päin",
+      "eng": "seaward",
+      "pos": "A"
+    },
+    {
+      "fin": "siunaus",
+      "lemma": "siunaus",
+      "eng": "blessing",
+      "pos": "N"
+    },
+    {
+      "fin": "runsas",
+      "lemma": "runsas",
+      "eng": "abundant",
+      "pos": "A"
+    },
+    {
+      "fin": "vahva",
+      "lemma": "vahva",
+      "eng": "strong",
+      "pos": "A"
+    },
+    {
+      "fin": "kahdeksan",
+      "lemma": "kahdeksan",
+      "eng": "eight",
+      "pos": "N"
+    },
+    {
+      "fin": "vuo",
+      "lemma": "vuo",
+      "eng": "flux",
+      "pos": "N"
+    },
+    {
+      "fin": "runsaus",
+      "lemma": "runsaus",
+      "eng": "abundance",
+      "pos": "N"
+    },
+    {
+      "fin": "vaikeus",
+      "lemma": "vaikeus",
+      "eng": "difficulty",
+      "pos": "N"
+    },
+    {
+      "fin": "paljous",
+      "lemma": "paljous",
+      "eng": "quantity",
+      "pos": "N"
+    },
+    {
+      "fin": "laiva",
+      "lemma": "laiva",
+      "eng": "ship",
+      "pos": "N"
+    },
+    {
+      "fin": "väki",
+      "lemma": "väki",
+      "eng": "people",
+      "pos": "N"
+    },
+    {
+      "fin": "työkalu",
+      "lemma": "työkalu",
+      "eng": "tool",
+      "pos": "N"
+    },
+    {
+      "fin": "nahka",
+      "lemma": "nahka",
+      "eng": "leather",
+      "pos": "N"
+    },
+    {
+      "fin": "palje",
+      "lemma": "palje",
+      "eng": "bellows",
+      "pos": "N"
+    },
+    {
+      "fin": "ruoka",
+      "lemma": "ruoka",
+      "eng": "food",
+      "pos": "N"
+    },
+    {
+      "fin": "maukas",
+      "lemma": "maukas",
+      "eng": "delicious",
+      "pos": "A"
+    },
+    {
+      "fin": "valo",
+      "lemma": "valo",
+      "eng": "light",
+      "pos": "N"
+    },
+    {
+      "fin": "sikäli",
+      "lemma": "sikäli",
+      "eng": "in so far",
+      "pos": "A"
+    },
+    {
+      "fin": "kohti",
+      "lemma": "kohti",
+      "eng": "toward",
+      "pos": "A"
+    },
+    {
+      "fin": "uskollisuus",
+      "lemma": "uskollisuus",
+      "eng": "loyalty",
+      "pos": "N"
+    },
+    {
+      "fin": "metallinen",
+      "lemma": "metallinen",
+      "eng": "metallic",
+      "pos": "A"
+    },
+    {
+      "fin": "hullu",
+      "lemma": "hullu",
+      "eng": "crazy",
+      "pos": "A"
+    },
+    {
+      "fin": "osainen",
+      "lemma": "-osainen",
+      "eng": "volumed",
+      "pos": "A"
+    },
+    {
+      "fin": "iloinen",
+      "lemma": "iloinen",
+      "eng": "cheerful",
+      "pos": "A"
+    },
+    {
+      "fin": "arvostelukyky",
+      "lemma": "arvostelukyky",
+      "eng": "judgment",
+      "pos": "N"
+    },
+    {
+      "fin": "samanlainen",
+      "lemma": "samanlainen",
+      "eng": "similar",
+      "pos": "A"
+    },
+    {
+      "fin": "mieletön",
+      "lemma": "mieletön",
+      "eng": "senseless",
+      "pos": "A"
+    },
+    {
+      "fin": "harha",
+      "lemma": "harha",
+      "eng": "illusion",
+      "pos": "N"
+    },
+    {
+      "fin": "raskas",
+      "lemma": "raskas",
+      "eng": "ponderous",
+      "pos": "A"
+    },
+    {
+      "fin": "lähtö",
+      "lemma": "lähtö",
+      "eng": "departure",
+      "pos": "N"
+    },
+    {
+      "fin": "laki",
+      "lemma": "laki",
+      "eng": "law",
+      "pos": "N"
+    },
+    {
+      "fin": "kahtia",
+      "lemma": "kahtia",
+      "eng": "asunder",
+      "pos": "A"
+    },
+    {
+      "fin": "farao",
+      "lemma": "farao",
+      "eng": "foxtrot",
+      "pos": "N"
+    },
+    {
+      "fin": "sotajoukko",
+      "lemma": "sotajoukko",
+      "eng": "army",
+      "pos": "N"
+    },
+    {
+      "fin": "muutto",
+      "lemma": "muutto",
+      "eng": "migration",
+      "pos": "N"
+    },
+    {
+      "fin": "voimallinen",
+      "lemma": "voimallinen",
+      "eng": "mighty",
+      "pos": "A"
+    },
+    {
+      "fin": "suosio",
+      "lemma": "suosio",
+      "eng": "popularity",
+      "pos": "N"
+    },
+    {
+      "fin": "pahuus",
+      "lemma": "pahuus",
+      "eng": "evil",
+      "pos": "N"
+    },
+    {
+      "fin": "hallussa",
+      "lemma": "hallussa",
+      "eng": "in possession",
+      "pos": "A"
+    },
+    {
+      "fin": "koroke",
+      "lemma": "koroke",
+      "eng": "podium",
+      "pos": "N"
+    },
+    {
+      "fin": "autiomaa",
+      "lemma": "autiomaa",
+      "eng": "desert",
+      "pos": "N"
+    },
+    {
+      "fin": "sauva",
+      "lemma": "sauva",
+      "eng": "staff",
+      "pos": "N"
+    },
+    {
+      "fin": "tulinen",
+      "lemma": "tulinen",
+      "eng": "fiery",
+      "pos": "A"
+    },
+    {
+      "fin": "käärme",
+      "lemma": "käärme",
+      "eng": "snake",
+      "pos": "N"
+    },
+    {
+      "fin": "usea",
+      "lemma": "usea",
+      "eng": "several",
+      "pos": "A"
+    },
+    {
+      "fin": "valmis",
+      "lemma": "valmis",
+      "eng": "ready",
+      "pos": "A"
+    },
+    {
+      "fin": "hunaja",
+      "lemma": "hunaja",
+      "eng": "honey",
+      "pos": "N"
+    },
+    {
+      "fin": "lasti",
+      "lemma": "lasti",
+      "eng": "load",
+      "pos": "N"
+    },
+    {
+      "fin": "eteenpäin",
+      "lemma": "eteenpäin",
+      "eng": "forward",
+      "pos": "A"
+    },
+    {
+      "fin": "karkea",
+      "lemma": "karkea",
+      "eng": "coarse",
+      "pos": "A"
+    },
+    {
+      "fin": "vakava",
+      "lemma": "vakava",
+      "eng": "serious",
+      "pos": "A"
+    },
+    {
+      "fin": "halu",
+      "lemma": "halu",
+      "eng": "desire",
+      "pos": "N"
+    },
+    {
+      "fin": "köysi",
+      "lemma": "köysi",
+      "eng": "rope",
+      "pos": "N"
+    },
+    {
+      "fin": "suunnannäyttäjä",
+      "lemma": "suunnannäyttäjä",
+      "eng": "vanguard",
+      "pos": "N"
+    },
+    {
+      "fin": "myrsky",
+      "lemma": "myrsky",
+      "eng": "storm",
+      "pos": "N"
+    },
+    {
+      "fin": "rajuilma",
+      "lemma": "rajuilma",
+      "eng": "tempest",
+      "pos": "N"
+    },
+    {
+      "fin": "taaksepäin",
+      "lemma": "taaksepäin",
+      "eng": "backwards",
+      "pos": "A"
+    },
+    {
+      "fin": "kuitenkaan",
+      "lemma": "kuitenka",
+      "eng": "however",
+      "pos": "N"
+    },
+    {
+      "fin": "ankara",
+      "lemma": "ankara",
+      "eng": "rigorous",
+      "pos": "A"
+    },
+    {
+      "fin": "ranne",
+      "lemma": "ranne",
+      "eng": "wrist",
+      "pos": "N"
+    },
+    {
+      "fin": "nilkka",
+      "lemma": "nilkka",
+      "eng": "ankle",
+      "pos": "N"
+    },
+    {
+      "fin": "uhkaus",
+      "lemma": "uhkaus",
+      "eng": "threat",
+      "pos": "N"
+    },
+    {
+      "fin": "suru",
+      "lemma": "suru",
+      "eng": "sorrow",
+      "pos": "N"
+    },
+    {
+      "fin": "sairasvuode",
+      "lemma": "sairaatvuode",
+      "eng": "sickbed",
+      "pos": "N"
+    },
+    {
+      "fin": "harmaa",
+      "lemma": "harmaa",
+      "eng": "grey",
+      "pos": "A"
+    },
+    {
+      "fin": "lepo",
+      "lemma": "lepo",
+      "eng": "rest",
+      "pos": "N"
+    },
+    {
+      "fin": "tomu",
+      "lemma": "tomu",
+      "eng": "dust",
+      "pos": "N"
+    },
+    {
+      "fin": "vetinen",
+      "lemma": "vetinen",
+      "eng": "watery",
+      "pos": "A"
+    },
+    {
+      "fin": "kyynel",
+      "lemma": "kyynel",
+      "eng": "tear",
+      "pos": "N"
+    },
+    {
+      "fin": "rukous",
+      "lemma": "rukous",
+      "eng": "prayer",
+      "pos": "N"
+    },
+    {
+      "fin": "tyven",
+      "lemma": "tyvi",
+      "eng": "calm",
+      "pos": "A"
+    },
+    {
+      "fin": "metsä",
+      "lemma": "metsä",
+      "eng": "forest",
+      "pos": "N"
+    },
+    {
+      "fin": "härkä",
+      "lemma": "härkä",
+      "eng": "ox",
+      "pos": "N"
+    },
+    {
+      "fin": "hevonen",
+      "lemma": "hevonen",
+      "eng": "horse",
+      "pos": "N"
+    },
+    {
+      "fin": "vuohi",
+      "lemma": "vuohi",
+      "eng": "goat",
+      "pos": "N"
+    },
+    {
+      "fin": "hyöty",
+      "lemma": "hyöty",
+      "eng": "benefit",
+      "pos": "N"
+    },
+    {
+      "fin": "kupari",
+      "lemma": "kupari",
+      "eng": "copper",
+      "pos": "N"
+    },
+    {
+      "fin": "kertomus",
+      "lemma": "kertomus",
+      "eng": "story",
+      "pos": "N"
+    },
+    {
+      "fin": "sukuluettelo",
+      "lemma": "sukuluettelo",
+      "eng": "genealogy",
+      "pos": "N"
+    },
+    {
+      "fin": "tosiasia",
+      "lemma": "tosiasia",
+      "eng": "fact",
+      "pos": "N"
+    },
+    {
+      "fin": "opetus",
+      "lemma": "opetus",
+      "eng": "teaching",
+      "pos": "N"
+    },
+    {
+      "fin": "viisas",
+      "lemma": "viisas",
+      "eng": "wise",
+      "pos": "A"
+    },
+    {
+      "fin": "laaja",
+      "lemma": "laaja",
+      "eng": "wide",
+      "pos": "A"
+    },
+    {
+      "fin": "hävitys",
+      "lemma": "hävitys",
+      "eng": "ravage",
+      "pos": "N"
+    },
+    {
+      "fin": "kunnes",
+      "lemma": "kunne",
+      "eng": "until",
+      "pos": "A"
+    },
+    {
+      "fin": "kerto",
+      "lemma": "kerto",
+      "eng": "parallelism",
+      "pos": "N"
+    },
+    {
+      "fin": "muinoin",
+      "lemma": "muinoin",
+      "eng": "once",
+      "pos": "A"
+    },
+    {
+      "fin": "joku",
+      "lemma": "joku",
+      "eng": "someone",
+      "pos": "N"
+    },
+    {
+      "fin": "pitkämielisyys",
+      "lemma": "pitkämielisyys",
+      "eng": "forbearance",
+      "pos": "N"
+    },
+    {
+      "fin": "savu",
+      "lemma": "savu",
+      "eng": "smoke",
+      "pos": "N"
+    },
+    {
+      "fin": "jyrinä",
+      "lemma": "jyrä",
+      "eng": "thunder",
+      "pos": "N"
+    },
+    {
+      "fin": "ilmansuunta",
+      "lemma": "ilmansuunta",
+      "eng": "compass point",
+      "pos": "N"
+    },
+    {
+      "fin": "vaiva",
+      "lemma": "vaiva",
+      "eng": "ailment",
+      "pos": "N"
+    },
+    {
+      "fin": "nivel",
+      "lemma": "nivel",
+      "eng": "joint",
+      "pos": "N"
+    },
+    {
+      "fin": "heikko",
+      "lemma": "heikko",
+      "eng": "weak",
+      "pos": "A"
+    },
+    {
+      "fin": "tietämys",
+      "lemma": "tietämys",
+      "eng": "scholarship",
+      "pos": "N"
+    },
+    {
+      "fin": "hyvyys",
+      "lemma": "hyvyys",
+      "eng": "goodness",
+      "pos": "N"
+    },
+    {
+      "fin": "elinaika",
+      "lemma": "elinaika",
+      "eng": "lifetime",
+      "pos": "N"
+    },
+    {
+      "fin": "väri",
+      "lemma": "väri",
+      "eng": "color",
+      "pos": "N"
+    },
+    {
+      "fin": "talo",
+      "lemma": "talo",
+      "eng": "house",
+      "pos": "N"
+    },
+    {
+      "fin": "ympärillä",
+      "lemma": "ympärillä",
+      "eng": "around",
+      "pos": "A"
+    },
+    {
+      "fin": "keskipäivä",
+      "lemma": "keskipäivä",
+      "eng": "noon",
+      "pos": "N"
+    },
+    {
+      "fin": "taivaankansi",
+      "lemma": "taivaskansi",
+      "eng": "firmament",
+      "pos": "N"
+    },
+    {
+      "fin": "kuten",
+      "lemma": "kuten",
+      "eng": "like",
+      "pos": "A"
+    },
+    {
+      "fin": "lempeä",
+      "lemma": "lempi",
+      "eng": "soft",
+      "pos": "A"
+    },
+    {
+      "fin": "äkkiä",
+      "lemma": "äkkiä",
+      "eng": "suddenly",
+      "pos": "A"
+    },
+    {
+      "fin": "omapäinen",
+      "lemma": "omapäinen",
+      "eng": "intractable",
+      "pos": "A"
+    },
+    {
+      "fin": "niska",
+      "lemma": "niska",
+      "eng": "nape",
+      "pos": "N"
+    },
+    {
+      "fin": "otsa",
+      "lemma": "otsa",
+      "eng": "forehead",
+      "pos": "N"
+    },
+    {
+      "fin": "vaski",
+      "lemma": "vaski",
+      "eng": "copper",
+      "pos": "N"
+    },
+    {
+      "fin": "epäjumala",
+      "lemma": "epäjumala",
+      "eng": "god",
+      "pos": "N"
+    },
+    {
+      "fin": "korva",
+      "lemma": "korva",
+      "eng": "ear",
+      "pos": "N"
+    },
+    {
+      "fin": "auki",
+      "lemma": "auki",
+      "eng": "open",
+      "pos": "A"
+    },
+    {
+      "fin": "kohtu",
+      "lemma": "kohtu",
+      "eng": "womb",
+      "pos": "N"
+    },
+    {
+      "fin": "perustus",
+      "lemma": "perustus",
+      "eng": "foundation",
+      "pos": "N"
+    },
+    {
+      "fin": "kuka",
+      "lemma": "kuka",
+      "eng": "who",
+      "pos": "N"
+    },
+    {
+      "fin": "käsivarsi",
+      "lemma": "käsivarsi",
+      "eng": "arm",
+      "pos": "N"
+    },
+    {
+      "fin": "kaldealainen",
+      "lemma": "kaldealainen",
+      "eng": "Chaldean",
+      "pos": "A"
+    },
+    {
+      "fin": "jyvä",
+      "lemma": "jyvä",
+      "eng": "grain",
+      "pos": "N"
+    },
+    {
+      "fin": "ääri",
+      "lemma": "ääri",
+      "eng": "verge",
+      "pos": "N"
+    },
+    {
+      "fin": "vieras",
+      "lemma": "vieras",
+      "eng": "foreign",
+      "pos": "A"
+    },
+    {
+      "fin": "kaukainen",
+      "lemma": "kaukainen",
+      "eng": "far",
+      "pos": "A"
+    },
+    {
+      "fin": "vatsa",
+      "lemma": "vatsa",
+      "eng": "stomach",
+      "pos": "N"
+    },
+    {
+      "fin": "terävä",
+      "lemma": "terävä",
+      "eng": "sharp",
+      "pos": "A"
+    },
+    {
+      "fin": "varjo",
+      "lemma": "varjo",
+      "eng": "shadow",
+      "pos": "N"
+    },
+    {
+      "fin": "viini",
+      "lemma": "viini",
+      "eng": "wine",
+      "pos": "N"
+    },
+    {
+      "fin": "turha",
+      "lemma": "turha",
+      "eng": "useless",
+      "pos": "A"
+    },
+    {
+      "fin": "takia",
+      "lemma": "takia",
+      "eng": "for",
+      "pos": "A"
+    },
+    {
+      "fin": "oikeus",
+      "lemma": "oikeus",
+      "eng": "right",
+      "pos": "N"
+    },
+    {
+      "fin": "arvokas",
+      "lemma": "arvokas",
+      "eng": "valuable",
+      "pos": "A"
+    },
+    {
+      "fin": "ennallaan",
+      "lemma": "ennallaan",
+      "eng": "break even",
+      "pos": "A"
+    },
+    {
+      "fin": "orja",
+      "lemma": "orja",
+      "eng": "slave",
+      "pos": "N"
+    },
+    {
+      "fin": "ruhtinas",
+      "lemma": "ruhtinas",
+      "eng": "prince",
+      "pos": "N"
+    },
+    {
+      "fin": "uskollinen",
+      "lemma": "uskollinen",
+      "eng": "loyal",
+      "pos": "A"
+    },
+    {
+      "fin": "perintöosa",
+      "lemma": "perintöosa",
+      "eng": "inheritance",
+      "pos": "N"
+    },
+    {
+      "fin": "laidun",
+      "lemma": "laidun",
+      "eng": "pasture",
+      "pos": "N"
+    },
+    {
+      "fin": "vesilähde",
+      "lemma": "vesilähde",
+      "eng": "waterhole",
+      "pos": "N"
+    },
+    {
+      "fin": "valtatie",
+      "lemma": "valta-tie",
+      "eng": "highway",
+      "pos": "N"
+    },
+    {
+      "fin": "kauas",
+      "lemma": "kauas",
+      "eng": "far",
+      "pos": "A"
+    },
+    {
+      "fin": "pohjoinen",
+      "lemma": "pohjoinen",
+      "eng": "north",
+      "pos": "A"
+    },
+    {
+      "fin": "länsi",
+      "lemma": "länsi",
+      "eng": "west",
+      "pos": "N"
+    },
+    {
+      "fin": "laulu",
+      "lemma": "laulu",
+      "eng": "song",
+      "pos": "N"
+    },
+    {
+      "fin": "rintalapsi",
+      "lemma": "rintalapsi",
+      "eng": "suckling",
+      "pos": "N"
+    },
+    {
+      "fin": "kämmen",
+      "lemma": "kämmen",
+      "eng": "palm",
+      "pos": "N"
+    },
+    {
+      "fin": "muuri",
+      "lemma": "muuri",
+      "eng": "wall",
+      "pos": "N"
+    },
+    {
+      "fin": "tuhooja",
+      "lemma": "tuhooja",
+      "eng": "destroyer",
+      "pos": "N"
+    },
+    {
+      "fin": "koru",
+      "lemma": "koru",
+      "eng": "jewel",
+      "pos": "N"
+    },
+    {
+      "fin": "morsian",
+      "lemma": "morsian",
+      "eng": "bride",
+      "pos": "N"
+    },
+    {
+      "fin": "täällä",
+      "lemma": "täällä",
+      "eng": "here",
+      "pos": "A"
+    },
+    {
+      "fin": "viiri",
+      "lemma": "viiri",
+      "eng": "banner",
+      "pos": "N"
+    },
+    {
+      "fin": "kasvatusisä",
+      "lemma": "kasvatusisä",
+      "eng": "foster father",
+      "pos": "N"
+    },
+    {
+      "fin": "kuningatar",
+      "lemma": "kuningatar",
+      "eng": "queen",
+      "pos": "N"
+    },
+    {
+      "fin": "imettäjä",
+      "lemma": "imettäjä",
+      "eng": "wet nurse",
+      "pos": "N"
+    },
+    {
+      "fin": "kasvo",
+      "lemma": "kasvo",
+      "eng": "face",
+      "pos": "N"
+    },
+    {
+      "fin": "saalis",
+      "lemma": "saalis",
+      "eng": "prey",
+      "pos": "N"
+    },
+    {
+      "fin": "makea",
+      "lemma": "makea",
+      "eng": "sweet",
+      "pos": "A"
+    },
+    {
+      "fin": "LED",
+      "lemma": "LED",
+      "eng": "light-emitting diode",
+      "pos": "N"
+    },
+    {
+      "fin": "seassa",
+      "lemma": "seassa",
+      "eng": "among",
+      "pos": "A"
+    },
+    {
+      "fin": "ainoastaan",
+      "lemma": "ainoa",
+      "eng": "only",
+      "pos": "A"
+    },
+    {
+      "fin": "taivaallinen",
+      "lemma": "taivaallinen",
+      "eng": "heavenly",
+      "pos": "A"
+    },
+    {
+      "fin": "paljas",
+      "lemma": "paljas",
+      "eng": "bare",
+      "pos": "A"
+    },
+    {
+      "fin": "synkeys",
+      "lemma": "synkeys",
+      "eng": "gloom",
+      "pos": "N"
+    },
+    {
+      "fin": "sadin",
+      "lemma": "sadin",
+      "eng": "trap",
+      "pos": "N"
+    },
+    {
+      "fin": "ylpeä",
+      "lemma": "ylpeä",
+      "eng": "proud",
+      "pos": "A"
+    },
+    {
+      "fin": "oljenkorsi",
+      "lemma": "olkikorsi",
+      "eng": "lifeline",
+      "pos": "N"
+    },
+    {
+      "fin": "vihollinen",
+      "lemma": "vihollinen",
+      "eng": "enemy",
+      "pos": "A"
+    },
+    {
+      "fin": "himo",
+      "lemma": "himo",
+      "eng": "lust",
+      "pos": "N"
+    },
+    {
+      "fin": "värinen",
+      "lemma": "värinen",
+      "eng": "lemon",
+      "pos": "A"
+    },
+    {
+      "fin": "väkevyys",
+      "lemma": "väkevyys",
+      "eng": "strength",
+      "pos": "N"
+    },
+    {
+      "fin": "lammas",
+      "lemma": "lammas",
+      "eng": "sheep",
+      "pos": "N"
+    },
+    {
+      "fin": "irti",
+      "lemma": "irti",
+      "eng": "loose",
+      "pos": "A"
+    },
+    {
+      "fin": "turpa",
+      "lemma": "turpa",
+      "eng": "muzzle",
+      "pos": "N"
+    },
+    {
+      "fin": "toistaiseksi",
+      "lemma": "toistainen",
+      "eng": "indefinitely",
+      "pos": "A"
+    },
+    {
+      "fin": "enempi",
+      "lemma": "enempi",
+      "eng": "more",
+      "pos": "A"
+    },
+    {
+      "fin": "kuuliainen",
+      "lemma": "kuuliainen",
+      "eng": "obedient",
+      "pos": "A"
+    },
+    {
+      "fin": "ainoa",
+      "lemma": "ainoa",
+      "eng": "only",
+      "pos": "A"
+    },
+    {
+      "fin": "lähempi",
+      "lemma": "lähempi",
+      "eng": "anterior",
+      "pos": "A"
+    },
+    {
+      "fin": "sari",
+      "lemma": "sari",
+      "eng": "sari",
+      "pos": "N"
+    },
+    {
+      "fin": "parras",
+      "lemma": "parras",
+      "eng": "brink",
+      "pos": "N"
+    },
+    {
+      "fin": "alati",
+      "lemma": "alati",
+      "eng": "always",
+      "pos": "A"
+    },
+    {
+      "fin": "luja",
+      "lemma": "luja",
+      "eng": "firm",
+      "pos": "A"
+    },
+    {
+      "fin": "uppiniskaisuus",
+      "lemma": "uppiniskaisuus",
+      "eng": "obstinacy",
+      "pos": "N"
+    },
+    {
+      "fin": "näkijä",
+      "lemma": "näkijä",
+      "eng": "seer",
+      "pos": "N"
+    },
+    {
+      "fin": "kuvittelu",
+      "lemma": "kuvittelu",
+      "eng": "fancy",
+      "pos": "N"
+    },
+    {
+      "fin": "isokokoinen",
+      "lemma": "isokokoinen",
+      "eng": "great",
+      "pos": "A"
+    },
+    {
+      "fin": "nöyrä",
+      "lemma": "nöyrä",
+      "eng": "humble",
+      "pos": "A"
+    },
+    {
+      "fin": "kirous",
+      "lemma": "kirous",
+      "eng": "curse",
+      "pos": "N"
+    },
+    {
+      "fin": "ruoska",
+      "lemma": "ruoska",
+      "eng": "whip",
+      "pos": "N"
+    },
+    {
+      "fin": "arpa",
+      "lemma": "arpa",
+      "eng": "lot",
+      "pos": "N"
+    },
+    {
+      "fin": "rosvo",
+      "lemma": "rosvo",
+      "eng": "bandit",
+      "pos": "N"
+    },
+    {
+      "fin": "rikkaus",
+      "lemma": "rikkaus",
+      "eng": "wealth",
+      "pos": "N"
+    },
+    {
+      "fin": "nykyhetki",
+      "lemma": "nyky-hetki",
+      "eng": "present",
+      "pos": "N"
+    },
+    {
+      "fin": "pakko",
+      "lemma": "pakko",
+      "eng": "compulsion",
+      "pos": "N"
+    },
+    {
+      "fin": "onkalo",
+      "lemma": "onkalo",
+      "eng": "cavity",
+      "pos": "N"
+    },
+    {
+      "fin": "mahdollinen",
+      "lemma": "mahdollinen",
+      "eng": "possible",
+      "pos": "A"
+    },
+    {
+      "fin": "viisikymmentä",
+      "lemma": "viisikymmenen",
+      "eng": "fifty",
+      "pos": "N"
+    },
+    {
+      "fin": "vihainen",
+      "lemma": "vihainen",
+      "eng": "angry",
+      "pos": "A"
+    },
+    {
+      "fin": "yhä",
+      "lemma": "yhä",
+      "eng": "still",
+      "pos": "A"
+    },
+    {
+      "fin": "ulkopuoli",
+      "lemma": "ulko-puoli",
+      "eng": "outside",
+      "pos": "N"
+    },
+    {
+      "fin": "tuppi",
+      "lemma": "tuppi",
+      "eng": "sheath",
+      "pos": "N"
+    },
+    {
+      "fin": "kahva",
+      "lemma": "kahva",
+      "eng": "handle",
+      "pos": "N"
+    },
+    {
+      "fin": "terä",
+      "lemma": "terä",
+      "eng": "blade",
+      "pos": "N"
+    },
+    {
+      "fin": "parka",
+      "lemma": "parka",
+      "eng": "poor",
+      "pos": "A"
+    },
+    {
+      "fin": "hius",
+      "lemma": "hius",
+      "eng": "hair",
+      "pos": "N"
+    },
+    {
+      "fin": "vartalo",
+      "lemma": "vartalo",
+      "eng": "body",
+      "pos": "N"
+    },
+    {
+      "fin": "kuve",
+      "lemma": "kuve",
+      "eng": "flank",
+      "pos": "N"
+    },
+    {
+      "fin": "avain",
+      "lemma": "avain",
+      "eng": "key",
+      "pos": "N"
+    },
+    {
+      "fin": "isäntä",
+      "lemma": "isäntä",
+      "eng": "host",
+      "pos": "N"
+    },
+    {
+      "fin": "parissa",
+      "lemma": "parka",
+      "eng": "among",
+      "pos": "A"
+    },
+    {
+      "fin": "vapaa",
+      "lemma": "vapa",
+      "eng": "free",
+      "pos": "A"
+    },
+    {
+      "fin": "sija",
+      "lemma": "sija",
+      "eng": "place",
+      "pos": "N"
+    },
+    {
+      "fin": "rohkeus",
+      "lemma": "rohkeus",
+      "eng": "courage",
+      "pos": "N"
+    },
+    {
+      "fin": "pako",
+      "lemma": "pako",
+      "eng": "escape",
+      "pos": "N"
+    },
+    {
+      "fin": "takana",
+      "lemma": "takana",
+      "eng": "behind",
+      "pos": "A"
+    },
+    {
+      "fin": "lohtu",
+      "lemma": "lohtu",
+      "eng": "solace",
+      "pos": "N"
+    },
+    {
+      "fin": "polttouhri",
+      "lemma": "polttouhri",
+      "eng": "holocaust",
+      "pos": "N"
+    },
+    {
+      "fin": "viisi",
+      "lemma": "viisi",
+      "eng": "five",
+      "pos": "N"
+    },
+    {
+      "fin": "perhekunta",
+      "lemma": "perhekunta",
+      "eng": "family",
+      "pos": "N"
+    },
+    {
+      "fin": "nälänhätä",
+      "lemma": "nälkähätä",
+      "eng": "famine",
+      "pos": "N"
+    },
+    {
+      "fin": "tarkka",
+      "lemma": "tarkka",
+      "eng": "exact",
+      "pos": "A"
+    },
+    {
+      "fin": "selostus",
+      "lemma": "selostus",
+      "eng": "account",
+      "pos": "N"
+    },
+    {
+      "fin": "mieluisa",
+      "lemma": "mieluisa",
+      "eng": "pleasant",
+      "pos": "A"
+    },
+    {
+      "fin": "sovelias",
+      "lemma": "sovelias",
+      "eng": "appropriate",
+      "pos": "A"
+    },
+    {
+      "fin": "kapina",
+      "lemma": "kapi",
+      "eng": "rebellion",
+      "pos": "N"
+    },
+    {
+      "fin": "sokea",
+      "lemma": "sokea",
+      "eng": "blind",
+      "pos": "A"
+    },
+    {
+      "fin": "esimerkki",
+      "lemma": "esi-merkki",
+      "eng": "example",
+      "pos": "N"
+    },
+    {
+      "fin": "vankila",
+      "lemma": "vankila",
+      "eng": "prison",
+      "pos": "N"
+    },
+    {
+      "fin": "valin",
+      "lemma": "valin",
+      "eng": "beam",
+      "pos": "N"
+    },
+    {
+      "fin": "anteeksi",
+      "lemma": "anteeksi",
+      "eng": "excuse me",
+      "pos": "A"
+    },
+    {
+      "fin": "aulis",
+      "lemma": "aulis",
+      "eng": "happy",
+      "pos": "A"
+    },
+    {
+      "fin": "vilja",
+      "lemma": "vilja",
+      "eng": "grain",
+      "pos": "A"
+    },
+    {
+      "fin": "pimeä",
+      "lemma": "pimeä",
+      "eng": "dark",
+      "pos": "A"
+    },
+    {
+      "fin": "kolkko",
+      "lemma": "kolkko",
+      "eng": "bleak",
+      "pos": "A"
+    },
+    {
+      "fin": "tunti",
+      "lemma": "tunti",
+      "eng": "hour",
+      "pos": "N"
+    },
+    {
+      "fin": "kenttä",
+      "lemma": "kenttä",
+      "eng": "field",
+      "pos": "N"
+    },
+    {
+      "fin": "alkupää",
+      "lemma": "alkupää",
+      "eng": "beginning",
+      "pos": "N"
+    },
+    {
+      "fin": "vähä",
+      "lemma": "vähä",
+      "eng": "little by little",
+      "pos": "A"
+    },
+    {
+      "fin": "kapea",
+      "lemma": "kapea",
+      "eng": "narrow",
+      "pos": "A"
+    },
+    {
+      "fin": "ohitse",
+      "lemma": "ohitse",
+      "eng": "past",
+      "pos": "A"
+    },
+    {
+      "fin": "ihmisjoukko",
+      "lemma": "ihminenjoukko",
+      "eng": "throng",
+      "pos": "N"
+    },
+    {
+      "fin": "hukassa",
+      "lemma": "hukassa",
+      "eng": "missing",
+      "pos": "A"
+    },
+    {
+      "fin": "loiva",
+      "lemma": "loiva",
+      "eng": "gentle",
+      "pos": "A"
+    },
+    {
+      "fin": "lyhyt",
+      "lemma": "lyhyt",
+      "eng": "short",
+      "pos": "A"
+    },
+    {
+      "fin": "perillä",
+      "lemma": "perillä",
+      "eng": "privy",
+      "pos": "A"
+    },
+    {
+      "fin": "historia",
+      "lemma": "historia",
+      "eng": "history",
+      "pos": "N"
+    },
+    {
+      "fin": "tapaus",
+      "lemma": "tapaus",
+      "eng": "case",
+      "pos": "N"
+    },
+    {
+      "fin": "partaveitsi",
+      "lemma": "partaveitsi",
+      "eng": "razor",
+      "pos": "N"
+    },
+    {
+      "fin": "tuhat",
+      "lemma": "tuhka",
+      "eng": "thousand",
+      "pos": "N"
+    },
+    {
+      "fin": "iso",
+      "lemma": "iso",
+      "eng": "big",
+      "pos": "A"
+    },
+    {
+      "fin": "kirjakäärö",
+      "lemma": "kirjakäärö",
+      "eng": "scroll",
+      "pos": "N"
+    },
+    {
+      "fin": "kynä",
+      "lemma": "kynä",
+      "eng": "pen",
+      "pos": "N"
+    },
+    {
+      "fin": "pappi",
+      "lemma": "pappi",
+      "eng": "priest",
+      "pos": "N"
+    },
+    {
+      "fin": "ryöstösaalis",
+      "lemma": "ryöstösaalis",
+      "eng": "booty",
+      "pos": "N"
+    },
+    {
+      "fin": "halpa",
+      "lemma": "halpa",
+      "eng": "cheap",
+      "pos": "A"
+    },
+    {
+      "fin": "hiljaa",
+      "lemma": "hiljaa",
+      "eng": "quietly",
+      "pos": "A"
+    },
+    {
+      "fin": "mahti",
+      "lemma": "mahti",
+      "eng": "power",
+      "pos": "N"
+    },
+    {
+      "fin": "uoma",
+      "lemma": "uoma",
+      "eng": "channel",
+      "pos": "N"
+    },
+    {
+      "fin": "äyräs",
+      "lemma": "äyräs",
+      "eng": "bank",
+      "pos": "N"
+    },
+    {
+      "fin": "kaula",
+      "lemma": "kaula",
+      "eng": "neck",
+      "pos": "N"
+    },
+    {
+      "fin": "saakka",
+      "lemma": "saakka",
+      "eng": "until",
+      "pos": "A"
+    },
+    {
+      "fin": "salaliitto",
+      "lemma": "sala-liitto",
+      "eng": "conspiracy",
+      "pos": "N"
+    },
+    {
+      "fin": "pyhäkkö",
+      "lemma": "pyhäkkö",
+      "eng": "shrine",
+      "pos": "N"
+    },
+    {
+      "fin": "loukku",
+      "lemma": "loukku",
+      "eng": "trap",
+      "pos": "N"
+    },
+    {
+      "fin": "ansa",
+      "lemma": "ansa",
+      "eng": "trap",
+      "pos": "N"
+    },
+    {
+      "fin": "todistus",
+      "lemma": "todistus",
+      "eng": "proof",
+      "pos": "N"
+    },
+    {
+      "fin": "tallessa",
+      "lemma": "tallessa",
+      "eng": "safe",
+      "pos": "A"
+    },
+    {
+      "fin": "vainajahenki",
+      "lemma": "vainajahenki",
+      "eng": "familiar spirit",
+      "pos": "N"
+    },
+    {
+      "fin": "nälkäinen",
+      "lemma": "nälkäinen",
+      "eng": "hungry",
+      "pos": "A"
+    },
+    {
+      "fin": "kevyt",
+      "lemma": "kevyt",
+      "eng": "light",
+      "pos": "A"
+    },
+    {
+      "fin": "elonkorjuu",
+      "lemma": "elonkorjuu",
+      "eng": "harvest",
+      "pos": "N"
+    },
+    {
+      "fin": "kuorma",
+      "lemma": "kuorma",
+      "eng": "load",
+      "pos": "N"
+    },
+    {
+      "fin": "hartia",
+      "lemma": "hartia",
+      "eng": "shoulder",
+      "pos": "N"
+    },
+    {
+      "fin": "vitsa",
+      "lemma": "vitsa",
+      "eng": "birch",
+      "pos": "N"
+    },
+    {
+      "fin": "taistelu",
+      "lemma": "taistelu",
+      "eng": "battle",
+      "pos": "N"
+    },
+    {
+      "fin": "melske",
+      "lemma": "melske",
+      "eng": "racket",
+      "pos": "N"
+    },
+    {
+      "fin": "harteet",
+      "lemma": "harteet",
+      "eng": "shoulder",
+      "pos": "N"
+    },
+    {
+      "fin": "oikeudenmukainen",
+      "lemma": "oikeudenmukainen",
+      "eng": "fair",
+      "pos": "A"
+    },
+    {
+      "fin": "kiivaus",
+      "lemma": "kiivaus",
+      "eng": "impetuosity",
+      "pos": "N"
+    },
+    {
+      "fin": "röyhkeä",
+      "lemma": "röyhkeä",
+      "eng": "arrogant",
+      "pos": "A"
+    },
+    {
+      "fin": "tiili",
+      "lemma": "tiili",
+      "eng": "brick",
+      "pos": "N"
+    },
+    {
+      "fin": "häntä",
+      "lemma": "häntä",
+      "eng": "tail",
+      "pos": "N"
+    },
+    {
+      "fin": "valhe",
+      "lemma": "valhe",
+      "eng": "lie",
+      "pos": "N"
+    },
+    {
+      "fin": "nuorukainen",
+      "lemma": "nuorukainen",
+      "eng": "youngster",
+      "pos": "N"
+    },
+    {
+      "fin": "orpo",
+      "lemma": "orpo",
+      "eng": "orphan",
+      "pos": "A"
+    },
+    {
+      "fin": "leski",
+      "lemma": "leski",
+      "eng": "widow",
+      "pos": "N"
+    },
+    {
+      "fin": "tekopyhä",
+      "lemma": "teko-pyhä",
+      "eng": "hypocrite",
+      "pos": "A"
+    },
+    {
+      "fin": "pahantekijä",
+      "lemma": "pahatekijä",
+      "eng": "evildoer",
+      "pos": "A"
+    },
+    {
+      "fin": "tiheikkö",
+      "lemma": "tiheikkö",
+      "eng": "thicket",
+      "pos": "N"
+    },
+    {
+      "fin": "vasen",
+      "lemma": "vasen",
+      "eng": "left",
+      "pos": "A"
+    },
+    {
+      "fin": "kylläinen",
+      "lemma": "kylläinen",
+      "eng": "saturated",
+      "pos": "A"
+    },
+    {
+      "fin": "kapinointi",
+      "lemma": "kapinointi",
+      "eng": "rebellion",
+      "pos": "N"
+    },
+    {
+      "fin": "armeliaisuus",
+      "lemma": "armeliaisuus",
+      "eng": "charity",
+      "pos": "N"
+    },
+    {
+      "fin": "vaikutus",
+      "lemma": "vaikutus",
+      "eng": "influence",
+      "pos": "N"
+    },
+    {
+      "fin": "muuten",
+      "lemma": "muuten",
+      "eng": "otherwise",
+      "pos": "A"
+    },
+    {
+      "fin": "ääretön",
+      "lemma": "ääretön",
+      "eng": "infinite",
+      "pos": "A"
+    },
+    {
+      "fin": "rangaistus",
+      "lemma": "rangaistus",
+      "eng": "punishment",
+      "pos": "N"
+    },
+    {
+      "fin": "syvä",
+      "lemma": "syvä",
+      "eng": "deep",
+      "pos": "A"
+    },
+    {
+      "fin": "kahle",
+      "lemma": "kahle",
+      "eng": "fetter",
+      "pos": "N"
+    },
+    {
+      "fin": "kurjuus",
+      "lemma": "kurjuus",
+      "eng": "misery",
+      "pos": "N"
+    },
+    {
+      "fin": "onnettomuus",
+      "lemma": "onnettomuus",
+      "eng": "accident",
+      "pos": "N"
+    },
+    {
+      "fin": "kylmä",
+      "lemma": "kylmä",
+      "eng": "cold",
+      "pos": "A"
+    },
+    {
+      "fin": "matkamies",
+      "lemma": "matkamies",
+      "eng": "traveller",
+      "pos": "N"
+    },
+    {
+      "fin": "kimppu",
+      "lemma": "kimppu",
+      "eng": "bundle",
+      "pos": "N"
+    },
+    {
+      "fin": "yksimielinen",
+      "lemma": "yksimielinen",
+      "eng": "unanimous",
+      "pos": "A"
+    },
+    {
+      "fin": "suuttumus",
+      "lemma": "suuttumus",
+      "eng": "anger",
+      "pos": "N"
+    },
+    {
+      "fin": "väline",
+      "lemma": "väline",
+      "eng": "instrument",
+      "pos": "N"
+    },
+    {
+      "fin": "ankaruus",
+      "lemma": "ankaruus",
+      "eng": "severity",
+      "pos": "N"
+    },
+    {
+      "fin": "vihastus",
+      "lemma": "vihastus",
+      "eng": "anger",
+      "pos": "N"
+    },
+    {
+      "fin": "rohkea",
+      "lemma": "rohkea",
+      "eng": "brave",
+      "pos": "A"
+    },
+    {
+      "fin": "ystävä",
+      "lemma": "ystävä",
+      "eng": "friend",
+      "pos": "N"
+    },
+    {
+      "fin": "menestys",
+      "lemma": "menestys",
+      "eng": "success",
+      "pos": "N"
+    },
+    {
+      "fin": "väärä",
+      "lemma": "väärä",
+      "eng": "wrong",
+      "pos": "A"
+    },
+    {
+      "fin": "katala",
+      "lemma": "katala",
+      "eng": "vile",
+      "pos": "A"
+    },
+    {
+      "fin": "päätös",
+      "lemma": "päätös",
+      "eng": "decision",
+      "pos": "N"
+    },
+    {
+      "fin": "assyrialainen",
+      "lemma": "assyrialainen",
+      "eng": "Assyrian",
+      "pos": "A"
+    },
+    {
+      "fin": "pöyhkeä",
+      "lemma": "pöyhkeä",
+      "eng": "cocky",
+      "pos": "A"
+    },
+    {
+      "fin": "raja",
+      "lemma": "raja",
+      "eng": "border",
+      "pos": "N"
+    },
+    {
+      "fin": "urhea",
+      "lemma": "urhea",
+      "eng": "gallant",
+      "pos": "A"
+    },
+    {
+      "fin": "linnunpesä",
+      "lemma": "linnunpesä",
+      "eng": "nest",
+      "pos": "N"
+    },
+    {
+      "fin": "muna",
+      "lemma": "muna",
+      "eng": "egg",
+      "pos": "N"
+    },
+    {
+      "fin": "nokka",
+      "lemma": "nokka",
+      "eng": "beak",
+      "pos": "N"
+    },
+    {
+      "fin": "kirves",
+      "lemma": "kirves",
+      "eng": "axe",
+      "pos": "N"
+    },
+    {
+      "fin": "saha",
+      "lemma": "saha",
+      "eng": "saw",
+      "pos": "N"
+    },
+    {
+      "fin": "kohottaja",
+      "lemma": "kohottaja",
+      "eng": "booster",
+      "pos": "N"
+    },
+    {
+      "fin": "itsestään",
+      "lemma": "itsestään",
+      "eng": "spontaneously",
+      "pos": "A"
+    },
+    {
+      "fin": "laihuus",
+      "lemma": "laihuus",
+      "eng": "thinness",
+      "pos": "N"
+    },
+    {
+      "fin": "palko",
+      "lemma": "palko",
+      "eng": "pod",
+      "pos": "N"
+    },
+    {
+      "fin": "tulenlieska",
+      "lemma": "tulenlieska",
+      "eng": "flame",
+      "pos": "N"
+    },
+    {
+      "fin": "viljava",
+      "lemma": "viljava",
+      "eng": "fertile",
+      "pos": "A"
+    },
+    {
+      "fin": "pelto",
+      "lemma": "pelto",
+      "eng": "field",
+      "pos": "N"
+    },
+    {
+      "fin": "vehmaus",
+      "lemma": "vehmaus",
+      "eng": "greenness",
+      "pos": "N"
+    },
+    {
+      "fin": "lipunkantaja",
+      "lemma": "lippukantaja",
+      "eng": "standard-bearer",
+      "pos": "N"
+    },
+    {
+      "fin": "lyöjä",
+      "lemma": "lyöjä",
+      "eng": "batter",
+      "pos": "N"
+    },
+    {
+      "fin": "tulva",
+      "lemma": "tulva",
+      "eng": "flood",
+      "pos": "N"
+    },
+    {
+      "fin": "voitelu",
+      "lemma": "voitelu",
+      "eng": "lubrication",
+      "pos": "N"
+    },
+    {
+      "fin": "kuormasto",
+      "lemma": "kuormasto",
+      "eng": "baggage",
+      "pos": "N"
+    },
+    {
+      "fin": "sola",
+      "lemma": "sola",
+      "eng": "gorge",
+      "pos": "N"
+    },
+    {
+      "fin": "poloinen",
+      "lemma": "poloinen",
+      "eng": "poor",
+      "pos": "A"
+    },
+    {
+      "fin": "kauhu",
+      "lemma": "kauhu",
+      "eng": "terror",
+      "pos": "N"
+    },
+    {
+      "fin": "kanto",
+      "lemma": "kanto",
+      "eng": "stump",
+      "pos": "N"
+    },
+    {
+      "fin": "vesa",
+      "lemma": "vesa",
+      "eng": "sprout",
+      "pos": "N"
+    },
+    {
+      "fin": "korvakuulo",
+      "lemma": "korvakuulo",
+      "eng": "hearing",
+      "pos": "N"
+    },
+    {
+      "fin": "sävyisä",
+      "lemma": "sävyisä",
+      "eng": "docile",
+      "pos": "A"
+    },
+    {
+      "fin": "uuma",
+      "lemma": "uuma",
+      "eng": "waist",
+      "pos": "N"
+    },
+    {
+      "fin": "susi",
+      "lemma": "susi",
+      "eng": "wolf",
+      "pos": "N"
+    },
+    {
+      "fin": "pantteri",
+      "lemma": "pantteri",
+      "eng": "panther",
+      "pos": "N"
+    },
+    {
+      "fin": "vohla",
+      "lemma": "vohla",
+      "eng": "kid",
+      "pos": "N"
+    },
+    {
+      "fin": "vasikka",
+      "lemma": "vasikka",
+      "eng": "calf",
+      "pos": "N"
+    },
+    {
+      "fin": "leijonanpentu",
+      "lemma": "leijonapentu",
+      "eng": "lion cub",
+      "pos": "N"
+    },
+    {
+      "fin": "pikkulapsi",
+      "lemma": "pikkulapsi",
+      "eng": "infant",
+      "pos": "N"
+    },
+    {
+      "fin": "karhu",
+      "lemma": "karhu",
+      "eng": "bear",
+      "pos": "N"
+    },
+    {
+      "fin": "pentu",
+      "lemma": "pentu",
+      "eng": "cub",
+      "pos": "N"
+    },
+    {
+      "fin": "olki",
+      "lemma": "olki",
+      "eng": "straw",
+      "pos": "N"
+    },
+    {
+      "fin": "kyy",
+      "lemma": "kyy",
+      "eng": "viper",
+      "pos": "N"
+    },
+    {
+      "fin": "myrkkykäärme",
+      "lemma": "myrkkykäärme",
+      "eng": "venomous snake",
+      "pos": "N"
+    },
+    {
+      "fin": "pesä",
+      "lemma": "pesä",
+      "eng": "nest",
+      "pos": "N"
+    },
+    {
+      "fin": "turmio",
+      "lemma": "turmio",
+      "eng": "ruin",
+      "pos": "N"
+    },
+    {
+      "fin": "tuntemus",
+      "lemma": "tuntemus",
+      "eng": "sensation",
+      "pos": "N"
+    },
+    {
+      "fin": "juurivesa",
+      "lemma": "juurivesa",
+      "eng": "sucker",
+      "pos": "N"
+    },
+    {
+      "fin": "leposija",
+      "lemma": "leposija",
+      "eng": "resting place",
+      "pos": "N"
+    },
+    {
+      "fin": "kerä",
+      "lemma": "kerä",
+      "eng": "ball",
+      "pos": "N"
+    },
+    {
+      "fin": "kulma",
+      "lemma": "kulma",
+      "eng": "angle",
+      "pos": "N"
+    },
+    {
+      "fin": "kateus",
+      "lemma": "kateus",
+      "eng": "envy",
+      "pos": "N"
+    },
+    {
+      "fin": "vaino",
+      "lemma": "vaino",
+      "eng": "persecution",
+      "pos": "N"
+    },
+    {
+      "fin": "merenlahti",
+      "lemma": "merenlahti",
+      "eng": "gulf",
+      "pos": "N"
+    },
+    {
+      "fin": "ennustus",
+      "lemma": "ennustus",
+      "eng": "prediction",
+      "pos": "N"
+    },
+    {
+      "fin": "lippu",
+      "lemma": "lippu",
+      "eng": "flag",
+      "pos": "N"
+    },
+    {
+      "fin": "väenpaljous",
+      "lemma": "väkipaljous",
+      "eng": "crush",
+      "pos": "N"
+    },
+    {
+      "fin": "pauhina",
+      "lemma": "pauhina",
+      "eng": "blare",
+      "pos": "N"
+    },
+    {
+      "fin": "ase",
+      "lemma": "ase",
+      "eng": "weapon",
+      "pos": "N"
+    },
+    {
+      "fin": "armoton",
+      "lemma": "armoton",
+      "eng": "ruthless",
+      "pos": "A"
+    },
+    {
+      "fin": "syntinen",
+      "lemma": "syntinen",
+      "eng": "sinful",
+      "pos": "A"
+    },
+    {
+      "fin": "tähtikuvio",
+      "lemma": "tähtikuvio",
+      "eng": "constellation",
+      "pos": "N"
+    },
+    {
+      "fin": "rata",
+      "lemma": "rata",
+      "eng": "track",
+      "pos": "N"
+    },
+    {
+      "fin": "ylimielisyys",
+      "lemma": "yli-mielisyys",
+      "eng": "arrogance",
+      "pos": "N"
+    },
+    {
+      "fin": "harvinainen",
+      "lemma": "harvinainen",
+      "eng": "rare",
+      "pos": "A"
+    },
+    {
+      "fin": "gaselli",
+      "lemma": "gaselli",
+      "eng": "gazelle",
+      "pos": "N"
+    },
+    {
+      "fin": "murska",
+      "lemma": "murska",
+      "eng": "smithereens",
+      "pos": "N"
+    },
+    {
+      "fin": "kuningaskunta",
+      "lemma": "kuningaskunta",
+      "eng": "kingdom",
+      "pos": "N"
+    },
+    {
+      "fin": "kruunu",
+      "lemma": "kruunu",
+      "eng": "crown",
+      "pos": "N"
+    },
+    {
+      "fin": "suuruus",
+      "lemma": "suuruus",
+      "eng": "size",
+      "pos": "N"
+    },
+    {
+      "fin": "kaunistus",
+      "lemma": "kaunistus",
+      "eng": "embellishment",
+      "pos": "N"
+    },
+    {
+      "fin": "polvi",
+      "lemma": "polvi",
+      "eng": "knee",
+      "pos": "N"
+    },
+    {
+      "fin": "arabi",
+      "lemma": "arabi",
+      "eng": "Arab",
+      "pos": "N"
+    },
+    {
+      "fin": "otus",
+      "lemma": "otus",
+      "eng": "creature",
+      "pos": "N"
+    },
+    {
+      "fin": "pöllö",
+      "lemma": "pöllö",
+      "eng": "owl",
+      "pos": "A"
+    },
+    {
+      "fin": "sakaali",
+      "lemma": "sakaali",
+      "eng": "jackal",
+      "pos": "N"
+    },
+    {
+      "fin": "palvelijatar",
+      "lemma": "palvelijatar",
+      "eng": "maid",
+      "pos": "N"
+    },
+    {
+      "fin": "vangitsija",
+      "lemma": "vangitsija",
+      "eng": "captor",
+      "pos": "N"
+    },
+    {
+      "fin": "valtikka",
+      "lemma": "valtikka",
+      "eng": "sceptre",
+      "pos": "N"
+    },
+    {
+      "fin": "raivo",
+      "lemma": "raivo",
+      "eng": "rage",
+      "pos": "N"
+    },
+    {
+      "fin": "sypressi",
+      "lemma": "sypressi",
+      "eng": "cypress",
+      "pos": "N"
+    },
+    {
+      "fin": "kaataja",
+      "lemma": "kaataja",
+      "eng": "shedder",
+      "pos": "N"
+    },
+    {
+      "fin": "alhaalla",
+      "lemma": "alhaalla",
+      "eng": "below",
+      "pos": "A"
+    },
+    {
+      "fin": "kiihdyksissä",
+      "lemma": "kiihdyksissä",
+      "eng": "aflutter",
+      "pos": "A"
+    },
+    {
+      "fin": "johtomies",
+      "lemma": "johtomies",
+      "eng": "father",
+      "pos": "N"
+    },
+    {
+      "fin": "komeus",
+      "lemma": "komeus",
+      "eng": "handsomeness",
+      "pos": "N"
+    },
+    {
+      "fin": "mato",
+      "lemma": "mato",
+      "eng": "worm",
+      "pos": "N"
+    },
+    {
+      "fin": "sarastus",
+      "lemma": "sarastus",
+      "eng": "dawn",
+      "pos": "N"
+    },
+    {
+      "fin": "vertainen",
+      "lemma": "vertainen",
+      "eng": "peer",
+      "pos": "A"
+    },
+    {
+      "fin": "pohjimmainen",
+      "lemma": "pohjimmainen",
+      "eng": "quintessential",
+      "pos": "A"
+    },
+    {
+      "fin": "kammio",
+      "lemma": "kammio",
+      "eng": "chamber",
+      "pos": "N"
+    },
+    {
+      "fin": "veljenpoika",
+      "lemma": "veljenpoika",
+      "eng": "nephew",
+      "pos": "N"
+    },
+    {
+      "fin": "haikara",
+      "lemma": "haikara",
+      "eng": "stork",
+      "pos": "N"
+    },
+    {
+      "fin": "alue",
+      "lemma": "alue",
+      "eng": "region",
+      "pos": "N"
+    },
+    {
+      "fin": "luuta",
+      "lemma": "luuta",
+      "eng": "broom",
+      "pos": "N"
+    },
+    {
+      "fin": "esikoinen",
+      "lemma": "esikoinen",
+      "eng": "firstborn",
+      "pos": "N"
+    },
+    {
+      "fin": "poissa",
+      "lemma": "poissa",
+      "eng": "away",
+      "pos": "A"
+    },
+    {
+      "fin": "sanansaattaja",
+      "lemma": "sanasaattaja",
+      "eng": "messenger",
+      "pos": "N"
+    },
+    {
+      "fin": "turva",
+      "lemma": "turva",
+      "eng": "security",
+      "pos": "N"
+    },
+    {
+      "fin": "seutu",
+      "lemma": "seutu",
+      "eng": "district",
+      "pos": "N"
+    },
+    {
+      "fin": "erityinen",
+      "lemma": "erityinen",
+      "eng": "special",
+      "pos": "A"
+    },
+    {
+      "fin": "heti",
+      "lemma": "heti",
+      "eng": "immediately",
+      "pos": "A"
+    },
+    {
+      "fin": "hautakammio",
+      "lemma": "hautakammio",
+      "eng": "tomb",
+      "pos": "N"
+    },
+    {
+      "fin": "tahraton",
+      "lemma": "tahraton",
+      "eng": "unblemished",
+      "pos": "A"
+    },
+    {
+      "fin": "uppiniskainen",
+      "lemma": "uppiniskainen",
+      "eng": "recalcitrant",
+      "pos": "A"
+    },
+    {
+      "fin": "toimitus",
+      "lemma": "toimitus",
+      "eng": "delivery",
+      "pos": "N"
+    },
+    {
+      "fin": "huuto",
+      "lemma": "huuto",
+      "eng": "cry",
+      "pos": "N"
+    },
+    {
+      "fin": "ukonilma",
+      "lemma": "ukonilma",
+      "eng": "thunderstorm",
+      "pos": "N"
+    },
+    {
+      "fin": "pikainen",
+      "lemma": "pikainen",
+      "eng": "quick",
+      "pos": "A"
+    },
+    {
+      "fin": "järjettömyys",
+      "lemma": "järjettömyys",
+      "eng": "senselessness",
+      "pos": "N"
+    },
+    {
+      "fin": "mieluummin",
+      "lemma": "mieluummin",
+      "eng": "rather",
+      "pos": "A"
+    },
+    {
+      "fin": "ainainen",
+      "lemma": "ainainen",
+      "eng": "perpetual",
+      "pos": "A"
+    },
+    {
+      "fin": "valli",
+      "lemma": "valli",
+      "eng": "embankment",
+      "pos": "N"
+    },
+    {
+      "fin": "linnoitus",
+      "lemma": "linnoitus",
+      "eng": "fortress",
+      "pos": "N"
+    },
+    {
+      "fin": "puhe",
+      "lemma": "puhe",
+      "eng": "speech",
+      "pos": "N"
+    },
+    {
+      "fin": "vaimea",
+      "lemma": "vaimea",
+      "eng": "soft",
+      "pos": "A"
+    },
+    {
+      "fin": "yhtäkkiä",
+      "lemma": "yhtäkkiä",
+      "eng": "suddenly",
+      "pos": "A"
+    },
+    {
+      "fin": "riita",
+      "lemma": "riita",
+      "eng": "argument",
+      "pos": "N"
+    },
+    {
+      "fin": "pahansuopaisuus",
+      "lemma": "pahansuopaisuus",
+      "eng": "hurtfulness",
+      "pos": "N"
+    },
+    {
+      "fin": "alullepanija",
+      "lemma": "alullepanija",
+      "eng": "initiator",
+      "pos": "N"
+    },
+    {
+      "fin": "osallinen",
+      "lemma": "osallinen",
+      "eng": "party",
+      "pos": "A"
+    },
+    {
+      "fin": "ilmainen",
+      "lemma": "ilmainen",
+      "eng": "free",
+      "pos": "A"
+    },
+    {
+      "fin": "maksu",
+      "lemma": "maksu",
+      "eng": "payment",
+      "pos": "N"
+    },
+    {
+      "fin": "synagoga",
+      "lemma": "synagoga",
+      "eng": "synagogue",
+      "pos": "N"
+    },
+    {
+      "fin": "yhtäläinen",
+      "lemma": "yhtäläinen",
+      "eng": "similar",
+      "pos": "A"
+    },
+    {
+      "fin": "työntekijä",
+      "lemma": "työtekijä",
+      "eng": "employee",
+      "pos": "N"
+    },
+    {
+      "fin": "raha",
+      "lemma": "raha",
+      "eng": "money",
+      "pos": "N"
+    },
+    {
+      "fin": "pahansuopa",
+      "lemma": "pahasuopa",
+      "eng": "malevolent",
+      "pos": "A"
+    },
+    {
+      "fin": "haureus",
+      "lemma": "haureus",
+      "eng": "adultery",
+      "pos": "N"
+    },
+    {
+      "fin": "yhdenvertainen",
+      "lemma": "yhdenvertainen",
+      "eng": "coequal",
+      "pos": "A"
+    },
+    {
+      "fin": "pauhu",
+      "lemma": "pauhu",
+      "eng": "thunder",
+      "pos": "N"
+    },
+    {
+      "fin": "ahnas",
+      "lemma": "ahnas",
+      "eng": "voracious",
+      "pos": "A"
+    },
+    {
+      "fin": "yöllinen",
+      "lemma": "yöllinen",
+      "eng": "nocturnal",
+      "pos": "A"
+    },
+    {
+      "fin": "janoinen",
+      "lemma": "janoinen",
+      "eng": "thirsty",
+      "pos": "A"
+    },
+    {
+      "fin": "ilmoitus",
+      "lemma": "ilmoitus",
+      "eng": "announcement",
+      "pos": "N"
+    },
+    {
+      "fin": "lisä",
+      "lemma": "lisä",
+      "eng": "supplement",
+      "pos": "N"
+    },
+    {
+      "fin": "kajo",
+      "lemma": "kajo",
+      "eng": "shimmer",
+      "pos": "N"
+    },
+    {
+      "fin": "ylösalaisin",
+      "lemma": "ylösalainen",
+      "eng": "upside down",
+      "pos": "A"
+    },
+    {
+      "fin": "savenvalaja",
+      "lemma": "savivalaja",
+      "eng": "potter",
+      "pos": "N"
+    },
+    {
+      "fin": "savi",
+      "lemma": "savi",
+      "eng": "clay",
+      "pos": "N"
+    },
+    {
+      "fin": "teos",
+      "lemma": "teos",
+      "eng": "work",
+      "pos": "N"
+    },
+    {
+      "fin": "tekijä",
+      "lemma": "tekijä",
+      "eng": "factor",
+      "pos": "N"
+    },
+    {
+      "fin": "luoja",
+      "lemma": "luoja",
+      "eng": "creator",
+      "pos": "N"
+    },
+    {
+      "fin": "vainio",
+      "lemma": "vainio",
+      "eng": "field",
+      "pos": "N"
+    },
+    {
+      "fin": "veroinen",
+      "lemma": "veroinen",
+      "eng": "equal",
+      "pos": "A"
+    },
+    {
+      "fin": "kuuro",
+      "lemma": "kuuro",
+      "eng": "deaf",
+      "pos": "A"
+    },
+    {
+      "fin": "pilkkaaja",
+      "lemma": "pilkkaaja",
+      "eng": "ridiculer",
+      "pos": "N"
+    },
+    {
+      "fin": "kärkäs",
+      "lemma": "kärkäs",
+      "eng": "eager",
+      "pos": "A"
+    },
+    {
+      "fin": "syrjä",
+      "lemma": "syrjä",
+      "eng": "edge",
+      "pos": "N"
+    },
+    {
+      "fin": "huomenna",
+      "lemma": "huomenna",
+      "eng": "tomorrow",
+      "pos": "A"
+    },
+    {
+      "fin": "raipanisku",
+      "lemma": "raippaisku",
+      "eng": "lash",
+      "pos": "N"
+    },
+    {
+      "fin": "pystypäinen",
+      "lemma": "pystypäinen",
+      "eng": "unbowed",
+      "pos": "A"
+    },
+    {
+      "fin": "seuraaja",
+      "lemma": "seuraaja",
+      "eng": "successor",
+      "pos": "N"
+    },
+    {
+      "fin": "rikas",
+      "lemma": "rikas",
+      "eng": "rich",
+      "pos": "A"
+    },
+    {
+      "fin": "lihallinen",
+      "lemma": "lihallinen",
+      "eng": "fleshly",
+      "pos": "A"
+    },
+    {
+      "fin": "turvallisuus",
+      "lemma": "turvallisuus",
+      "eng": "security",
+      "pos": "N"
+    },
+    {
+      "fin": "vapautus",
+      "lemma": "vapautus",
+      "eng": "emancipation",
+      "pos": "N"
+    },
+    {
+      "fin": "loputon",
+      "lemma": "loputon",
+      "eng": "endless",
+      "pos": "A"
+    },
+    {
+      "fin": "huoleton",
+      "lemma": "huoleton",
+      "eng": "carefree",
+      "pos": "A"
+    },
+    {
+      "fin": "tarve",
+      "lemma": "tarve",
+      "eng": "need",
+      "pos": "N"
+    },
+    {
+      "fin": "rivi",
+      "lemma": "rivi",
+      "eng": "line",
+      "pos": "N"
+    },
+    {
+      "fin": "vihellys",
+      "lemma": "vihellys",
+      "eng": "whistle",
+      "pos": "N"
+    },
+    {
+      "fin": "ikivanha",
+      "lemma": "ikivanha",
+      "eng": "ancient",
+      "pos": "A"
+    },
+    {
+      "fin": "miten",
+      "lemma": "miten",
+      "eng": "how",
+      "pos": "A"
+    },
+    {
+      "fin": "vaivannäkö",
+      "lemma": "vaivannäkö",
+      "eng": "trouble",
+      "pos": "N"
+    },
+    {
+      "fin": "todiste",
+      "lemma": "todiste",
+      "eng": "evidence",
+      "pos": "N"
+    },
+    {
+      "fin": "etelä",
+      "lemma": "etelä",
+      "eng": "south",
+      "pos": "N"
+    },
+    {
+      "fin": "koti",
+      "lemma": "koti",
+      "eng": "home",
+      "pos": "N"
+    },
+    {
+      "fin": "lapsuus",
+      "lemma": "lapsuus",
+      "eng": "childhood",
+      "pos": "N"
+    },
+    {
+      "fin": "karkeus",
+      "lemma": "karkeus",
+      "eng": "grit",
+      "pos": "N"
+    },
+    {
+      "fin": "nuoruus",
+      "lemma": "nuoruus",
+      "eng": "youth",
+      "pos": "N"
+    },
+    {
+      "fin": "lankeemus",
+      "lemma": "lankeemus",
+      "eng": "fall",
+      "pos": "N"
+    },
+    {
+      "fin": "kylliksi",
+      "lemma": "kylliksi",
+      "eng": "enough",
+      "pos": "A"
+    },
+    {
+      "fin": "onneton",
+      "lemma": "onneton",
+      "eng": "infelicitous",
+      "pos": "A"
+    },
+    {
+      "fin": "vaatimus",
+      "lemma": "vaatimus",
+      "eng": "demand",
+      "pos": "N"
+    },
+    {
+      "fin": "tärkeä",
+      "lemma": "tärkeä",
+      "eng": "important",
+      "pos": "A"
+    },
+    {
+      "fin": "ansio",
+      "lemma": "ansio",
+      "eng": "merit",
+      "pos": "N"
+    },
+    {
+      "fin": "pyhyys",
+      "lemma": "pyhyys",
+      "eng": "holiness",
+      "pos": "N"
+    },
+    {
+      "fin": "vastakohta",
+      "lemma": "vastakohta",
+      "eng": "opposite",
+      "pos": "N"
+    },
+    {
+      "fin": "onni",
+      "lemma": "onni",
+      "eng": "happiness",
+      "pos": "N"
+    },
+    {
+      "fin": "vastakohtaisuus",
+      "lemma": "vastakohtaisuus",
+      "eng": "contrast",
+      "pos": "N"
+    },
+    {
+      "fin": "kokonaisuus",
+      "lemma": "kokonaisuus",
+      "eng": "entirety",
+      "pos": "N"
+    },
+    {
+      "fin": "tietoisuus",
+      "lemma": "tietoisuus",
+      "eng": "awareness",
+      "pos": "N"
+    },
+    {
+      "fin": "tiedottomuus",
+      "lemma": "tiedottomuus",
+      "eng": "unconsciousness",
+      "pos": "N"
+    },
+    {
+      "fin": "toiminta",
+      "lemma": "toiminta",
+      "eng": "activity",
+      "pos": "N"
+    },
+    {
+      "fin": "kohde",
+      "lemma": "kohde",
+      "eng": "object",
+      "pos": "N"
+    },
+    {
+      "fin": "päämäärä",
+      "lemma": "pää-määrä",
+      "eng": "goal",
+      "pos": "N"
+    },
+    {
+      "fin": "lintu",
+      "lemma": "lintu",
+      "eng": "bird",
+      "pos": "N"
+    },
+    {
+      "fin": "eeden",
+      "lemma": "eeden",
+      "eng": "Eden",
+      "pos": "N"
+    },
+    {
+      "fin": "puutarha",
+      "lemma": "puutarha",
+      "eng": "garden",
+      "pos": "N"
+    },
+    {
+      "fin": "rikkomus",
+      "lemma": "rikkomus",
+      "eng": "breach",
+      "pos": "N"
+    },
+    {
+      "fin": "viattomuus",
+      "lemma": "viattomuus",
+      "eng": "innocence",
+      "pos": "N"
+    },
+    {
+      "fin": "välimies",
+      "lemma": "välimies",
+      "eng": "arbitrator",
+      "pos": "N"
+    },
+    {
+      "fin": "hyvinvointi",
+      "lemma": "hyvinvointi",
+      "eng": "welfare",
+      "pos": "N"
+    },
+    {
+      "fin": "suomu",
+      "lemma": "suomu",
+      "eng": "scale",
+      "pos": "N"
+    },
+    {
+      "fin": "jako",
+      "lemma": "jako",
+      "eng": "division",
+      "pos": "N"
+    },
+    {
+      "fin": "epäpyhä",
+      "lemma": "epä-pyhä",
+      "eng": "unholy",
+      "pos": "A"
+    },
+    {
+      "fin": "tekopyhyys",
+      "lemma": "teko-pyhyys",
+      "eng": "hypocrisy",
+      "pos": "N"
+    },
+    {
+      "fin": "petollisuus",
+      "lemma": "petollisuus",
+      "eng": "treachery",
+      "pos": "N"
+    },
+    {
+      "fin": "vakain",
+      "lemma": "vakain",
+      "eng": "flight",
+      "pos": "A"
+    },
+    {
+      "fin": "aie",
+      "lemma": "aie",
+      "eng": "intention",
+      "pos": "N"
+    },
+    {
+      "fin": "tietämättömyys",
+      "lemma": "tietämättömyys",
+      "eng": "ignorance",
+      "pos": "N"
+    },
+    {
+      "fin": "believe",
+      "lemma": "believe",
+      "eng": "Believe",
+      "pos": "N"
+    },
+    {
+      "fin": "enter",
+      "lemma": "enter",
+      "eng": "Enter",
+      "pos": "N"
+    },
+    {
+      "fin": "bar",
+      "lemma": "bar",
+      "eng": "bar",
+      "pos": "N"
+    },
+    {
+      "fin": "päänalunen",
+      "lemma": "päänalunen",
+      "eng": "bed pillow",
+      "pos": "N"
+    },
+    {
+      "fin": "kasvotusten",
+      "lemma": "kasvotusten",
+      "eng": "face to face",
+      "pos": "A"
+    },
+    {
+      "fin": "hyvästi",
+      "lemma": "hyvästi",
+      "eng": "goodbye",
+      "pos": "N"
+    },
+    {
+      "fin": "nuorimmainen",
+      "lemma": "nuorimmainen",
+      "eng": "lastborn",
+      "pos": "A"
+    },
+    {
+      "fin": "kätkö",
+      "lemma": "kätkö",
+      "eng": "cache",
+      "pos": "N"
+    },
+    {
+      "fin": "puhemies",
+      "lemma": "puhemies",
+      "eng": "speaker",
+      "pos": "N"
+    },
+    {
+      "fin": "entinen",
+      "lemma": "entinen",
+      "eng": "former",
+      "pos": "A"
+    },
+    {
+      "fin": "nuhde",
+      "lemma": "nuhde",
+      "eng": "admonition",
+      "pos": "N"
+    },
+    {
+      "fin": "historiallinen",
+      "lemma": "historiallinen",
+      "eng": "historical",
+      "pos": "A"
+    },
+    {
+      "fin": "kurja",
+      "lemma": "kurja",
+      "eng": "sleazy",
+      "pos": "A"
+    }
+  ],
+  "verbs": [
+    {
+      "fin": "jatkaa",
+      "lemma": "jatkaa",
+      "eng": "continue",
+      "pos": "V"
+    },
+    {
+      "fin": "tehdä",
+      "lemma": "tehdä",
+      "eng": "make",
+      "pos": "V"
+    },
+    {
+      "fin": "voida",
+      "lemma": "voida",
+      "eng": "can",
+      "pos": "V"
+    },
+    {
+      "fin": "olla",
+      "lemma": "olla",
+      "eng": "be",
+      "pos": "V"
+    },
+    {
+      "fin": "puhuttava",
+      "lemma": "puhua",
+      "eng": "speakable",
+      "pos": "V"
+    },
+    {
+      "fin": "katsoa",
+      "lemma": "katsoa",
+      "eng": "watch",
+      "pos": "V"
+    },
+    {
+      "fin": "tapahtua",
+      "lemma": "tapahtua",
+      "eng": "happen",
+      "pos": "V"
+    },
+    {
+      "fin": "kehottaa",
+      "lemma": "kehottaa",
+      "eng": "urge",
+      "pos": "V"
+    },
+    {
+      "fin": "puhua",
+      "lemma": "puhua",
+      "eng": "speak",
+      "pos": "V"
+    },
+    {
+      "fin": "hävitetty",
+      "lemma": "hävitetty",
+      "eng": "devastated",
+      "pos": "V"
+    },
+    {
+      "fin": "tuo",
+      "lemma": "tuo",
+      "eng": "that",
+      "pos": "V"
+    },
+    {
+      "fin": "viety",
+      "lemma": "viedä",
+      "eng": "transferred",
+      "pos": "V"
+    },
+    {
+      "fin": "näkemä",
+      "lemma": "näkemä",
+      "eng": "intuition",
+      "pos": "V"
+    },
+    {
+      "fin": "palata",
+      "lemma": "palata",
+      "eng": "revert",
+      "pos": "V"
+    },
+    {
+      "fin": "tuoda",
+      "lemma": "tuoda",
+      "eng": "bring",
+      "pos": "V"
+    },
+    {
+      "fin": "tuotu",
+      "lemma": "tuoda",
+      "eng": "brought",
+      "pos": "V"
+    },
+    {
+      "fin": "omistaa",
+      "lemma": "omistaa",
+      "eng": "own",
+      "pos": "V"
+    },
+    {
+      "fin": "vuosi",
+      "lemma": "vuosi",
+      "eng": "year",
+      "pos": "V"
+    },
+    {
+      "fin": "lähteä",
+      "lemma": "lähteä",
+      "eng": "leave",
+      "pos": "V"
+    },
+    {
+      "fin": "nostaa",
+      "lemma": "nostaa",
+      "eng": "raise",
+      "pos": "V"
+    },
+    {
+      "fin": "elää",
+      "lemma": "elää",
+      "eng": "live",
+      "pos": "V"
+    },
+    {
+      "fin": "sanoa",
+      "lemma": "sanoa",
+      "eng": "say",
+      "pos": "V"
+    },
+    {
+      "fin": "kadotettu",
+      "lemma": "kadottaa",
+      "eng": "lost",
+      "pos": "V"
+    },
+    {
+      "fin": "langennut",
+      "lemma": "langeta",
+      "eng": "fallen",
+      "pos": "V"
+    },
+    {
+      "fin": "tulla",
+      "lemma": "tulla",
+      "eng": "come",
+      "pos": "V"
+    },
+    {
+      "fin": "ellei",
+      "lemma": "josei",
+      "eng": "unless",
+      "pos": "V"
+    },
+    {
+      "fin": "turvata",
+      "lemma": "turvata",
+      "eng": "safeguard",
+      "pos": "V"
+    },
+    {
+      "fin": "valmistaa",
+      "lemma": "valmistaa",
+      "eng": "prepare",
+      "pos": "V"
+    },
+    {
+      "fin": "mennä",
+      "lemma": "mennä",
+      "eng": "go",
+      "pos": "V"
+    },
+    {
+      "fin": "huutaa",
+      "lemma": "huutaa",
+      "eng": "shout",
+      "pos": "V"
+    },
+    {
+      "fin": "raivata",
+      "lemma": "raivata",
+      "eng": "clear",
+      "pos": "V"
+    },
+    {
+      "fin": "seisoa",
+      "lemma": "seisoa",
+      "eng": "stand",
+      "pos": "V"
+    },
+    {
+      "fin": "ei",
+      "lemma": "ei",
+      "eng": "no",
+      "pos": "V"
+    },
+    {
+      "fin": "tuntea",
+      "lemma": "tuntea",
+      "eng": "feel",
+      "pos": "V"
+    },
+    {
+      "fin": "avata",
+      "lemma": "avata",
+      "eng": "open",
+      "pos": "V"
+    },
+    {
+      "fin": "kastaa",
+      "lemma": "kastaa",
+      "eng": "dip",
+      "pos": "V"
+    },
+    {
+      "fin": "kastettu",
+      "lemma": "kastaa",
+      "eng": "baptised",
+      "pos": "V"
+    },
+    {
+      "fin": "nähdä",
+      "lemma": "nähdä",
+      "eng": "see",
+      "pos": "V"
+    },
+    {
+      "fin": "todistaa",
+      "lemma": "todistaa",
+      "eng": "witness",
+      "pos": "V"
+    },
+    {
+      "fin": "ottaa",
+      "lemma": "ottaa",
+      "eng": "take",
+      "pos": "V"
+    },
+    {
+      "fin": "puhuttu",
+      "lemma": "puhuttu",
+      "eng": "spoken",
+      "pos": "V"
+    },
+    {
+      "fin": "saarnata",
+      "lemma": "saarnata",
+      "eng": "preach",
+      "pos": "V"
+    },
+    {
+      "fin": "vaipua",
+      "lemma": "vaipua",
+      "eng": "dash",
+      "pos": "V"
+    },
+    {
+      "fin": "surmattu",
+      "lemma": "surmattu",
+      "eng": "homicide",
+      "pos": "V"
+    },
+    {
+      "fin": "tuleva",
+      "lemma": "tuleva",
+      "eng": "future",
+      "pos": "V"
+    },
+    {
+      "fin": "nouseva",
+      "lemma": "nousta",
+      "eng": "rising",
+      "pos": "V"
+    },
+    {
+      "fin": "kuollut",
+      "lemma": "kuolla",
+      "eng": "dead",
+      "pos": "V"
+    },
+    {
+      "fin": "ilmaiseva",
+      "lemma": "ilmaista",
+      "eng": "expressive",
+      "pos": "V"
+    },
+    {
+      "fin": "henki",
+      "lemma": "henkiä",
+      "eng": "spirit",
+      "pos": "V"
+    },
+    {
+      "fin": "verrata",
+      "lemma": "verrata",
+      "eng": "compare",
+      "pos": "V"
+    },
+    {
+      "fin": "taittaa",
+      "lemma": "taittaa",
+      "eng": "fold",
+      "pos": "V"
+    },
+    {
+      "fin": "hajottaa",
+      "lemma": "hajottaa",
+      "eng": "disperse",
+      "pos": "V"
+    },
+    {
+      "fin": "oleva",
+      "lemma": "oleva",
+      "eng": "available",
+      "pos": "V"
+    },
+    {
+      "fin": "välttämätön",
+      "lemma": "välttämätön",
+      "eng": "necessary",
+      "pos": "V"
+    },
+    {
+      "fin": "johdattaa",
+      "lemma": "johdattaa",
+      "eng": "lead",
+      "pos": "V"
+    },
+    {
+      "fin": "toteutua",
+      "lemma": "toteutua",
+      "eng": "actualize",
+      "pos": "V"
+    },
+    {
+      "fin": "koota",
+      "lemma": "koota",
+      "eng": "assemble",
+      "pos": "V"
+    },
+    {
+      "fin": "oksastaa",
+      "lemma": "oksastaa",
+      "eng": "graft",
+      "pos": "V"
+    },
+    {
+      "fin": "tapa",
+      "lemma": "tapa",
+      "eng": "habit",
+      "pos": "V"
+    },
+    {
+      "fin": "profetoida",
+      "lemma": "profetoida",
+      "eng": "prophesy",
+      "pos": "V"
+    },
+    {
+      "fin": "muuttaa",
+      "lemma": "muuttaa",
+      "eng": "change",
+      "pos": "V"
+    },
+    {
+      "fin": "kirjoittaa",
+      "lemma": "kirjoittaa",
+      "eng": "write",
+      "pos": "V"
+    },
+    {
+      "fin": "kirjoittanut",
+      "lemma": "kirjoittaa",
+      "eng": "written",
+      "pos": "V"
+    },
+    {
+      "fin": "niistää",
+      "lemma": "niistää",
+      "eng": "blow one's nose",
+      "pos": "V"
+    },
+    {
+      "fin": "asua",
+      "lemma": "asu",
+      "eng": "live",
+      "pos": "V"
+    },
+    {
+      "fin": "kuultu",
+      "lemma": "kuultu",
+      "eng": "heard",
+      "pos": "V"
+    },
+    {
+      "fin": "voima",
+      "lemma": "voima",
+      "eng": "force",
+      "pos": "V"
+    },
+    {
+      "fin": "saada",
+      "lemma": "saada",
+      "eng": "get",
+      "pos": "V"
+    },
+    {
+      "fin": "uskoa",
+      "lemma": "uskoa",
+      "eng": "believe",
+      "pos": "V"
+    },
+    {
+      "fin": "kuulla",
+      "lemma": "kuu",
+      "eng": "hear",
+      "pos": "V"
+    },
+    {
+      "fin": "tietää",
+      "lemma": "tietää",
+      "eng": "know",
+      "pos": "V"
+    },
+    {
+      "fin": "etsiä",
+      "lemma": "etsiä",
+      "eng": "search",
+      "pos": "V"
+    },
+    {
+      "fin": "ilmaista",
+      "lemma": "ilmaista",
+      "eng": "express",
+      "pos": "V"
+    },
+    {
+      "fin": "oltu",
+      "lemma": "olla",
+      "eng": "been",
+      "pos": "V"
+    },
+    {
+      "fin": "valmistettu",
+      "lemma": "valmistettu",
+      "eng": "made",
+      "pos": "V"
+    },
+    {
+      "fin": "perustaa",
+      "lemma": "perustaa",
+      "eng": "establish",
+      "pos": "V"
+    },
+    {
+      "fin": "löytää",
+      "lemma": "löytää",
+      "eng": "find",
+      "pos": "V"
+    },
+    {
+      "fin": "paljastaa",
+      "lemma": "paljastaa",
+      "eng": "unmask",
+      "pos": "V"
+    },
+    {
+      "fin": "muistaa",
+      "lemma": "muistaa",
+      "eng": "remember",
+      "pos": "V"
+    },
+    {
+      "fin": "joutua",
+      "lemma": "joutua",
+      "eng": "hydroplane",
+      "pos": "V"
+    },
+    {
+      "fin": "havaita",
+      "lemma": "havaita",
+      "eng": "discern",
+      "pos": "V"
+    },
+    {
+      "fin": "voi",
+      "lemma": "voi",
+      "eng": "butter",
+      "pos": "V"
+    },
+    {
+      "fin": "täytyä",
+      "lemma": "täytyä",
+      "eng": "have to",
+      "pos": "V"
+    },
+    {
+      "fin": "karkottaa",
+      "lemma": "karkottaa",
+      "eng": "banish",
+      "pos": "V"
+    },
+    {
+      "fin": "antaa",
+      "lemma": "antaa",
+      "eng": "give",
+      "pos": "V"
+    },
+    {
+      "fin": "kieltää",
+      "lemma": "kieltää",
+      "eng": "forbid",
+      "pos": "V"
+    },
+    {
+      "fin": "niittää",
+      "lemma": "niittää",
+      "eng": "mow",
+      "pos": "V"
+    },
+    {
+      "fin": "kykenevä",
+      "lemma": "kyetä",
+      "eng": "able",
+      "pos": "V"
+    },
+    {
+      "fin": "istua",
+      "lemma": "istua",
+      "eng": "sit",
+      "pos": "V"
+    },
+    {
+      "fin": "pohdiskella",
+      "lemma": "pohdiskella",
+      "eng": "contemplate",
+      "pos": "V"
+    },
+    {
+      "fin": "temmata",
+      "lemma": "temmata",
+      "eng": "wrench",
+      "pos": "V"
+    },
+    {
+      "fin": "haluta",
+      "lemma": "haluta",
+      "eng": "want",
+      "pos": "V"
+    },
+    {
+      "fin": "siunattu",
+      "lemma": "siunattu",
+      "eng": "blessed",
+      "pos": "V"
+    },
+    {
+      "fin": "kantaa",
+      "lemma": "kantaa",
+      "eng": "bear",
+      "pos": "V"
+    },
+    {
+      "fin": "maistaa",
+      "lemma": "maistaa",
+      "eng": "taste",
+      "pos": "V"
+    },
+    {
+      "fin": "laskeutuva",
+      "lemma": "laskeutua",
+      "eng": "cascading",
+      "pos": "V"
+    },
+    {
+      "fin": "voittaa",
+      "lemma": "voittaa",
+      "eng": "win",
+      "pos": "V"
+    },
+    {
+      "fin": "huolimatta",
+      "lemma": "huolia",
+      "eng": "despite",
+      "pos": "V"
+    },
+    {
+      "fin": "alentaa",
+      "lemma": "alentaa",
+      "eng": "lower",
+      "pos": "V"
+    },
+    {
+      "fin": "rakastaa",
+      "lemma": "rakastaa",
+      "eng": "love",
+      "pos": "V"
+    },
+    {
+      "fin": "viedä",
+      "lemma": "viedä",
+      "eng": "export",
+      "pos": "V"
+    },
+    {
+      "fin": "vastata",
+      "lemma": "vastata",
+      "eng": "answer",
+      "pos": "V"
+    },
+    {
+      "fin": "levitä",
+      "lemma": "levittää",
+      "eng": "spread",
+      "pos": "V"
+    },
+    {
+      "fin": "haluttava",
+      "lemma": "haluttava",
+      "eng": "desirable",
+      "pos": "V"
+    },
+    {
+      "fin": "sanottu",
+      "lemma": "sanoa",
+      "eng": "said",
+      "pos": "V"
+    },
+    {
+      "fin": "menevä",
+      "lemma": "menevä",
+      "eng": "bound",
+      "pos": "V"
+    },
+    {
+      "fin": "lankeava",
+      "lemma": "langeta",
+      "eng": "incident",
+      "pos": "V"
+    },
+    {
+      "fin": "juuri",
+      "lemma": "juuri",
+      "eng": "root",
+      "pos": "V"
+    },
+    {
+      "fin": "johtaa",
+      "lemma": "johtaa",
+      "eng": "lead",
+      "pos": "V"
+    },
+    {
+      "fin": "elävä",
+      "lemma": "elävä",
+      "eng": "living",
+      "pos": "V"
+    },
+    {
+      "fin": "lähde",
+      "lemma": "lähde",
+      "eng": "source",
+      "pos": "V"
+    },
+    {
+      "fin": "kuvata",
+      "lemma": "kuvata",
+      "eng": "describe",
+      "pos": "V"
+    },
+    {
+      "fin": "valmistava",
+      "lemma": "valmistaa",
+      "eng": "preparatory",
+      "pos": "V"
+    },
+    {
+      "fin": "kulkea",
+      "lemma": "kulkea",
+      "eng": "travel",
+      "pos": "V"
+    },
+    {
+      "fin": "palvella",
+      "lemma": "palvella",
+      "eng": "serve",
+      "pos": "V"
+    },
+    {
+      "fin": "voimassa",
+      "lemma": "voima",
+      "eng": "effective",
+      "pos": "V"
+    },
+    {
+      "fin": "seuraava",
+      "lemma": "seurata",
+      "eng": "next",
+      "pos": "V"
+    },
+    {
+      "fin": "ahdistaa",
+      "lemma": "ahdistaa",
+      "eng": "oppress",
+      "pos": "V"
+    },
+    {
+      "fin": "näyttää",
+      "lemma": "näyttää",
+      "eng": "show",
+      "pos": "V"
+    },
+    {
+      "fin": "parantua",
+      "lemma": "parantua",
+      "eng": "heal",
+      "pos": "V"
+    },
+    {
+      "fin": "ajaa",
+      "lemma": "ajaa",
+      "eng": "drive",
+      "pos": "V"
+    },
+    {
+      "fin": "tuomittava",
+      "lemma": "tuomita",
+      "eng": "reprehensible",
+      "pos": "V"
+    },
+    {
+      "fin": "korottaa",
+      "lemma": "korottaa",
+      "eng": "raise",
+      "pos": "V"
+    },
+    {
+      "fin": "risti",
+      "lemma": "ristiä",
+      "eng": "cross",
+      "pos": "V"
+    },
+    {
+      "fin": "surmata",
+      "lemma": "surmata",
+      "eng": "kill",
+      "pos": "V"
+    },
+    {
+      "fin": "taistella",
+      "lemma": "taistella",
+      "eng": "fight",
+      "pos": "V"
+    },
+    {
+      "fin": "vastaan",
+      "lemma": "vastaan",
+      "eng": "against",
+      "pos": "V"
+    },
+    {
+      "fin": "nimittää",
+      "lemma": "nimittää",
+      "eng": "designate",
+      "pos": "V"
+    },
+    {
+      "fin": "sortua",
+      "lemma": "sortua",
+      "eng": "collapse",
+      "pos": "V"
+    },
+    {
+      "fin": "kieli",
+      "lemma": "kieli",
+      "eng": "language",
+      "pos": "V"
+    },
+    {
+      "fin": "sotia",
+      "lemma": "sota",
+      "eng": "war",
+      "pos": "V"
+    },
+    {
+      "fin": "kuoleva",
+      "lemma": "kuolla",
+      "eng": "dying",
+      "pos": "V"
+    },
+    {
+      "fin": "jatkua",
+      "lemma": "jatkua",
+      "eng": "continue",
+      "pos": "V"
+    },
+    {
+      "fin": "ettei",
+      "lemma": "ettäei",
+      "eng": "lest",
+      "pos": "V"
+    },
+    {
+      "fin": "laskenut",
+      "lemma": "laskenut",
+      "eng": "set",
+      "pos": "V"
+    },
+    {
+      "fin": "yltää",
+      "lemma": "yltää",
+      "eng": "run",
+      "pos": "V"
+    },
+    {
+      "fin": "halkeava",
+      "lemma": "haljeta",
+      "eng": "fissile",
+      "pos": "V"
+    },
+    {
+      "fin": "palava",
+      "lemma": "palaa",
+      "eng": "burning",
+      "pos": "V"
+    },
+    {
+      "fin": "tuli",
+      "lemma": "tuli",
+      "eng": "fire",
+      "pos": "V"
+    },
+    {
+      "fin": "nähty",
+      "lemma": "nähdä",
+      "eng": "seen",
+      "pos": "V"
+    },
+    {
+      "fin": "haihtuva",
+      "lemma": "haihtuva",
+      "eng": "ethereal",
+      "pos": "V"
+    },
+    {
+      "fin": "ollut",
+      "lemma": "olla",
+      "eng": "been",
+      "pos": "V"
+    },
+    {
+      "fin": "kauhistava",
+      "lemma": "kauhistaa",
+      "eng": "terrible",
+      "pos": "V"
+    },
+    {
+      "fin": "näyttäytyä",
+      "lemma": "näyttäytyä",
+      "eng": "appear",
+      "pos": "V"
+    },
+    {
+      "fin": "laskeutua",
+      "lemma": "laskeutua",
+      "eng": "descend",
+      "pos": "V"
+    },
+    {
+      "fin": "valittu",
+      "lemma": "valita",
+      "eng": "selected",
+      "pos": "V"
+    },
+    {
+      "fin": "tuomita",
+      "lemma": "tuomita",
+      "eng": "judge",
+      "pos": "V"
+    },
+    {
+      "fin": "usko",
+      "lemma": "uskoa",
+      "eng": "belief",
+      "pos": "V"
+    },
+    {
+      "fin": "tehty",
+      "lemma": "tehdä",
+      "eng": "done",
+      "pos": "V"
+    },
+    {
+      "fin": "sokaista",
+      "lemma": "sokaista",
+      "eng": "dazzle",
+      "pos": "V"
+    },
+    {
+      "fin": "paaduttaa",
+      "lemma": "paaduttaa",
+      "eng": "harden",
+      "pos": "V"
+    },
+    {
+      "fin": "eksyttää",
+      "lemma": "eksyttää",
+      "eng": "disorientate",
+      "pos": "V"
+    },
+    {
+      "fin": "hukkua",
+      "lemma": "hukkua",
+      "eng": "drown",
+      "pos": "V"
+    },
+    {
+      "fin": "erottaa",
+      "lemma": "erottaa",
+      "eng": "separate",
+      "pos": "V"
+    },
+    {
+      "fin": "alustaa",
+      "lemma": "alustaa",
+      "eng": "initialize",
+      "pos": "V"
+    },
+    {
+      "fin": "voittanut",
+      "lemma": "voittanut",
+      "eng": "superior",
+      "pos": "V"
+    },
+    {
+      "fin": "inhottava",
+      "lemma": "inhottava",
+      "eng": "hideous",
+      "pos": "V"
+    },
+    {
+      "fin": "muodostaa",
+      "lemma": "muodostaa",
+      "eng": "constitute",
+      "pos": "V"
+    },
+    {
+      "fin": "iljettävä",
+      "lemma": "iljettää",
+      "eng": "execrable",
+      "pos": "V"
+    },
+    {
+      "fin": "kiduttaa",
+      "lemma": "kiduttaa",
+      "eng": "torture",
+      "pos": "V"
+    },
+    {
+      "fin": "sitoa",
+      "lemma": "sitoa",
+      "eng": "bind",
+      "pos": "V"
+    },
+    {
+      "fin": "kytkeä",
+      "lemma": "kytkeä",
+      "eng": "switch",
+      "pos": "V"
+    },
+    {
+      "fin": "alistaa",
+      "lemma": "alistaa",
+      "eng": "subordinate",
+      "pos": "V"
+    },
+    {
+      "fin": "hävittää",
+      "lemma": "hävittää",
+      "eng": "eradicate",
+      "pos": "V"
+    },
+    {
+      "fin": "vaikuttava",
+      "lemma": "vaikuttaa",
+      "eng": "effective",
+      "pos": "V"
+    },
+    {
+      "fin": "luvattu",
+      "lemma": "luvata",
+      "eng": "votive",
+      "pos": "V"
+    },
+    {
+      "fin": "lyödä",
+      "lemma": "lyödä",
+      "eng": "beat",
+      "pos": "V"
+    },
+    {
+      "fin": "menestyä",
+      "lemma": "menestyä",
+      "eng": "succeed",
+      "pos": "V"
+    },
+    {
+      "fin": "lähtenyt",
+      "lemma": "lähteä",
+      "eng": "departed",
+      "pos": "V"
+    },
+    {
+      "fin": "nöyrtyä",
+      "lemma": "nöyrtyä",
+      "eng": "humble",
+      "pos": "V"
+    },
+    {
+      "fin": "vapautua",
+      "lemma": "vapautu",
+      "eng": "liberalize",
+      "pos": "V"
+    },
+    {
+      "fin": "kuljettaa",
+      "lemma": "kuljettaa",
+      "eng": "dribble",
+      "pos": "V"
+    },
+    {
+      "fin": "sisältää",
+      "lemma": "sisältää",
+      "eng": "contain",
+      "pos": "V"
+    },
+    {
+      "fin": "kulkeutua",
+      "lemma": "kulkeutua",
+      "eng": "emanate",
+      "pos": "V"
+    },
+    {
+      "fin": "selkeä",
+      "lemma": "seljetä",
+      "eng": "clear",
+      "pos": "V"
+    },
+    {
+      "fin": "vääristellä",
+      "lemma": "vääristellä",
+      "eng": "distort",
+      "pos": "V"
+    },
+    {
+      "fin": "oikea",
+      "lemma": "oieta",
+      "eng": "right",
+      "pos": "V"
+    },
+    {
+      "fin": "otettu",
+      "lemma": "otettu",
+      "eng": "flattered",
+      "pos": "V"
+    },
+    {
+      "fin": "asioida",
+      "lemma": "asioida",
+      "eng": "patronize",
+      "pos": "V"
+    },
+    {
+      "fin": "kompastua",
+      "lemma": "kompastua",
+      "eng": "trip",
+      "pos": "V"
+    },
+    {
+      "fin": "sallia",
+      "lemma": "sallia",
+      "eng": "allow",
+      "pos": "V"
+    },
+    {
+      "fin": "jäädä",
+      "lemma": "jäätää",
+      "eng": "stay",
+      "pos": "V"
+    },
+    {
+      "fin": "tilata",
+      "lemma": "tilata",
+      "eng": "order",
+      "pos": "V"
+    },
+    {
+      "fin": "muodostua",
+      "lemma": "muodostua",
+      "eng": "form",
+      "pos": "V"
+    },
+    {
+      "fin": "rangaista",
+      "lemma": "rangaista",
+      "eng": "punish",
+      "pos": "V"
+    },
+    {
+      "fin": "rangaistu",
+      "lemma": "rangaista",
+      "eng": "convict",
+      "pos": "V"
+    },
+    {
+      "fin": "lyöty",
+      "lemma": "lyöttyä",
+      "eng": "subdued",
+      "pos": "V"
+    },
+    {
+      "fin": "opettaa",
+      "lemma": "opettaa",
+      "eng": "teach",
+      "pos": "V"
+    },
+    {
+      "fin": "kätkeä",
+      "lemma": "kätkeä",
+      "eng": "hide",
+      "pos": "V"
+    },
+    {
+      "fin": "pyrkiä",
+      "lemma": "pyrkiä",
+      "eng": "aspire",
+      "pos": "V"
+    },
+    {
+      "fin": "kestää",
+      "lemma": "kestää",
+      "eng": "take",
+      "pos": "V"
+    },
+    {
+      "fin": "ylentää",
+      "lemma": "ylentää",
+      "eng": "promote",
+      "pos": "V"
+    },
+    {
+      "fin": "pelastaa",
+      "lemma": "pelastaa",
+      "eng": "rescue",
+      "pos": "V"
+    },
+    {
+      "fin": "julistaa",
+      "lemma": "julistaa",
+      "eng": "declare",
+      "pos": "V"
+    },
+    {
+      "fin": "sanoma",
+      "lemma": "sanoma",
+      "eng": "message",
+      "pos": "V"
+    },
+    {
+      "fin": "hajotettu",
+      "lemma": "hajotettu",
+      "eng": "demolished",
+      "pos": "V"
+    },
+    {
+      "fin": "vakuuttunut",
+      "lemma": "vakuuttua",
+      "eng": "convinced",
+      "pos": "V"
+    },
+    {
+      "fin": "vahvistaa",
+      "lemma": "vahvistaa",
+      "eng": "confirm",
+      "pos": "V"
+    },
+    {
+      "fin": "pelastua",
+      "lemma": "pelastua",
+      "eng": "to escape",
+      "pos": "V"
+    },
+    {
+      "fin": "paatua",
+      "lemma": "paatua",
+      "eng": "harden",
+      "pos": "V"
+    },
+    {
+      "fin": "lukea",
+      "lemma": "lukea",
+      "eng": "read",
+      "pos": "V"
+    },
+    {
+      "fin": "sekoittaa",
+      "lemma": "sekoittaa",
+      "eng": "mix",
+      "pos": "V"
+    },
+    {
+      "fin": "kaivettu",
+      "lemma": "kaivaa",
+      "eng": "dredged",
+      "pos": "V"
+    },
+    {
+      "fin": "täyttää",
+      "lemma": "täyttää",
+      "eng": "fill",
+      "pos": "V"
+    },
+    {
+      "fin": "kaivaa",
+      "lemma": "kaivaa",
+      "eng": "dig",
+      "pos": "V"
+    },
+    {
+      "fin": "heittää",
+      "lemma": "heittää",
+      "eng": "throw",
+      "pos": "V"
+    },
+    {
+      "fin": "loppua",
+      "lemma": "loppu",
+      "eng": "end",
+      "pos": "V"
+    },
+    {
+      "fin": "harjoittaa",
+      "lemma": "harjoittaa",
+      "eng": "practice",
+      "pos": "V"
+    },
+    {
+      "fin": "käydä",
+      "lemma": "käydä",
+      "eng": "pass",
+      "pos": "V"
+    },
+    {
+      "fin": "jättää",
+      "lemma": "jättää",
+      "eng": "leave",
+      "pos": "V"
+    },
+    {
+      "fin": "mieli",
+      "lemma": "mieli",
+      "eng": "mind",
+      "pos": "V"
+    },
+    {
+      "fin": "kokoava",
+      "lemma": "koota",
+      "eng": "collective",
+      "pos": "V"
+    },
+    {
+      "fin": "varustaa",
+      "lemma": "varustaa",
+      "eng": "endow",
+      "pos": "V"
+    },
+    {
+      "fin": "vuodattaa",
+      "lemma": "vuodattaa",
+      "eng": "pour",
+      "pos": "V"
+    },
+    {
+      "fin": "alkaa",
+      "lemma": "alkaa",
+      "eng": "start",
+      "pos": "V"
+    },
+    {
+      "fin": "kuulua",
+      "lemma": "kuulu",
+      "eng": "belong",
+      "pos": "V"
+    },
+    {
+      "fin": "toteuttaa",
+      "lemma": "toteuttaa",
+      "eng": "implement",
+      "pos": "V"
+    },
+    {
+      "fin": "pukeutunut",
+      "lemma": "pukeutua",
+      "eng": "dressed",
+      "pos": "V"
+    },
+    {
+      "fin": "näkevä",
+      "lemma": "näkevä",
+      "eng": "seeing",
+      "pos": "V"
+    },
+    {
+      "fin": "lähtevä",
+      "lemma": "lähtevä",
+      "eng": "outbound",
+      "pos": "V"
+    },
+    {
+      "fin": "kirjoitettu",
+      "lemma": "kirjoitettu",
+      "eng": "written",
+      "pos": "V"
+    },
+    {
+      "fin": "ymmärtää",
+      "lemma": "ymmärtää",
+      "eng": "understand",
+      "pos": "V"
+    },
+    {
+      "fin": "pitää",
+      "lemma": "pitää",
+      "eng": "hold",
+      "pos": "V"
+    },
+    {
+      "fin": "sinetöity",
+      "lemma": "sinetöidä",
+      "eng": "sealed",
+      "pos": "V"
+    },
+    {
+      "fin": "kielletty",
+      "lemma": "kieltää",
+      "eng": "forbidden",
+      "pos": "V"
+    },
+    {
+      "fin": "riittää",
+      "lemma": "riittää",
+      "eng": "suffice",
+      "pos": "V"
+    },
+    {
+      "fin": "pieni",
+      "lemma": "pieni",
+      "eng": "small",
+      "pos": "V"
+    },
+    {
+      "fin": "lakata",
+      "lemma": "lakata",
+      "eng": "cease",
+      "pos": "V"
+    },
+    {
+      "fin": "väitellä",
+      "lemma": "väitellä",
+      "eng": "argue",
+      "pos": "V"
+    },
+    {
+      "fin": "paatunut",
+      "lemma": "paatunut",
+      "eng": "abandoned",
+      "pos": "V"
+    },
+    {
+      "fin": "väistää",
+      "lemma": "väistää",
+      "eng": "dodge",
+      "pos": "V"
+    },
+    {
+      "fin": "saatu",
+      "lemma": "saada",
+      "eng": "acquired",
+      "pos": "V"
+    },
+    {
+      "fin": "sanonut",
+      "lemma": "sanoa",
+      "eng": "said",
+      "pos": "V"
+    },
+    {
+      "fin": "pyytää",
+      "lemma": "pyytää",
+      "eng": "request",
+      "pos": "V"
+    },
+    {
+      "fin": "taitettu",
+      "lemma": "taitettu",
+      "eng": "soft",
+      "pos": "V"
+    },
+    {
+      "fin": "tarkoittaa",
+      "lemma": "tarkoittaa",
+      "eng": "mean",
+      "pos": "V"
+    },
+    {
+      "fin": "vaipunut",
+      "lemma": "vaipua",
+      "eng": "deep in",
+      "pos": "V"
+    },
+    {
+      "fin": "tietävä",
+      "lemma": "tietää",
+      "eng": "in the know",
+      "pos": "V"
+    },
+    {
+      "fin": "oppi",
+      "lemma": "oppi",
+      "eng": "doctrine",
+      "pos": "V"
+    },
+    {
+      "fin": "riemuita",
+      "lemma": "riemuita",
+      "eng": "rejoice",
+      "pos": "V"
+    },
+    {
+      "fin": "ikuistaa",
+      "lemma": "ikuistaa",
+      "eng": "immortalise",
+      "pos": "V"
+    },
+    {
+      "fin": "osoittaa",
+      "lemma": "osoittaa",
+      "eng": "point",
+      "pos": "V"
+    },
+    {
+      "fin": "viitata",
+      "lemma": "viitata",
+      "eng": "reference",
+      "pos": "V"
+    },
+    {
+      "fin": "palauttaa",
+      "lemma": "palauttaa",
+      "eng": "return",
+      "pos": "V"
+    },
+    {
+      "fin": "esittää",
+      "lemma": "esittää",
+      "eng": "present",
+      "pos": "V"
+    },
+    {
+      "fin": "leppyä",
+      "lemma": "leppyä",
+      "eng": "soften",
+      "pos": "V"
+    },
+    {
+      "fin": "palaa",
+      "lemma": "palaa",
+      "eng": "burn",
+      "pos": "V"
+    },
+    {
+      "fin": "nuolla",
+      "lemma": "nuolla",
+      "eng": "lick",
+      "pos": "V"
+    },
+    {
+      "fin": "erottava",
+      "lemma": "erottava",
+      "eng": "divisive",
+      "pos": "V"
+    },
+    {
+      "fin": "leimuava",
+      "lemma": "leimuava",
+      "eng": "ardent",
+      "pos": "V"
+    },
+    {
+      "fin": "kohota",
+      "lemma": "kohota",
+      "eng": "soar",
+      "pos": "V"
+    },
+    {
+      "fin": "piinata",
+      "lemma": "piinata",
+      "eng": "torment",
+      "pos": "V"
+    },
+    {
+      "fin": "kuolema",
+      "lemma": "kuolla",
+      "eng": "death",
+      "pos": "V"
+    },
+    {
+      "fin": "kuvaava",
+      "lemma": "kuvata",
+      "eng": "figurative",
+      "pos": "V"
+    },
+    {
+      "fin": "tuomittu",
+      "lemma": "tuomittu",
+      "eng": "convict",
+      "pos": "V"
+    },
+    {
+      "fin": "kuolla",
+      "lemma": "kuolla",
+      "eng": "die",
+      "pos": "V"
+    },
+    {
+      "fin": "päästä",
+      "lemma": "päästää",
+      "eng": "access",
+      "pos": "V"
+    },
+    {
+      "fin": "sulkea",
+      "lemma": "sulkea",
+      "eng": "close",
+      "pos": "V"
+    },
+    {
+      "fin": "kyetä",
+      "lemma": "kyetä",
+      "eng": "be able to",
+      "pos": "V"
+    },
+    {
+      "fin": "viiltää",
+      "lemma": "viiltää",
+      "eng": "slash",
+      "pos": "V"
+    },
+    {
+      "fin": "vaeltaa",
+      "lemma": "vaeltaa",
+      "eng": "wander",
+      "pos": "V"
+    },
+    {
+      "fin": "nurista",
+      "lemma": "nurista",
+      "eng": "grumble",
+      "pos": "V"
+    },
+    {
+      "fin": "kutsua",
+      "lemma": "kutsu",
+      "eng": "invite",
+      "pos": "V"
+    },
+    {
+      "fin": "otin",
+      "lemma": "otin",
+      "eng": "handle",
+      "pos": "V"
+    },
+    {
+      "fin": "annettu",
+      "lemma": "annettu",
+      "eng": "given",
+      "pos": "V"
+    },
+    {
+      "fin": "käskeä",
+      "lemma": "käskeä",
+      "eng": "command",
+      "pos": "V"
+    },
+    {
+      "fin": "matkata",
+      "lemma": "matkata",
+      "eng": "travel",
+      "pos": "V"
+    },
+    {
+      "fin": "nousta",
+      "lemma": "nousta",
+      "eng": "rise",
+      "pos": "V"
+    },
+    {
+      "fin": "osoitin",
+      "lemma": "osoitin",
+      "eng": "pointer",
+      "pos": "V"
+    },
+    {
+      "fin": "suunnata",
+      "lemma": "suunata",
+      "eng": "head",
+      "pos": "V"
+    },
+    {
+      "fin": "pystyttää",
+      "lemma": "pystyttää",
+      "eng": "erect",
+      "pos": "V"
+    },
+    {
+      "fin": "luo",
+      "lemma": "luoda",
+      "eng": "Luo",
+      "pos": "V"
+    },
+    {
+      "fin": "paikata",
+      "lemma": "paikata",
+      "eng": "patch",
+      "pos": "V"
+    },
+    {
+      "fin": "noudattaa",
+      "lemma": "noudattaa",
+      "eng": "obey",
+      "pos": "V"
+    },
+    {
+      "fin": "pysytellä",
+      "lemma": "pysytellä",
+      "eng": "stick",
+      "pos": "V"
+    },
+    {
+      "fin": "nuoli",
+      "lemma": "nuoli",
+      "eng": "arrow",
+      "pos": "V"
+    },
+    {
+      "fin": "seurata",
+      "lemma": "seurata",
+      "eng": "follow",
+      "pos": "V"
+    },
+    {
+      "fin": "levätä",
+      "lemma": "levätä",
+      "eng": "rest",
+      "pos": "V"
+    },
+    {
+      "fin": "rikkoa",
+      "lemma": "rikkoa",
+      "eng": "break",
+      "pos": "V"
+    },
+    {
+      "fin": "rikottu",
+      "lemma": "rikkoa",
+      "eng": "broken",
+      "pos": "V"
+    },
+    {
+      "fin": "perin",
+      "lemma": "periä",
+      "eng": "exceedingly",
+      "pos": "V"
+    },
+    {
+      "fin": "kärsiä",
+      "lemma": "kärsiä",
+      "eng": "suffer",
+      "pos": "V"
+    },
+    {
+      "fin": "menettänyt",
+      "lemma": "menettänyt",
+      "eng": "mourning",
+      "pos": "V"
+    },
+    {
+      "fin": "aseistautua",
+      "lemma": "aseistautua",
+      "eng": "arm",
+      "pos": "V"
+    },
+    {
+      "fin": "hankkia",
+      "lemma": "hankkia",
+      "eng": "obtain",
+      "pos": "V"
+    },
+    {
+      "fin": "kysyä",
+      "lemma": "kysyä",
+      "eng": "ask",
+      "pos": "V"
+    },
+    {
+      "fin": "nuhdella",
+      "lemma": "nuhdella",
+      "eng": "reprimand",
+      "pos": "V"
+    },
+    {
+      "fin": "vavista",
+      "lemma": "vav",
+      "eng": "shudder",
+      "pos": "V"
+    },
+    {
+      "fin": "toimia",
+      "lemma": "toimia",
+      "eng": "act",
+      "pos": "V"
+    },
+    {
+      "fin": "uusia",
+      "lemma": "uusia",
+      "eng": "renew",
+      "pos": "V"
+    },
+    {
+      "fin": "luettava",
+      "lemma": "lukea",
+      "eng": "legible",
+      "pos": "V"
+    },
+    {
+      "fin": "vaihtua",
+      "lemma": "vaihtua",
+      "eng": "pass",
+      "pos": "V"
+    },
+    {
+      "fin": "kiittää",
+      "lemma": "kiittää",
+      "eng": "thank",
+      "pos": "V"
+    },
+    {
+      "fin": "viipyä",
+      "lemma": "viipyä",
+      "eng": "stay",
+      "pos": "V"
+    },
+    {
+      "fin": "haudata",
+      "lemma": "haudata",
+      "eng": "bury",
+      "pos": "V"
+    },
+    {
+      "fin": "surra",
+      "lemma": "surra",
+      "eng": "mourn",
+      "pos": "V"
+    },
+    {
+      "fin": "menehtyä",
+      "lemma": "menehtyä",
+      "eng": "perish",
+      "pos": "V"
+    },
+    {
+      "fin": "valehdella",
+      "lemma": "valehdella",
+      "eng": "lie",
+      "pos": "V"
+    },
+    {
+      "fin": "kertoa",
+      "lemma": "kerto",
+      "eng": "tell",
+      "pos": "V"
+    },
+    {
+      "fin": "juoni",
+      "lemma": "juonia",
+      "eng": "plot",
+      "pos": "V"
+    },
+    {
+      "fin": "pettää",
+      "lemma": "pettää",
+      "eng": "betray",
+      "pos": "V"
+    },
+    {
+      "fin": "ajatella",
+      "lemma": "ajatella",
+      "eng": "think",
+      "pos": "V"
+    },
+    {
+      "fin": "ryhtyä",
+      "lemma": "ryhtyä",
+      "eng": "undertake",
+      "pos": "V"
+    },
+    {
+      "fin": "yllyttää",
+      "lemma": "yllyttää",
+      "eng": "abet",
+      "pos": "V"
+    },
+    {
+      "fin": "kääntää",
+      "lemma": "kääntää",
+      "eng": "translate",
+      "pos": "V"
+    },
+    {
+      "fin": "siunata",
+      "lemma": "siunata",
+      "eng": "bless",
+      "pos": "V"
+    },
+    {
+      "fin": "nainen",
+      "lemma": "naida",
+      "eng": "woman",
+      "pos": "V"
+    },
+    {
+      "fin": "synnyttää",
+      "lemma": "synnyttää",
+      "eng": "generate",
+      "pos": "V"
+    },
+    {
+      "fin": "imettää",
+      "lemma": "imettää",
+      "eng": "breastfeed",
+      "pos": "V"
+    },
+    {
+      "fin": "täytettävä",
+      "lemma": "täyttää",
+      "eng": "refillable",
+      "pos": "V"
+    },
+    {
+      "fin": "ravita",
+      "lemma": "ravita",
+      "eng": "nourish",
+      "pos": "V"
+    },
+    {
+      "fin": "järjestää",
+      "lemma": "järjestää",
+      "eng": "arrange",
+      "pos": "V"
+    },
+    {
+      "fin": "käännetty",
+      "lemma": "kääntää",
+      "eng": "hot",
+      "pos": "V"
+    },
+    {
+      "fin": "rakentaa",
+      "lemma": "rakentaa",
+      "eng": "build",
+      "pos": "V"
+    },
+    {
+      "fin": "voinen",
+      "lemma": "voinen",
+      "eng": "buttery",
+      "pos": "V"
+    },
+    {
+      "fin": "lietsoa",
+      "lemma": "lietsoa",
+      "eng": "foment",
+      "pos": "V"
+    },
+    {
+      "fin": "tarvita",
+      "lemma": "tarvita",
+      "eng": "need",
+      "pos": "V"
+    },
+    {
+      "fin": "kypsentää",
+      "lemma": "kypsentää",
+      "eng": "do",
+      "pos": "V"
+    },
+    {
+      "fin": "kilvoitella",
+      "lemma": "kilvoitella",
+      "eng": "compete",
+      "pos": "V"
+    },
+    {
+      "fin": "sulattaa",
+      "lemma": "sulattaa",
+      "eng": "digest",
+      "pos": "V"
+    },
+    {
+      "fin": "aikoa",
+      "lemma": "aikoa",
+      "eng": "intend",
+      "pos": "V"
+    },
+    {
+      "fin": "luulla",
+      "lemma": "luu",
+      "eng": "think",
+      "pos": "V"
+    },
+    {
+      "fin": "syytellä",
+      "lemma": "syytellä",
+      "eng": "to accuse",
+      "pos": "V"
+    },
+    {
+      "fin": "käypä",
+      "lemma": "käypä",
+      "eng": "decent",
+      "pos": "V"
+    },
+    {
+      "fin": "osata",
+      "lemma": "osata",
+      "eng": "can",
+      "pos": "V"
+    },
+    {
+      "fin": "laivata",
+      "lemma": "laivata",
+      "eng": "ship",
+      "pos": "V"
+    },
+    {
+      "fin": "puuttua",
+      "lemma": "puuttua",
+      "eng": "lack",
+      "pos": "V"
+    },
+    {
+      "fin": "pystyä",
+      "lemma": "pystyä",
+      "eng": "can",
+      "pos": "V"
+    },
+    {
+      "fin": "synnyttänyt",
+      "lemma": "synnyttää",
+      "eng": "parous",
+      "pos": "V"
+    },
+    {
+      "fin": "nauttia",
+      "lemma": "nauttia",
+      "eng": "enjoy",
+      "pos": "V"
+    },
+    {
+      "fin": "tehtävä",
+      "lemma": "tehdä",
+      "eng": "task",
+      "pos": "V"
+    },
+    {
+      "fin": "jakaantua",
+      "lemma": "jakaantua",
+      "eng": "divide",
+      "pos": "V"
+    },
+    {
+      "fin": "ruokkia",
+      "lemma": "ruokkia",
+      "eng": "feed",
+      "pos": "V"
+    },
+    {
+      "fin": "herjata",
+      "lemma": "herjata",
+      "eng": "abuse",
+      "pos": "V"
+    },
+    {
+      "fin": "kirota",
+      "lemma": "kirota",
+      "eng": "curse",
+      "pos": "V"
+    },
+    {
+      "fin": "hallita",
+      "lemma": "hallita",
+      "eng": "govern",
+      "pos": "V"
+    },
+    {
+      "fin": "lähettää",
+      "lemma": "lähettää",
+      "eng": "transmit",
+      "pos": "V"
+    },
+    {
+      "fin": "purra",
+      "lemma": "purra",
+      "eng": "bite",
+      "pos": "V"
+    },
+    {
+      "fin": "oppia",
+      "lemma": "oppi",
+      "eng": "learn",
+      "pos": "V"
+    },
+    {
+      "fin": "rukoilla",
+      "lemma": "rukoilla",
+      "eng": "pray",
+      "pos": "V"
+    },
+    {
+      "fin": "syntynyt",
+      "lemma": "syntynyt",
+      "eng": "born",
+      "pos": "V"
+    },
+    {
+      "fin": "mennyt",
+      "lemma": "mennä",
+      "eng": "past",
+      "pos": "V"
+    },
+    {
+      "fin": "käsketty",
+      "lemma": "käskeä",
+      "eng": "mandatory",
+      "pos": "V"
+    },
+    {
+      "fin": "tuulla",
+      "lemma": "tuulla",
+      "eng": "blow",
+      "pos": "V"
+    },
+    {
+      "fin": "laulaa",
+      "lemma": "laulaa",
+      "eng": "sing",
+      "pos": "V"
+    },
+    {
+      "fin": "unohtaa",
+      "lemma": "unohtaa",
+      "eng": "forget",
+      "pos": "V"
+    },
+    {
+      "fin": "yltyä",
+      "lemma": "yltyä",
+      "eng": "get up",
+      "pos": "V"
+    },
+    {
+      "fin": "vihastua",
+      "lemma": "vihastua",
+      "eng": "become angry",
+      "pos": "V"
+    },
+    {
+      "fin": "niellä",
+      "lemma": "niellä",
+      "eng": "swallow",
+      "pos": "V"
+    },
+    {
+      "fin": "tarttua",
+      "lemma": "tarttua",
+      "eng": "seize",
+      "pos": "V"
+    },
+    {
+      "fin": "ohjata",
+      "lemma": "ohjata",
+      "eng": "steer",
+      "pos": "V"
+    },
+    {
+      "fin": "ajautua",
+      "lemma": "ajautua",
+      "eng": "drift",
+      "pos": "V"
+    },
+    {
+      "fin": "käsittää",
+      "lemma": "käsittää",
+      "eng": "understand",
+      "pos": "V"
+    },
+    {
+      "fin": "päästää",
+      "lemma": "päästää",
+      "eng": "utter",
+      "pos": "V"
+    },
+    {
+      "fin": "turvonnut",
+      "lemma": "turvonnut",
+      "eng": "bloated",
+      "pos": "V"
+    },
+    {
+      "fin": "turvautua",
+      "lemma": "turvautua",
+      "eng": "resort",
+      "pos": "V"
+    },
+    {
+      "fin": "ylistää",
+      "lemma": "ylistää",
+      "eng": "praise",
+      "pos": "V"
+    },
+    {
+      "fin": "syytää",
+      "lemma": "syytää",
+      "eng": "lavish",
+      "pos": "V"
+    },
+    {
+      "fin": "painama",
+      "lemma": "painama",
+      "eng": "impress",
+      "pos": "V"
+    },
+    {
+      "fin": "ajastaa",
+      "lemma": "ajastaa",
+      "eng": "time",
+      "pos": "V"
+    },
+    {
+      "fin": "heitetty",
+      "lemma": "heittää",
+      "eng": "cast",
+      "pos": "V"
+    },
+    {
+      "fin": "murehtia",
+      "lemma": "murehtia",
+      "eng": "grieve",
+      "pos": "V"
+    },
+    {
+      "fin": "uhata",
+      "lemma": "uhata",
+      "eng": "threaten",
+      "pos": "V"
+    },
+    {
+      "fin": "pehmittää",
+      "lemma": "pehmittää",
+      "eng": "grain",
+      "pos": "V"
+    },
+    {
+      "fin": "saapua",
+      "lemma": "saapua",
+      "eng": "arrive",
+      "pos": "V"
+    },
+    {
+      "fin": "muokata",
+      "lemma": "muokata",
+      "eng": "modify",
+      "pos": "V"
+    },
+    {
+      "fin": "kylvää",
+      "lemma": "kylvää",
+      "eng": "sow",
+      "pos": "V"
+    },
+    {
+      "fin": "kaivertaa",
+      "lemma": "kaivertaa",
+      "eng": "engrave",
+      "pos": "V"
+    },
+    {
+      "fin": "kerrottu",
+      "lemma": "kertoa",
+      "eng": "double",
+      "pos": "V"
+    },
+    {
+      "fin": "säilyttää",
+      "lemma": "säilyttää",
+      "eng": "preserve",
+      "pos": "V"
+    },
+    {
+      "fin": "periytyä",
+      "lemma": "periytyä",
+      "eng": "descend",
+      "pos": "V"
+    },
+    {
+      "fin": "säilyä",
+      "lemma": "säilyä",
+      "eng": "store",
+      "pos": "V"
+    },
+    {
+      "fin": "erehtyä",
+      "lemma": "erehtyä",
+      "eng": "err",
+      "pos": "V"
+    },
+    {
+      "fin": "neuvo",
+      "lemma": "neuvoa",
+      "eng": "advice",
+      "pos": "V"
+    },
+    {
+      "fin": "ruoskia",
+      "lemma": "ruoska",
+      "eng": "lash",
+      "pos": "V"
+    },
+    {
+      "fin": "sylkeä",
+      "lemma": "sylki",
+      "eng": "spit",
+      "pos": "V"
+    },
+    {
+      "fin": "aueta",
+      "lemma": "aueta",
+      "eng": "open",
+      "pos": "V"
+    },
+    {
+      "fin": "vaikuttaa",
+      "lemma": "vaikuttaa",
+      "eng": "influence",
+      "pos": "V"
+    },
+    {
+      "fin": "huudahtaa",
+      "lemma": "huudahtaa",
+      "eng": "ejaculate",
+      "pos": "V"
+    },
+    {
+      "fin": "viheltää",
+      "lemma": "viheltää",
+      "eng": "whistle",
+      "pos": "V"
+    },
+    {
+      "fin": "pilkata",
+      "lemma": "pilkata",
+      "eng": "mock",
+      "pos": "V"
+    },
+    {
+      "fin": "vihata",
+      "lemma": "vihata",
+      "eng": "hate",
+      "pos": "V"
+    },
+    {
+      "fin": "uuvuttaa",
+      "lemma": "uuvuttaa",
+      "eng": "exhaust",
+      "pos": "V"
+    },
+    {
+      "fin": "koskeva",
+      "lemma": "koskea",
+      "eng": "concerning",
+      "pos": "V"
+    },
+    {
+      "fin": "soveltaa",
+      "lemma": "soveltaa",
+      "eng": "apply",
+      "pos": "V"
+    },
+    {
+      "fin": "toivoa",
+      "lemma": "toivo",
+      "eng": "hope",
+      "pos": "V"
+    },
+    {
+      "fin": "syntyä",
+      "lemma": "synty",
+      "eng": "arise",
+      "pos": "V"
+    },
+    {
+      "fin": "toimittanut",
+      "lemma": "toimittaa",
+      "eng": "edited by",
+      "pos": "V"
+    },
+    {
+      "fin": "heittäytyä",
+      "lemma": "heittäytyä",
+      "eng": "fall",
+      "pos": "V"
+    },
+    {
+      "fin": "lukematon",
+      "lemma": "lukea",
+      "eng": "myriad",
+      "pos": "V"
+    },
+    {
+      "fin": "seisahtua",
+      "lemma": "seisahtua",
+      "eng": "stall",
+      "pos": "V"
+    },
+    {
+      "fin": "lyhennetty",
+      "lemma": "lyhennetty",
+      "eng": "abbreviated",
+      "pos": "V"
+    },
+    {
+      "fin": "riistää",
+      "lemma": "riistää",
+      "eng": "exploit",
+      "pos": "V"
+    },
+    {
+      "fin": "kuuluttaa",
+      "lemma": "kuuluttaa",
+      "eng": "announce",
+      "pos": "V"
+    },
+    {
+      "fin": "veistetty",
+      "lemma": "veistetty",
+      "eng": "carved",
+      "pos": "V"
+    },
+    {
+      "fin": "valettu",
+      "lemma": "valettu",
+      "eng": "die-cast",
+      "pos": "V"
+    },
+    {
+      "fin": "myöntää",
+      "lemma": "myöntää",
+      "eng": "grant",
+      "pos": "V"
+    },
+    {
+      "fin": "salattu",
+      "lemma": "salata",
+      "eng": "occult",
+      "pos": "V"
+    },
+    {
+      "fin": "menetellä",
+      "lemma": "menetellä",
+      "eng": "do",
+      "pos": "V"
+    },
+    {
+      "fin": "kutsuttu",
+      "lemma": "kutsua",
+      "eng": "inductee",
+      "pos": "V"
+    },
+    {
+      "fin": "hillitä",
+      "lemma": "hillitä",
+      "eng": "check",
+      "pos": "V"
+    },
+    {
+      "fin": "kutsu",
+      "lemma": "kutsu",
+      "eng": "invitation",
+      "pos": "V"
+    },
+    {
+      "fin": "totella",
+      "lemma": "totella",
+      "eng": "obey",
+      "pos": "V"
+    },
+    {
+      "fin": "menestyvä",
+      "lemma": "menestyä",
+      "eng": "successful",
+      "pos": "V"
+    },
+    {
+      "fin": "lähestyä",
+      "lemma": "lähestyä",
+      "eng": "approach",
+      "pos": "V"
+    },
+    {
+      "fin": "tuhottu",
+      "lemma": "tuhottu",
+      "eng": "devastated",
+      "pos": "V"
+    },
+    {
+      "fin": "halkaista",
+      "lemma": "halkaista",
+      "eng": "split",
+      "pos": "V"
+    },
+    {
+      "fin": "ajettu",
+      "lemma": "ajettu",
+      "eng": "driven",
+      "pos": "V"
+    },
+    {
+      "fin": "mainita",
+      "lemma": "mainita",
+      "eng": "mention",
+      "pos": "V"
+    },
+    {
+      "fin": "hiottu",
+      "lemma": "hioa",
+      "eng": "polished",
+      "pos": "V"
+    },
+    {
+      "fin": "kirkastaa",
+      "lemma": "kirkastaa",
+      "eng": "fine",
+      "pos": "V"
+    },
+    {
+      "fin": "jäänyt",
+      "lemma": "jäädä",
+      "eng": "left",
+      "pos": "V"
+    },
+    {
+      "fin": "seisoma",
+      "lemma": "seisoa",
+      "eng": "stand",
+      "pos": "V"
+    },
+    {
+      "fin": "vangittu",
+      "lemma": "vangittu",
+      "eng": "captive",
+      "pos": "V"
+    },
+    {
+      "fin": "istuva",
+      "lemma": "istuva",
+      "eng": "incumbent",
+      "pos": "V"
+    },
+    {
+      "fin": "opastaa",
+      "lemma": "opastaa",
+      "eng": "guide",
+      "pos": "V"
+    },
+    {
+      "fin": "iloita",
+      "lemma": "iloita",
+      "eng": "rejoice",
+      "pos": "V"
+    },
+    {
+      "fin": "puhjeta",
+      "lemma": "puhjeta",
+      "eng": "burst",
+      "pos": "V"
+    },
+    {
+      "fin": "armahtaa",
+      "lemma": "armahtaa",
+      "eng": "absolve",
+      "pos": "V"
+    },
+    {
+      "fin": "osoittava",
+      "lemma": "osoittava",
+      "eng": "indicative",
+      "pos": "V"
+    },
+    {
+      "fin": "naida",
+      "lemma": "naida",
+      "eng": "fuck",
+      "pos": "V"
+    },
+    {
+      "fin": "sääliä",
+      "lemma": "sääli",
+      "eng": "pity",
+      "pos": "V"
+    },
+    {
+      "fin": "rientää",
+      "lemma": "rientää",
+      "eng": "run",
+      "pos": "V"
+    },
+    {
+      "fin": "repiä",
+      "lemma": "repiä",
+      "eng": "tear",
+      "pos": "V"
+    },
+    {
+      "fin": "kokoontua",
+      "lemma": "kokoontua",
+      "eng": "gather",
+      "pos": "V"
+    },
+    {
+      "fin": "pukea",
+      "lemma": "pukea",
+      "eng": "dress",
+      "pos": "V"
+    },
+    {
+      "fin": "kietoa",
+      "lemma": "kietoa",
+      "eng": "roll",
+      "pos": "V"
+    },
+    {
+      "fin": "yllä",
+      "lemma": "yllä",
+      "eng": "above",
+      "pos": "V"
+    },
+    {
+      "fin": "nielaista",
+      "lemma": "nielaista",
+      "eng": "swallow",
+      "pos": "V"
+    },
+    {
+      "fin": "menetetty",
+      "lemma": "menetetty",
+      "eng": "lost",
+      "pos": "V"
+    },
+    {
+      "fin": "jää",
+      "lemma": "jää",
+      "eng": "ice",
+      "pos": "V"
+    },
+    {
+      "fin": "odottaa",
+      "lemma": "odottaa",
+      "eng": "await",
+      "pos": "V"
+    },
+    {
+      "fin": "häpeä",
+      "lemma": "häpeä",
+      "eng": "shame",
+      "pos": "V"
+    },
+    {
+      "fin": "vapauttaa",
+      "lemma": "vapauttaa",
+      "eng": "relieve",
+      "pos": "V"
+    },
+    {
+      "fin": "lukema",
+      "lemma": "lukea",
+      "eng": "reading",
+      "pos": "V"
+    },
+    {
+      "fin": "ymmärrettävä",
+      "lemma": "ymmärtää",
+      "eng": "understandable",
+      "pos": "V"
+    },
+    {
+      "fin": "kannettu",
+      "lemma": "kantaa",
+      "eng": "born",
+      "pos": "V"
+    },
+    {
+      "fin": "arvo",
+      "lemma": "arpoa",
+      "eng": "value",
+      "pos": "V"
+    },
+    {
+      "fin": "iskeä",
+      "lemma": "iskeä",
+      "eng": "strike",
+      "pos": "V"
+    },
+    {
+      "fin": "käännyttää",
+      "lemma": "käännyttää",
+      "eng": "proselytize",
+      "pos": "V"
+    },
+    {
+      "fin": "pudota",
+      "lemma": "pudota",
+      "eng": "fall",
+      "pos": "V"
+    },
+    {
+      "fin": "vääristelty",
+      "lemma": "vääristelty",
+      "eng": "distorted",
+      "pos": "V"
+    },
+    {
+      "fin": "poltettava",
+      "lemma": "poltettava",
+      "eng": "burnable",
+      "pos": "V"
+    },
+    {
+      "fin": "saavuttaa",
+      "lemma": "saavuttaa",
+      "eng": "achieve",
+      "pos": "V"
+    },
+    {
+      "fin": "vapista",
+      "lemma": "vapista",
+      "eng": "shake",
+      "pos": "V"
+    },
+    {
+      "fin": "polttaa",
+      "lemma": "polttaa",
+      "eng": "smoke",
+      "pos": "V"
+    },
+    {
+      "fin": "lopettaa",
+      "lemma": "lopettaa",
+      "eng": "stop",
+      "pos": "V"
+    },
+    {
+      "fin": "rohjeta",
+      "lemma": "rohjeta",
+      "eng": "dare",
+      "pos": "V"
+    },
+    {
+      "fin": "järkkymätön",
+      "lemma": "järkkyä",
+      "eng": "adamant",
+      "pos": "V"
+    },
+    {
+      "fin": "puhutella",
+      "lemma": "puhutella",
+      "eng": "address",
+      "pos": "V"
+    },
+    {
+      "fin": "kapinoida",
+      "lemma": "kapinoida",
+      "eng": "rebel",
+      "pos": "V"
+    },
+    {
+      "fin": "herättää",
+      "lemma": "herättää",
+      "eng": "awaken",
+      "pos": "V"
+    },
+    {
+      "fin": "muisti",
+      "lemma": "muisti",
+      "eng": "memory",
+      "pos": "V"
+    },
+    {
+      "fin": "neuvotella",
+      "lemma": "neuvotella",
+      "eng": "negotiate",
+      "pos": "V"
+    },
+    {
+      "fin": "suostutella",
+      "lemma": "suostutella",
+      "eng": "prevail",
+      "pos": "V"
+    },
+    {
+      "fin": "koottu",
+      "lemma": "koota",
+      "eng": "collected",
+      "pos": "V"
+    },
+    {
+      "fin": "himoita",
+      "lemma": "himoita",
+      "eng": "lust",
+      "pos": "V"
+    },
+    {
+      "fin": "kätkeytyä",
+      "lemma": "kätkeytyä",
+      "eng": "hide",
+      "pos": "V"
+    },
+    {
+      "fin": "epäillä",
+      "lemma": "epäillä",
+      "eng": "suspect",
+      "pos": "V"
+    },
+    {
+      "fin": "piiloutua",
+      "lemma": "piiloutu",
+      "eng": "hide",
+      "pos": "V"
+    },
+    {
+      "fin": "piiloutunut",
+      "lemma": "piiloutua",
+      "eng": "obscure",
+      "pos": "V"
+    },
+    {
+      "fin": "hiipiä",
+      "lemma": "hiipiä",
+      "eng": "creep",
+      "pos": "V"
+    },
+    {
+      "fin": "kaatunut",
+      "lemma": "kaatunut",
+      "eng": "fallen",
+      "pos": "V"
+    },
+    {
+      "fin": "terästää",
+      "lemma": "terästää",
+      "eng": "spike",
+      "pos": "V"
+    },
+    {
+      "fin": "kavahtaa",
+      "lemma": "kavahtaa",
+      "eng": "startle",
+      "pos": "V"
+    },
+    {
+      "fin": "tavoiteltu",
+      "lemma": "tavoiteltu",
+      "eng": "coveted",
+      "pos": "V"
+    },
+    {
+      "fin": "isketty",
+      "lemma": "iskeä",
+      "eng": "hit",
+      "pos": "V"
+    },
+    {
+      "fin": "vyöttää",
+      "lemma": "vyöttää",
+      "eng": "gird",
+      "pos": "V"
+    },
+    {
+      "fin": "pidellä",
+      "lemma": "pidellä",
+      "eng": "hold",
+      "pos": "V"
+    },
+    {
+      "fin": "säästää",
+      "lemma": "säästää",
+      "eng": "save",
+      "pos": "V"
+    },
+    {
+      "fin": "vala",
+      "lemma": "valaa",
+      "eng": "oath",
+      "pos": "V"
+    },
+    {
+      "fin": "tuhota",
+      "lemma": "tuhota",
+      "eng": "destroy",
+      "pos": "V"
+    },
+    {
+      "fin": "luultu",
+      "lemma": "luulla",
+      "eng": "supposed",
+      "pos": "V"
+    },
+    {
+      "fin": "lohduttaa",
+      "lemma": "lohduttaa",
+      "eng": "comfort",
+      "pos": "V"
+    },
+    {
+      "fin": "suojeltu",
+      "lemma": "suojella",
+      "eng": "protected",
+      "pos": "V"
+    },
+    {
+      "fin": "tutkia",
+      "lemma": "tutkia",
+      "eng": "explore",
+      "pos": "V"
+    },
+    {
+      "fin": "myydä",
+      "lemma": "myydä",
+      "eng": "sell",
+      "pos": "V"
+    },
+    {
+      "fin": "tuhoutua",
+      "lemma": "tuhoutu",
+      "eng": "consume",
+      "pos": "V"
+    },
+    {
+      "fin": "himmentää",
+      "lemma": "himmentää",
+      "eng": "diaphragm",
+      "pos": "V"
+    },
+    {
+      "fin": "välittää",
+      "lemma": "välittää",
+      "eng": "care",
+      "pos": "V"
+    },
+    {
+      "fin": "vakaa",
+      "lemma": "vaata",
+      "eng": "steady",
+      "pos": "V"
+    },
+    {
+      "fin": "katkoa",
+      "lemma": "katkoa",
+      "eng": "break",
+      "pos": "V"
+    },
+    {
+      "fin": "sidottu",
+      "lemma": "sidottu",
+      "eng": "bound",
+      "pos": "V"
+    },
+    {
+      "fin": "vedota",
+      "lemma": "vedota",
+      "eng": "appeal",
+      "pos": "V"
+    },
+    {
+      "fin": "tullut",
+      "lemma": "tulla",
+      "eng": "in",
+      "pos": "V"
+    },
+    {
+      "fin": "näkyä",
+      "lemma": "näky",
+      "eng": "show",
+      "pos": "V"
+    },
+    {
+      "fin": "puettu",
+      "lemma": "pukea",
+      "eng": "clad",
+      "pos": "V"
+    },
+    {
+      "fin": "viittoilla",
+      "lemma": "viittoilla",
+      "eng": "motion",
+      "pos": "V"
+    },
+    {
+      "fin": "kaita",
+      "lemma": "kaita",
+      "eng": "narrow",
+      "pos": "V"
+    },
+    {
+      "fin": "vieri",
+      "lemma": "vieri",
+      "eng": "side",
+      "pos": "V"
+    },
+    {
+      "fin": "ponnistella",
+      "lemma": "ponnistella",
+      "eng": "strive",
+      "pos": "V"
+    },
+    {
+      "fin": "alkanut",
+      "lemma": "alkaa",
+      "eng": "begun",
+      "pos": "V"
+    },
+    {
+      "fin": "eksyä",
+      "lemma": "eksyä",
+      "eng": "get lost",
+      "pos": "V"
+    },
+    {
+      "fin": "ivata",
+      "lemma": "ivata",
+      "eng": "ridicule",
+      "pos": "V"
+    },
+    {
+      "fin": "jatkuva",
+      "lemma": "jatkua",
+      "eng": "continuous",
+      "pos": "V"
+    },
+    {
+      "fin": "hapuilla",
+      "lemma": "hapuilla",
+      "eng": "fumble",
+      "pos": "V"
+    },
+    {
+      "fin": "näkyvä",
+      "lemma": "näkyä",
+      "eng": "visible",
+      "pos": "V"
+    },
+    {
+      "fin": "piitata",
+      "lemma": "piitata",
+      "eng": "care",
+      "pos": "V"
+    },
+    {
+      "fin": "oppinut",
+      "lemma": "oppinut",
+      "eng": "learned",
+      "pos": "V"
+    },
+    {
+      "fin": "virtaava",
+      "lemma": "virrata",
+      "eng": "quick",
+      "pos": "V"
+    },
+    {
+      "fin": "tulvia",
+      "lemma": "tulva",
+      "eng": "flood",
+      "pos": "V"
+    },
+    {
+      "fin": "liittyä",
+      "lemma": "liittyä",
+      "eng": "associate",
+      "pos": "V"
+    },
+    {
+      "fin": "kallistaa",
+      "lemma": "kallistaa",
+      "eng": "lean",
+      "pos": "V"
+    },
+    {
+      "fin": "raueta",
+      "lemma": "raueta",
+      "eng": "abate",
+      "pos": "V"
+    },
+    {
+      "fin": "kauhistua",
+      "lemma": "kauhistua",
+      "eng": "frighten",
+      "pos": "V"
+    },
+    {
+      "fin": "loukkaantua",
+      "lemma": "loukkaantua",
+      "eng": "offend",
+      "pos": "V"
+    },
+    {
+      "fin": "sinetöidä",
+      "lemma": "sinetöidä",
+      "eng": "seal",
+      "pos": "V"
+    },
+    {
+      "fin": "supista",
+      "lemma": "supista",
+      "eng": "lisp",
+      "pos": "V"
+    },
+    {
+      "fin": "mumista",
+      "lemma": "mumista",
+      "eng": "mutter",
+      "pos": "V"
+    },
+    {
+      "fin": "johtua",
+      "lemma": "johtua",
+      "eng": "stem",
+      "pos": "V"
+    },
+    {
+      "fin": "ahdistettu",
+      "lemma": "ahdistaa",
+      "eng": "at bay",
+      "pos": "V"
+    },
+    {
+      "fin": "ärtyä",
+      "lemma": "ärtyä",
+      "eng": "chafe",
+      "pos": "V"
+    },
+    {
+      "fin": "ensin",
+      "lemma": "ensin",
+      "eng": "firstly",
+      "pos": "V"
+    },
+    {
+      "fin": "saalistaa",
+      "lemma": "saalistaa",
+      "eng": "prey",
+      "pos": "V"
+    },
+    {
+      "fin": "enentyä",
+      "lemma": "enentyä",
+      "eng": "grow",
+      "pos": "V"
+    },
+    {
+      "fin": "sortunut",
+      "lemma": "sortua",
+      "eng": "fallen",
+      "pos": "V"
+    },
+    {
+      "fin": "kaadettu",
+      "lemma": "kaadettu",
+      "eng": "down",
+      "pos": "V"
+    },
+    {
+      "fin": "vaihtaa",
+      "lemma": "vaihtaa",
+      "eng": "exchange",
+      "pos": "V"
+    },
+    {
+      "fin": "leikata",
+      "lemma": "leikata",
+      "eng": "cut",
+      "pos": "V"
+    },
+    {
+      "fin": "sytyttää",
+      "lemma": "sytyttää",
+      "eng": "kindle",
+      "pos": "V"
+    },
+    {
+      "fin": "kieppua",
+      "lemma": "kieppua",
+      "eng": "swirl",
+      "pos": "V"
+    },
+    {
+      "fin": "pimetä",
+      "lemma": "pimetä",
+      "eng": "dusk",
+      "pos": "V"
+    },
+    {
+      "fin": "muistuttaa",
+      "lemma": "muistuttaa",
+      "eng": "remind",
+      "pos": "V"
+    },
+    {
+      "fin": "kirottu",
+      "lemma": "kirottu",
+      "eng": "accursed",
+      "pos": "V"
+    },
+    {
+      "fin": "levittäytyä",
+      "lemma": "levittäytyä",
+      "eng": "unfold",
+      "pos": "V"
+    },
+    {
+      "fin": "häiritä",
+      "lemma": "häiritä",
+      "eng": "disturb",
+      "pos": "V"
+    },
+    {
+      "fin": "kuuleva",
+      "lemma": "kuuleva",
+      "eng": "hearing",
+      "pos": "V"
+    },
+    {
+      "fin": "ravistaa",
+      "lemma": "ravistaa",
+      "eng": "shake",
+      "pos": "V"
+    },
+    {
+      "fin": "kahlittu",
+      "lemma": "kahlittu",
+      "eng": "enchained",
+      "pos": "V"
+    },
+    {
+      "fin": "kahlita",
+      "lemma": "kahlita",
+      "eng": "fetter",
+      "pos": "V"
+    },
+    {
+      "fin": "vapiseva",
+      "lemma": "vapiseva",
+      "eng": "tremulous",
+      "pos": "V"
+    },
+    {
+      "fin": "laskettava",
+      "lemma": "laskettaa",
+      "eng": "computable",
+      "pos": "V"
+    },
+    {
+      "fin": "ympäröity",
+      "lemma": "ympäröidä",
+      "eng": "enclosed",
+      "pos": "V"
+    },
+    {
+      "fin": "huoli",
+      "lemma": "huoli",
+      "eng": "worry",
+      "pos": "V"
+    },
+    {
+      "fin": "päättäväinen",
+      "lemma": "päättäväinen",
+      "eng": "determined",
+      "pos": "V"
+    },
+    {
+      "fin": "jottei",
+      "lemma": "jottaei",
+      "eng": "lest",
+      "pos": "V"
+    },
+    {
+      "fin": "vetää",
+      "lemma": "vetää",
+      "eng": "pull",
+      "pos": "V"
+    },
+    {
+      "fin": "pidättää",
+      "lemma": "pidättää",
+      "eng": "detain",
+      "pos": "V"
+    },
+    {
+      "fin": "aukaista",
+      "lemma": "aukaista",
+      "eng": "unfurl",
+      "pos": "V"
+    },
+    {
+      "fin": "poikia",
+      "lemma": "poika",
+      "eng": "calve",
+      "pos": "V"
+    },
+    {
+      "fin": "vahingoittaa",
+      "lemma": "vahingoittaa",
+      "eng": "injure",
+      "pos": "V"
+    },
+    {
+      "fin": "säätää",
+      "lemma": "säätää",
+      "eng": "set",
+      "pos": "V"
+    },
+    {
+      "fin": "tekemä",
+      "lemma": "tehdä",
+      "eng": "paternal",
+      "pos": "V"
+    },
+    {
+      "fin": "estää",
+      "lemma": "estää",
+      "eng": "prevent",
+      "pos": "V"
+    },
+    {
+      "fin": "tarvitseva",
+      "lemma": "tarvita",
+      "eng": "dependent",
+      "pos": "V"
+    },
+    {
+      "fin": "ryöstää",
+      "lemma": "ryöstää",
+      "eng": "rob",
+      "pos": "V"
+    },
+    {
+      "fin": "loata",
+      "lemma": "loata",
+      "eng": "slag",
+      "pos": "V"
+    },
+    {
+      "fin": "kerskailla",
+      "lemma": "kerskailla",
+      "eng": "brag",
+      "pos": "V"
+    },
+    {
+      "fin": "hakata",
+      "lemma": "hakata",
+      "eng": "chop",
+      "pos": "V"
+    },
+    {
+      "fin": "mahtailla",
+      "lemma": "mahtailla",
+      "eng": "show off",
+      "pos": "V"
+    },
+    {
+      "fin": "heiluttaa",
+      "lemma": "heiluttaa",
+      "eng": "wave",
+      "pos": "V"
+    },
+    {
+      "fin": "uupua",
+      "lemma": "uupua",
+      "eng": "fatigue",
+      "pos": "V"
+    },
+    {
+      "fin": "merkitä",
+      "lemma": "merkitä",
+      "eng": "denote",
+      "pos": "V"
+    },
+    {
+      "fin": "säädetty",
+      "lemma": "säädetty",
+      "eng": "prescribed",
+      "pos": "V"
+    },
+    {
+      "fin": "heristää",
+      "lemma": "heristää",
+      "eng": "shake",
+      "pos": "V"
+    },
+    {
+      "fin": "ulottua",
+      "lemma": "ulottua",
+      "eng": "reach",
+      "pos": "V"
+    },
+    {
+      "fin": "nöyryyttää",
+      "lemma": "nöyryyttää",
+      "eng": "humiliate",
+      "pos": "V"
+    },
+    {
+      "fin": "verso",
+      "lemma": "verso",
+      "eng": "shoot",
+      "pos": "V"
+    },
+    {
+      "fin": "jaa",
+      "lemma": "jaa",
+      "eng": "yes",
+      "pos": "V"
+    },
+    {
+      "fin": "paimentaa",
+      "lemma": "paimentaa",
+      "eng": "herd",
+      "pos": "V"
+    },
+    {
+      "fin": "imeväinen",
+      "lemma": "imeä",
+      "eng": "infant",
+      "pos": "V"
+    },
+    {
+      "fin": "leikkiä",
+      "lemma": "leikkiä",
+      "eng": "play",
+      "pos": "V"
+    },
+    {
+      "fin": "kolo",
+      "lemma": "kolo",
+      "eng": "hole",
+      "pos": "V"
+    },
+    {
+      "fin": "vieroitettu",
+      "lemma": "vieroitettu",
+      "eng": "weaned",
+      "pos": "V"
+    },
+    {
+      "fin": "pistää",
+      "lemma": "pistää",
+      "eng": "sting",
+      "pos": "V"
+    },
+    {
+      "fin": "loistava",
+      "lemma": "loistava",
+      "eng": "brilliant",
+      "pos": "V"
+    },
+    {
+      "fin": "karkotettu",
+      "lemma": "karkottaa",
+      "eng": "deportee",
+      "pos": "V"
+    },
+    {
+      "fin": "kadehtia",
+      "lemma": "kadehtia",
+      "eng": "envy",
+      "pos": "V"
+    },
+    {
+      "fin": "rynnätä",
+      "lemma": "rynnätä",
+      "eng": "bolt",
+      "pos": "V"
+    },
+    {
+      "fin": "ammentaa",
+      "lemma": "ammentaa",
+      "eng": "draw",
+      "pos": "V"
+    },
+    {
+      "fin": "viittoa",
+      "lemma": "viittoa",
+      "eng": "beckon",
+      "pos": "V"
+    },
+    {
+      "fin": "valittaa",
+      "lemma": "valittaa",
+      "eng": "complain",
+      "pos": "V"
+    },
+    {
+      "fin": "hervota",
+      "lemma": "hervota",
+      "eng": "relax",
+      "pos": "V"
+    },
+    {
+      "fin": "jähmettyä",
+      "lemma": "jähmettyä",
+      "eng": "freeze",
+      "pos": "V"
+    },
+    {
+      "fin": "hämmästyä",
+      "lemma": "hämmästyä",
+      "eng": "wonder",
+      "pos": "V"
+    },
+    {
+      "fin": "säteillä",
+      "lemma": "säde",
+      "eng": "radiate",
+      "pos": "V"
+    },
+    {
+      "fin": "järkkyä",
+      "lemma": "järkky",
+      "eng": "shake",
+      "pos": "V"
+    },
+    {
+      "fin": "lävistää",
+      "lemma": "lävistää",
+      "eng": "pierce",
+      "pos": "V"
+    },
+    {
+      "fin": "liittynyt",
+      "lemma": "liittynyt",
+      "eng": "affiliated",
+      "pos": "V"
+    },
+    {
+      "fin": "raiskata",
+      "lemma": "raiskata",
+      "eng": "rape",
+      "pos": "V"
+    },
+    {
+      "fin": "kukistaa",
+      "lemma": "kukistaa",
+      "eng": "vanquish",
+      "pos": "V"
+    },
+    {
+      "fin": "asuttaa",
+      "lemma": "asuttaa",
+      "eng": "inhabit",
+      "pos": "V"
+    },
+    {
+      "fin": "lepuuttaa",
+      "lemma": "lepuuttaa",
+      "eng": "rest",
+      "pos": "V"
+    },
+    {
+      "fin": "maata",
+      "lemma": "maata",
+      "eng": "lie",
+      "pos": "V"
+    },
+    {
+      "fin": "ulvova",
+      "lemma": "ulvoa",
+      "eng": "wailful",
+      "pos": "V"
+    },
+    {
+      "fin": "ulvoa",
+      "lemma": "ulvoa",
+      "eng": "howl",
+      "pos": "V"
+    },
+    {
+      "fin": "pidentää",
+      "lemma": "pidentää",
+      "eng": "prolong",
+      "pos": "V"
+    },
+    {
+      "fin": "sijoittaa",
+      "lemma": "sijoittaa",
+      "eng": "place",
+      "pos": "V"
+    },
+    {
+      "fin": "vangita",
+      "lemma": "vangita",
+      "eng": "imprison",
+      "pos": "V"
+    },
+    {
+      "fin": "pantu",
+      "lemma": "panna",
+      "eng": "applied",
+      "pos": "V"
+    },
+    {
+      "fin": "virittää",
+      "lemma": "virittää",
+      "eng": "tune",
+      "pos": "V"
+    },
+    {
+      "fin": "vainota",
+      "lemma": "vainota",
+      "eng": "persecute",
+      "pos": "V"
+    },
+    {
+      "fin": "pudonnut",
+      "lemma": "pudota",
+      "eng": "fallen",
+      "pos": "V"
+    },
+    {
+      "fin": "syöstä",
+      "lemma": "syöstä",
+      "eng": "spew",
+      "pos": "V"
+    },
+    {
+      "fin": "tuijottaa",
+      "lemma": "tuijottaa",
+      "eng": "stare",
+      "pos": "V"
+    },
+    {
+      "fin": "tarkastella",
+      "lemma": "tarkastella",
+      "eng": "eye",
+      "pos": "V"
+    },
+    {
+      "fin": "viskattu",
+      "lemma": "viskata",
+      "eng": "cast",
+      "pos": "V"
+    },
+    {
+      "fin": "lävistetty",
+      "lemma": "lävistetty",
+      "eng": "impaled",
+      "pos": "V"
+    },
+    {
+      "fin": "suistua",
+      "lemma": "suistua",
+      "eng": "derailment",
+      "pos": "V"
+    },
+    {
+      "fin": "tallattu",
+      "lemma": "tallata",
+      "eng": "beaten",
+      "pos": "V"
+    },
+    {
+      "fin": "liittymä",
+      "lemma": "liittyä",
+      "eng": "interface",
+      "pos": "V"
+    },
+    {
+      "fin": "lakaista",
+      "lemma": "lakaista",
+      "eng": "sweep",
+      "pos": "V"
+    },
+    {
+      "fin": "tapahtuva",
+      "lemma": "tapahtua",
+      "eng": "happening",
+      "pos": "V"
+    },
+    {
+      "fin": "päättänyt",
+      "lemma": "päättää",
+      "eng": "set",
+      "pos": "V"
+    },
+    {
+      "fin": "pysyvä",
+      "lemma": "pysyvä",
+      "eng": "permanent",
+      "pos": "V"
+    },
+    {
+      "fin": "hellitä",
+      "lemma": "hellittää",
+      "eng": "relax",
+      "pos": "V"
+    },
+    {
+      "fin": "päätetty",
+      "lemma": "päätetty",
+      "eng": "set",
+      "pos": "V"
+    },
+    {
+      "fin": "kumota",
+      "lemma": "kumota",
+      "eng": "overturn",
+      "pos": "V"
+    },
+    {
+      "fin": "katkennut",
+      "lemma": "katkennut",
+      "eng": "broken",
+      "pos": "V"
+    },
+    {
+      "fin": "lamautunut",
+      "lemma": "lamautua",
+      "eng": "benumbed",
+      "pos": "V"
+    },
+    {
+      "fin": "vastattava",
+      "lemma": "vastattava",
+      "eng": "open-ended",
+      "pos": "V"
+    },
+    {
+      "fin": "opetettu",
+      "lemma": "opettaa",
+      "eng": "instructed",
+      "pos": "V"
+    },
+    {
+      "fin": "ympäröidä",
+      "lemma": "ympäröidä",
+      "eng": "surround",
+      "pos": "V"
+    },
+    {
+      "fin": "ennustaa",
+      "lemma": "ennustaa",
+      "eng": "predict",
+      "pos": "V"
+    },
+    {
+      "fin": "parantaa",
+      "lemma": "parantaa",
+      "eng": "cure",
+      "pos": "V"
+    },
+    {
+      "fin": "noussut",
+      "lemma": "noussut",
+      "eng": "risen",
+      "pos": "V"
+    },
+    {
+      "fin": "nähtävä",
+      "lemma": "nähtävä",
+      "eng": "remain to be seen",
+      "pos": "V"
+    },
+    {
+      "fin": "nimetä",
+      "lemma": "nimetä",
+      "eng": "name",
+      "pos": "V"
+    },
+    {
+      "fin": "pysyä",
+      "lemma": "pysyä",
+      "eng": "stick",
+      "pos": "V"
+    },
+    {
+      "fin": "täytetty",
+      "lemma": "täyttää",
+      "eng": "stuffed",
+      "pos": "V"
+    },
+    {
+      "fin": "laistaa",
+      "lemma": "laistaa",
+      "eng": "duck",
+      "pos": "V"
+    },
+    {
+      "fin": "sukia",
+      "lemma": "sukia",
+      "eng": "groom",
+      "pos": "V"
+    },
+    {
+      "fin": "syntymä",
+      "lemma": "syntyä",
+      "eng": "birth",
+      "pos": "V"
+    },
+    {
+      "fin": "kivittää",
+      "lemma": "kivittää",
+      "eng": "stone",
+      "pos": "V"
+    },
+    {
+      "fin": "musertaa",
+      "lemma": "musertaa",
+      "eng": "crush",
+      "pos": "V"
+    },
+    {
+      "fin": "syttyä",
+      "lemma": "syttyä",
+      "eng": "ignite",
+      "pos": "V"
+    },
+    {
+      "fin": "ilmestyä",
+      "lemma": "ilmestyä",
+      "eng": "appear",
+      "pos": "V"
+    },
+    {
+      "fin": "antautua",
+      "lemma": "antautua",
+      "eng": "surrender",
+      "pos": "V"
+    },
+    {
+      "fin": "surettaa",
+      "lemma": "surettaa",
+      "eng": "repent",
+      "pos": "V"
+    },
+    {
+      "fin": "tuova",
+      "lemma": "tuoda",
+      "eng": "afferent",
+      "pos": "V"
+    },
+    {
+      "fin": "painettu",
+      "lemma": "painettu",
+      "eng": "print",
+      "pos": "V"
+    },
+    {
+      "fin": "kuiskailla",
+      "lemma": "kuiskailla",
+      "eng": "whisper",
+      "pos": "V"
+    },
+    {
+      "fin": "kuiskata",
+      "lemma": "kuiskata",
+      "eng": "whisper",
+      "pos": "V"
+    },
+    {
+      "fin": "ylpistyä",
+      "lemma": "ylpistyä",
+      "eng": "give someone a big head",
+      "pos": "V"
+    },
+    {
+      "fin": "ylenkatsoa",
+      "lemma": "ylenkatsoa",
+      "eng": "look down on",
+      "pos": "V"
+    },
+    {
+      "fin": "aiheuttaa",
+      "lemma": "aiheuttaa",
+      "eng": "cause",
+      "pos": "V"
+    },
+    {
+      "fin": "taluttaa",
+      "lemma": "taluttaa",
+      "eng": "walk",
+      "pos": "V"
+    },
+    {
+      "fin": "ostaa",
+      "lemma": "ostaa",
+      "eng": "buy",
+      "pos": "V"
+    },
+    {
+      "fin": "taivuttaa",
+      "lemma": "taivuttaa",
+      "eng": "bend",
+      "pos": "V"
+    },
+    {
+      "fin": "aitoa",
+      "lemma": "aito",
+      "eng": "genuine",
+      "pos": "V"
+    },
+    {
+      "fin": "murhata",
+      "lemma": "murhata",
+      "eng": "murder",
+      "pos": "V"
+    },
+    {
+      "fin": "varastaa",
+      "lemma": "varastaa",
+      "eng": "steal",
+      "pos": "V"
+    },
+    {
+      "fin": "lausua",
+      "lemma": "lausua",
+      "eng": "pronounce",
+      "pos": "V"
+    },
+    {
+      "fin": "torjua",
+      "lemma": "torjua",
+      "eng": "repel",
+      "pos": "V"
+    },
+    {
+      "fin": "uneksia",
+      "lemma": "uneksia",
+      "eng": "dream",
+      "pos": "V"
+    },
+    {
+      "fin": "juoda",
+      "lemma": "juoda",
+      "eng": "drink",
+      "pos": "V"
+    },
+    {
+      "fin": "kummastella",
+      "lemma": "kummastella",
+      "eng": "marvel",
+      "pos": "V"
+    },
+    {
+      "fin": "parkua",
+      "lemma": "parku",
+      "eng": "cry",
+      "pos": "V"
+    },
+    {
+      "fin": "hoippua",
+      "lemma": "hoippua",
+      "eng": "teeter",
+      "pos": "V"
+    },
+    {
+      "fin": "silmätä",
+      "lemma": "silmätä",
+      "eng": "glance",
+      "pos": "V"
+    },
+    {
+      "fin": "ilmoittaa",
+      "lemma": "ilmoittaa",
+      "eng": "declare",
+      "pos": "V"
+    },
+    {
+      "fin": "vahvistava",
+      "lemma": "vahvistava",
+      "eng": "confirmatory",
+      "pos": "V"
+    },
+    {
+      "fin": "hävitä",
+      "lemma": "hävitä",
+      "eng": "lose",
+      "pos": "V"
+    },
+    {
+      "fin": "muuttua",
+      "lemma": "muuttua",
+      "eng": "change",
+      "pos": "V"
+    },
+    {
+      "fin": "ilahtua",
+      "lemma": "ilahtua",
+      "eng": "cheer up",
+      "pos": "V"
+    },
+    {
+      "fin": "sysätä",
+      "lemma": "sysätä",
+      "eng": "thrust",
+      "pos": "V"
+    },
+    {
+      "fin": "lunastaa",
+      "lemma": "lunastaa",
+      "eng": "redeem",
+      "pos": "V"
+    },
+    {
+      "fin": "kalveta",
+      "lemma": "kalvaa",
+      "eng": "pale",
+      "pos": "V"
+    },
+    {
+      "fin": "perustettu",
+      "lemma": "perustaa",
+      "eng": "founded",
+      "pos": "V"
+    },
+    {
+      "fin": "hyväksyä",
+      "lemma": "hyväksyä",
+      "eng": "accept",
+      "pos": "V"
+    },
+    {
+      "fin": "pöyhkeillä",
+      "lemma": "pöyhkeillä",
+      "eng": "flaunt",
+      "pos": "V"
+    },
+    {
+      "fin": "turmeltunut",
+      "lemma": "turmeltua",
+      "eng": "corrupt",
+      "pos": "V"
+    },
+    {
+      "fin": "vaatimaton",
+      "lemma": "vaatia",
+      "eng": "modest",
+      "pos": "V"
+    },
+    {
+      "fin": "johdatella",
+      "lemma": "johdatella",
+      "eng": "load",
+      "pos": "V"
+    },
+    {
+      "fin": "riehua",
+      "lemma": "riehua",
+      "eng": "rampage",
+      "pos": "V"
+    },
+    {
+      "fin": "rauhoittaa",
+      "lemma": "rauhoittaa",
+      "eng": "calm",
+      "pos": "V"
+    },
+    {
+      "fin": "tuudittaa",
+      "lemma": "tuudittaa",
+      "eng": "lull",
+      "pos": "V"
+    },
+    {
+      "fin": "mielistellä",
+      "lemma": "mielistellä",
+      "eng": "ingratiate",
+      "pos": "V"
+    },
+    {
+      "fin": "kuiskutella",
+      "lemma": "kuiskutella",
+      "eng": "buzz",
+      "pos": "V"
+    },
+    {
+      "fin": "rakennettu",
+      "lemma": "rakentaa",
+      "eng": "built-up",
+      "pos": "V"
+    },
+    {
+      "fin": "kadonnut",
+      "lemma": "kadonnut",
+      "eng": "lost",
+      "pos": "V"
+    },
+    {
+      "fin": "kulua",
+      "lemma": "kulua",
+      "eng": "pass",
+      "pos": "V"
+    },
+    {
+      "fin": "lunastettu",
+      "lemma": "lunastaa",
+      "eng": "cashed",
+      "pos": "V"
+    },
+    {
+      "fin": "särkynyt",
+      "lemma": "särkynyt",
+      "eng": "broken",
+      "pos": "V"
+    },
+    {
+      "fin": "murtunut",
+      "lemma": "murtua",
+      "eng": "cracked",
+      "pos": "V"
+    },
+    {
+      "fin": "mieliä",
+      "lemma": "mieli",
+      "eng": "desire",
+      "pos": "V"
+    },
+    {
+      "fin": "ensi",
+      "lemma": "ensi",
+      "eng": "next",
+      "pos": "V"
+    },
+    {
+      "fin": "langettaa",
+      "lemma": "langettaa",
+      "eng": "cast",
+      "pos": "V"
+    },
+    {
+      "fin": "jäätävä",
+      "lemma": "jäätävä",
+      "eng": "frigid",
+      "pos": "V"
+    },
+    {
+      "fin": "katoava",
+      "lemma": "katoava",
+      "eng": "transient",
+      "pos": "V"
+    },
+    {
+      "fin": "olematon",
+      "lemma": "olematon",
+      "eng": "minuscule",
+      "pos": "V"
+    },
+    {
+      "fin": "houkutella",
+      "lemma": "houkutella",
+      "eng": "attract",
+      "pos": "V"
+    },
+    {
+      "fin": "oletettava",
+      "lemma": "oletettava",
+      "eng": "presumable",
+      "pos": "V"
+    },
+    {
+      "fin": "viljellä",
+      "lemma": "viljellä",
+      "eng": "cultivate",
+      "pos": "V"
+    },
+    {
+      "fin": "kokea",
+      "lemma": "kokea",
+      "eng": "experience",
+      "pos": "V"
+    },
+    {
+      "fin": "orjuuttaa",
+      "lemma": "orjuuttaa",
+      "eng": "enslave",
+      "pos": "V"
+    },
+    {
+      "fin": "suoda",
+      "lemma": "suotaa",
+      "eng": "grant",
+      "pos": "V"
+    },
+    {
+      "fin": "ihastuttava",
+      "lemma": "ihastuttaa",
+      "eng": "exquisite",
+      "pos": "V"
+    },
+    {
+      "fin": "aloittaa",
+      "lemma": "aloittaa",
+      "eng": "start",
+      "pos": "V"
+    },
+    {
+      "fin": "toimi",
+      "lemma": "toimia",
+      "eng": "function",
+      "pos": "V"
+    },
+    {
+      "fin": "ilmoitettu",
+      "lemma": "ilmoitettu",
+      "eng": "advertised",
+      "pos": "V"
+    },
+    {
+      "fin": "päättää",
+      "lemma": "päättää",
+      "eng": "decide",
+      "pos": "V"
+    },
+    {
+      "fin": "valaista",
+      "lemma": "valaista",
+      "eng": "illuminate",
+      "pos": "V"
+    },
+    {
+      "fin": "uusi",
+      "lemma": "uusia",
+      "eng": "new",
+      "pos": "V"
+    },
+    {
+      "fin": "luotettava",
+      "lemma": "luotettava",
+      "eng": "reliable",
+      "pos": "V"
+    },
+    {
+      "fin": "kestitä",
+      "lemma": "kestittää",
+      "eng": "feast",
+      "pos": "V"
+    },
+    {
+      "fin": "kolkuttaa",
+      "lemma": "kolkuttaa",
+      "eng": "knock",
+      "pos": "V"
+    },
+    {
+      "fin": "kostuttaa",
+      "lemma": "kostuttaa",
+      "eng": "damp",
+      "pos": "V"
+    },
+    {
+      "fin": "päätellä",
+      "lemma": "päätellä",
+      "eng": "deduce",
+      "pos": "V"
+    },
+    {
+      "fin": "huutava",
+      "lemma": "huutava",
+      "eng": "flagrant",
+      "pos": "V"
+    },
+    {
+      "fin": "levinnyt",
+      "lemma": "levitä",
+      "eng": "pervading",
+      "pos": "V"
+    },
+    {
+      "fin": "kirvoittaa",
+      "lemma": "kirvoittaa",
+      "eng": "loosen",
+      "pos": "V"
+    },
+    {
+      "fin": "kasvattaa",
+      "lemma": "kasvattaa",
+      "eng": "educate",
+      "pos": "V"
+    },
+    {
+      "fin": "poiketa",
+      "lemma": "poiketa",
+      "eng": "deviate",
+      "pos": "V"
+    },
+    {
+      "fin": "lakattu",
+      "lemma": "lakattu",
+      "eng": "stained",
+      "pos": "V"
+    },
+    {
+      "fin": "perivä",
+      "lemma": "periä",
+      "eng": "inheriting",
+      "pos": "V"
+    },
+    {
+      "fin": "kulunut",
+      "lemma": "kulua",
+      "eng": "hackneyed",
+      "pos": "V"
+    },
+    {
+      "fin": "kietoutua",
+      "lemma": "kietoutua",
+      "eng": "intertwine",
+      "pos": "V"
+    },
+    {
+      "fin": "huoata",
+      "lemma": "huoata",
+      "eng": "sigh",
+      "pos": "V"
+    },
+    {
+      "fin": "tuki",
+      "lemma": "tukkia",
+      "eng": "support",
+      "pos": "V"
+    }
+  ]
+}
