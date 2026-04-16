@@ -10,7 +10,8 @@ from rich.progress import track
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 from uralicNLP import uralicApi
-from src.nlp.tags import NOUN_CASES, NOUN_NUMBERS, VERB_TENSES_MOODS, VERB_PERSONS, get_noun_tag, get_verb_tag
+from src.nlp.tags import NOUN_CASES, NOUN_NUMBERS, VERB_TENSES_MOODS, VERB_PERSONS, VERB_PARTICIPLES, get_noun_tag, get_verb_tag, get_participle_tag
+from src.data.vocab import classify_verb_type
 
 console = Console()
 
@@ -125,13 +126,21 @@ def build_cache(input_filepath: str, output_filepath: str = "data/vocab_cache.js
             verb_data = {
                 "fin": fin_word,
                 "eng": item["eng"],
-                "inflections": {}
+                "verb_type": classify_verb_type(fin_word),
+                "inflections": {},
+                "participles": {}
             }
             for tense_name in VERB_TENSES_MOODS.keys():
                 for person_name in VERB_PERSONS.keys():
                     key = f"{tense_name}, {person_name}"
                     tag = get_verb_tag(tense_name, person_name)
                     verb_data["inflections"][key] = generate_forms(fin_word, tag)
+            for prc_name in VERB_PARTICIPLES.keys():
+                for case_name in NOUN_CASES.keys():
+                    for num_name in NOUN_NUMBERS.keys():
+                        key = f"{prc_name}, {case_name} {num_name}"
+                        tag = get_participle_tag(prc_name, case_name, num_name)
+                        verb_data["participles"][key] = generate_forms(fin_word, tag)
             verbs.append(verb_data)
         else:
             skipped += 1

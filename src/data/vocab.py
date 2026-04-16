@@ -13,14 +13,32 @@ else:
 
 APP_NAME = "finnish-inflection-cli"
 
+_vocab_cache: dict | None = None
+
+def classify_verb_type(lemma: str) -> int:
+    """Classifies a Finnish verb lemma into verb types 1-6."""
+    if lemma.endswith(("eta", "etä")):
+        return 6
+    if lemma.endswith(("ita", "itä")):
+        return 5
+    if lemma.endswith(("lla", "llä", "nna", "nnä", "rra", "rrä", "sta", "stä")):
+        return 3
+    if lemma.endswith(("da", "dä")):
+        return 2
+    if (
+        len(lemma) >= 3
+        and lemma[-2] == "t"
+        and lemma[-1] in ("a", "ä")
+        and lemma[-3] in "aeiouyäö"
+    ):
+        return 4
+    if lemma.endswith(("a", "ä")):
+        return 1
+    return 0
+
 def categorize_word(word: str, english_hint: str = "") -> tuple[str, str]:
     """Uses uralicApi to categorize a word and find its lemma."""
     try:
-        if not uralicApi.is_language_installed("fin"):
-            if word.endswith(("a", "ä", "da", "dä", "ta", "tä")):
-                return "V", word
-            return "N", word
-
         analyses = uralicApi.analyze(word, "fin")
         if not analyses:
             return "?", word
@@ -72,8 +90,12 @@ def categorize_word(word: str, english_hint: str = "") -> tuple[str, str]:
 def load_book_of_mormon_vocab(filepath: str = None):
     """
     Loads and categorizes the BOM vocabulary based on omorfi parsing.
-    Caches the result in the user's data directory.
+    Caches the result on disk and in memory.
     """
+    global _vocab_cache
+    if _vocab_cache is not None:
+        return _vocab_cache["nouns"], _vocab_cache["verbs"]
+
     data_dir = Path(user_data_dir(APP_NAME))
     data_dir.mkdir(parents=True, exist_ok=True)
     cache_path = data_dir / "vocab_cache.json"
@@ -84,28 +106,29 @@ def load_book_of_mormon_vocab(filepath: str = None):
                 data = json.load(f)
                 nouns = data.get("nouns", [])
                 verbs = data.get("verbs", [])
-                if len(nouns) > 0 or len(verbs) > 0:
+                cache_updated = False
+                for verb in verbs:
+                    if "verb_type" not in verb:
+                        verb["verb_type"] = classify_verb_type(verb.get("lemma", verb.get("fin", "")))
+                        cache_updated = True
+                if cache_updated:
+                    with open(cache_path, "w", encoding="utf-8") as wf:
+                        json.dump({"nouns": nouns, "verbs": verbs}, wf, ensure_ascii=False, indent=2)
+                if nouns or verbs:
+                    _vocab_cache = {"nouns": nouns, "verbs": verbs}
                     return nouns, verbs
         except Exception:
             pass
             
-    # If no cache or cache failed, load from CSV
     if filepath is None:
-        # Look for the file in the project root (dev) or packaged location
-        # When installed as a package, it should be in the root of the install
-        # Hatch sdist/wheel config puts it in the root.
-        # importlib.resources.files('src') refers to the src/ directory.
-        # But our CSV is in the root. We can use a trick to find it relative to 'src'.
         csv_resource = files('src').joinpath('../book_of_mormon_complete.csv')
         if not csv_resource.exists():
-            # Fallback for development if run from root
             csv_resource = Path("book_of_mormon_complete.csv")
             
         if not csv_resource.exists():
             print(f"Warning: book_of_mormon_complete.csv not found.")
             return [], []
         
-        # Open the resource context
         with csv_resource.open(mode='r', encoding='utf-8') as f:
             return _parse_csv(f, cache_path)
     else:
@@ -113,6 +136,7 @@ def load_book_of_mormon_vocab(filepath: str = None):
             return _parse_csv(f, cache_path)
 
 def _parse_csv(f, cache_path):
+    global _vocab_cache
     nouns = []
     verbs = []
     print("Categorizing vocabulary using uralicNLP. This might take a few moments on the first run...")
@@ -125,15 +149,16 @@ def _parse_csv(f, cache_path):
         
         category, lemma = categorize_word(front, back)
         item = {"fin": front, "lemma": lemma, "eng": back, "pos": category}
-        if category == "N" or category == "A":
+        if category in ("N", "A"):
             nouns.append(item)
         elif category == "V":
+            item["verb_type"] = classify_verb_type(lemma)
             verbs.append(item)
                 
-    # Cache the result
     with open(cache_path, "w", encoding="utf-8") as f:
         json.dump({"nouns": nouns, "verbs": verbs}, f, ensure_ascii=False, indent=2)
-        
+
+    _vocab_cache = {"nouns": nouns, "verbs": verbs}
     return nouns, verbs
 
 def get_nouns_list():
@@ -143,3 +168,9 @@ def get_nouns_list():
 def get_verbs_list():
     _, verbs = load_book_of_mormon_vocab()
     return verbs
+
+def get_verbs_by_type(verb_types: list[int]) -> list[dict]:
+    """Returns only verbs matching the selected verb types."""
+    _, verbs = load_book_of_mormon_vocab()
+    allowed = set(verb_types)
+    return [verb for verb in verbs if verb.get("verb_type") in allowed]

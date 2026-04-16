@@ -13,7 +13,10 @@ NOUN_CASES = {
     "Ablative (-lta)": "+Abl",
     "Allative (-lle)": "+All",
     "Essive (-na)": "+Ess",
-    "Translative (-ksi)": "+Tra"
+    "Translative (-ksi)": "+Tra",
+    "Abessive (-tta)": "+Abe",
+    "Comitative (-ineen)": "+Com",
+    "Instructive (-in)": "+Ins",
 }
 
 NOUN_NUMBERS = {
@@ -37,9 +40,39 @@ VERB_PERSONS = {
     "Passive": "Passive" 
 }
 
+VERB_TYPES = {
+    "Type 1 (-a/-ä, puhua)": 1,
+    "Type 2 (-da/-dä, juoda)": 2,
+    "Type 3 (-lla/-nnä/-rra/-sta, tulla)": 3,
+    "Type 4 (-Vta/-Vtä, haluta)": 4,
+    "Type 5 (-ita/-itä, tarvita)": 5,
+    "Type 6 (-eta/-etä, paeta)": 6,
+}
+
+VERB_PARTICIPLES = {
+    "Present Active (VA)": "+V+Act+PrsPrc",
+    "Past Active (NUT)": "+V+Act+PrfPrc",
+    "Present Passive (TAVA)": "+V+Pss+PrsPrc",
+    "Past Passive (TU)": "+V+Pss+PrfPrc",
+    "Agent (MA)": "+V+AgPrc",
+    "Negative (MATON)": "+V+NegPrc",
+}
+
+def _build_case_tag(pos_tag: str, case_tag: str, num_tag: str) -> str:
+    """Builds the full Omorfi tag, handling cases with special number/suffix rules."""
+    # Comitative: no number distinction, requires 3rd person possessive suffix
+    if case_tag == "+Com":
+        return f"{pos_tag}+Com+PxSg3"
+    # Instructive: only exists in plural
+    if case_tag == "+Ins":
+        return f"{pos_tag}+Pl+Ins"
+    return f"{pos_tag}{num_tag}{case_tag}"
+
 def get_noun_tag(case: str, number: str, pos: str = "N") -> str:
     """Returns the combined Omorfi tag for a noun or adjective."""
-    return f"+{pos}{NOUN_NUMBERS.get(number, '+Sg')}{NOUN_CASES.get(case, '+Nom')}"
+    case_tag = NOUN_CASES.get(case, "+Nom")
+    num_tag = NOUN_NUMBERS.get(number, "+Sg")
+    return _build_case_tag(f"+{pos}", case_tag, num_tag)
 
 def get_verb_tag(tense_mood: str, person: str) -> str:
     """Returns the combined Omorfi tag for a verb."""
@@ -49,3 +82,10 @@ def get_verb_tag(tense_mood: str, person: str) -> str:
     else:
         # Action verbs (e.g., +V+Act+Ind+Prs+Sg1)
         return f"+V+Act{VERB_TENSES_MOODS.get(tense_mood, '+Ind+Prs')}{VERB_PERSONS.get(person, '+Sg3')}"
+
+def get_participle_tag(participle: str, case: str, number: str) -> str:
+    """Returns the combined Omorfi tag for a verb participle declined in a case."""
+    prc_base = VERB_PARTICIPLES.get(participle, "+V+Act+PrsPrc")
+    case_tag = NOUN_CASES.get(case, "+Nom")
+    num_tag = NOUN_NUMBERS.get(number, "+Sg")
+    return _build_case_tag(prc_base, case_tag, num_tag)
