@@ -1,168 +1,134 @@
-import sys
-import os
-import csv
+"""Build a validated, versioned vocabulary document from CSV or text."""
+
+from __future__ import annotations
+
+import argparse
+import hashlib
 import json
 from pathlib import Path
-from rich.console import Console
-from rich.progress import track
+from typing import TYPE_CHECKING
 
-# Add src to pythonpath so imports work
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+from src.data.importer import (
+    analyze_vocabulary_source,
+    load_overrides,
+    preview_summary,
+)
+from src.data.vocab import (
+    SCHEMA_VERSION,
+    VocabularyError,
+    load_or_rebuild_vocabulary,
+    make_vocabulary_document,
+)
 
-from uralicNLP import uralicApi
-from src.nlp.tags import NOUN_CASES, NOUN_NUMBERS, VERB_TENSES_MOODS, VERB_PERSONS, VERB_PARTICIPLES, get_noun_tag, get_verb_tag, get_participle_tag
-from src.data.vocab import classify_verb_type
+if TYPE_CHECKING:
+    from src.nlp.engine import MorphologyAdapter
 
-console = Console()
 
-def ensure_model_downloaded(lang="fin"):
-    if not uralicApi.is_language_installed(lang):
-        console.print(f"[bold yellow]Downloading {lang} model for uralicNLP. This may take a few minutes...[/bold yellow]")
-        uralicApi.download(lang)
+CACHE_BUILD_VERSION = 1
 
-def categorize_word(word: str) -> str:
-    """Uses uralicApi to categorize a word directly."""
-    try:
-        analyses = uralicApi.analyze(word, "fin")
-        if not analyses:
-            return "?"
-        
-        tags = set()
-        for analysis_tuple in analyses:
-            parts = analysis_tuple[0]
-            for part in parts:
-                if isinstance(part, str) and part.startswith('+'):
-                    tags.add(part)
-        
-        if "+N" in tags and "+V" not in tags: return "N"
-        if "+V" in tags and "+N" not in tags: return "V"
-        if "+N" in tags: return "N"
-        elif "+V" in tags: return "V"
-    except Exception:
-        pass
-    return "?"
 
-def generate_forms(base_word: str, full_tag: str, lang: str = "fin") -> list[str]:
-    query = f"{base_word}{full_tag}"
-    try:
-        results = uralicApi.generate(query, lang)
-        return list(set([res[0].split('@')[0] for res in results]))
-    except Exception:
-        return []
-
-def build_cache(input_filepath: str, output_filepath: str = "data/vocab_cache.json"):
-    path = Path(input_filepath)
-    if not path.exists():
-        console.print(f"[bold red]Error: Could not find file {input_filepath}[/bold red]")
-        return False
-        
-    out_path = Path(output_filepath)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    
-    console.print(f"[bold blue]Loading uralicNLP model (this takes ~1-2 mins to boot silently)...[/bold blue]")
-    ensure_model_downloaded("fin")
-    
-    # Pre-ping uralicApi to force it to load into memory
-    uralicApi.analyze("boot", "fin") 
-    console.print(f"[bold green]uralicNLP Model Loaded![/bold green]")
-    
-    raw_words = []
-    
-    # Try parsing CSV if it's a CSV with front/back
-    if path.suffix.lower() == '.csv':
-        try:
-            with open(path, mode='r', encoding='utf-8') as f:
-                reader = csv.DictReader(f, delimiter=';')
-                for row in reader:
-                    front = row.get("Front", "").strip()
-                    back = row.get("Back", "").strip()
-                    if front:
-                        raw_words.append({"fin": front, "eng": back})
-        except Exception as e:
-            console.print(f"[red]Error parsing CSV: {e}[/red]")
-            return False
-    # Try generic txt parser
-    elif path.suffix.lower() in ['.txt']:
-        try:
-            with open(path, 'r', encoding='utf-8') as f:
-                for line in f:
-                    parts = line.strip().split(',')
-                    if len(parts) >= 2:
-                        raw_words.append({"fin": parts[0].strip(), "eng": parts[1].strip()})
-                    elif len(parts) == 1 and parts[0].strip():
-                        raw_words.append({"fin": parts[0].strip(), "eng": ""})
-        except Exception as e:
-            console.print(f"[red]Error parsing TXT: {e}[/red]")
-            return False
-            
-    if not raw_words:
-        console.print("[red]No words found in the provided file.[/red]")
-        return False
-        
-    nouns = []
-    verbs = []
-    skipped = 0
-    
-    console.print(f"[cyan]Processing {len(raw_words)} words...[/cyan]")
-    for item in track(raw_words, description="Compiling inflections:"):
-        fin_word = item["fin"]
-        cat = categorize_word(fin_word)
-        
-        if cat == "N":
-            noun_data = {
-                "fin": fin_word,
-                "eng": item["eng"],
-                "inflections": {}
-            }
-            # Generate all cases and numbers
-            for case_name in NOUN_CASES.keys():
-                for num_name in NOUN_NUMBERS.keys():
-                    key = f"{case_name} {num_name}"
-                    tag = get_noun_tag(case_name, num_name)
-                    noun_data["inflections"][key] = generate_forms(fin_word, tag)
-            nouns.append(noun_data)
-            
-        elif cat == "V":
-            verb_data = {
-                "fin": fin_word,
-                "eng": item["eng"],
-                "verb_type": classify_verb_type(fin_word),
-                "inflections": {},
-                "participles": {}
-            }
-            for tense_name in VERB_TENSES_MOODS.keys():
-                for person_name in VERB_PERSONS.keys():
-                    key = f"{tense_name}, {person_name}"
-                    tag = get_verb_tag(tense_name, person_name)
-                    verb_data["inflections"][key] = generate_forms(fin_word, tag)
-            for prc_name in VERB_PARTICIPLES.keys():
-                for case_name in NOUN_CASES.keys():
-                    for num_name in NOUN_NUMBERS.keys():
-                        key = f"{prc_name}, {case_name} {num_name}"
-                        tag = get_participle_tag(prc_name, case_name, num_name)
-                        verb_data["participles"][key] = generate_forms(fin_word, tag)
-            verbs.append(verb_data)
-        else:
-            skipped += 1
-            
-    final_cache = {
-        "nouns": nouns,
-        "verbs": verbs
+def _cache_inputs(source: bytes, overrides: bytes, strict: bool) -> tuple[bytes, dict]:
+    """Fingerprint every input whose change requires a vocabulary rebuild."""
+    manifest = {
+        "source_sha256": hashlib.sha256(source).hexdigest(),
+        "overrides_sha256": hashlib.sha256(overrides).hexdigest(),
+        "schema_version": SCHEMA_VERSION,
+        "builder_version": CACHE_BUILD_VERSION,
+        "strict": strict,
     }
-    
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(final_cache, f, ensure_ascii=False, indent=2)
-        
-    console.print(f"\n[bold green]Compilation Complete![/bold green]")
-    console.print(f"Saved to {output_filepath}")
-    console.print(f"- Nouns compiled: {len(nouns)}")
-    console.print(f"- Verbs compiled: {len(verbs)}")
-    console.print(f"- Skipped (invalid/unknown): {skipped}")
-    return True
+    return json.dumps(manifest, sort_keys=True).encode(), manifest
+
+
+def build_cache(
+    input_filepath: str,
+    output_filepath: str = "data/vocab_cache.json",
+    *,
+    morphology: "MorphologyAdapter | None" = None,
+    overrides_path: str | None = None,
+    report_path: str | None = None,
+    strict: bool = True,
+) -> bool:
+    """Analyze a source and atomically publish it if the quality gate passes."""
+    source = Path(input_filepath)
+    if not source.exists():
+        print(f"Error: could not find {source}")
+        return False
+    try:
+        source_bytes = source.read_bytes()
+        overrides = load_overrides(overrides_path)
+        overrides_bytes = (
+            Path(overrides_path).read_bytes() if overrides_path else b"{}\n"
+        )
+        fingerprint_input, input_manifest = _cache_inputs(
+            source_bytes, overrides_bytes, strict
+        )
+        destination_report = (
+            Path(report_path)
+            if report_path
+            else Path(output_filepath).with_suffix(".review.json")
+        )
+
+        def rebuild():
+            preview = analyze_vocabulary_source(
+                source,
+                name=source.stem,
+                overrides=overrides,
+                morphology=morphology,
+            )
+            report = {
+                "summary": preview_summary(preview),
+                "cache_inputs": input_manifest,
+                "corrected": preview.corrected,
+                "ambiguous": preview.ambiguous,
+                "rejected": preview.rejected,
+                "excluded": preview.excluded,
+            }
+            destination_report.parent.mkdir(parents=True, exist_ok=True)
+            destination_report.write_text(
+                json.dumps(report, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            print(report["summary"])
+            if strict and (preview.ambiguous or preview.rejected):
+                raise VocabularyError(
+                    f"quality gate failed; review {destination_report} and add "
+                    "explicit overrides or exclusions"
+                )
+            return make_vocabulary_document(
+                preview.accepted,
+                source_bytes=fingerprint_input,
+                name=source.stem,
+            )
+
+        load_or_rebuild_vocabulary(
+            output_filepath,
+            source_bytes=fingerprint_input,
+            rebuild=rebuild,
+        )
+        print(f"Vocabulary cache is current at {output_filepath}")
+        return True
+    except (VocabularyError, OSError) as exc:
+        print(f"Build failed: {exc}")
+        return False
+
+
+def main(argv: list[str] | None = None) -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("input")
+    parser.add_argument("--output", default="data/vocab_cache.json")
+    parser.add_argument("--overrides")
+    parser.add_argument("--report")
+    parser.add_argument("--allow-rejected", action="store_true")
+    args = parser.parse_args(argv)
+    success = build_cache(
+        args.input,
+        args.output,
+        overrides_path=args.overrides,
+        report_path=args.report,
+        strict=not args.allow_rejected,
+    )
+    return 0 if success else 1
+
 
 if __name__ == "__main__":
-    if len(sys.argv) > 1:
-        build_cache(sys.argv[1])
-    else:
-        # Default fallback
-        build_cache("book_of_mormon_complete.csv")
+    raise SystemExit(main())

@@ -1,4 +1,5 @@
 import os
+
 os.environ["INQUIRERPY_MOUSE_SUPPORT"] = "true"
 
 import sys

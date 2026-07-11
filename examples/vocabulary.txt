@@ -1,0 +1,3 @@
+koira,dog
+puhua,to speak
+kaunis,beautiful

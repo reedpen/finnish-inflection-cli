@@ -1,0 +1,36 @@
+Front;Back;Lemma;POS;VerbType
+aika;time;aika;N;
+auto;car;auto;N;
+ihminen;person;ihminen;N;
+jalka;"foot; leg";jalka;N;
+kala;fish;kala;N;
+kaupunki;city;kaupunki;N;
+kirja;book;kirja;N;
+kissa;cat;kissa;N;
+koira;dog;koira;N;
+koulu;school;koulu;N;
+lapsi;child;lapsi;N;
+maa;"land; country";maa;N;
+nainen;woman;nainen;N;
+päivä;day;päivä;N;
+sana;word;sana;N;
+talo;house;talo;N;
+tie;road;tie;N;
+vesi;water;vesi;N;
+uusi;new;uusi;A;
+vanha;old;vanha;A;
+hyvä;good;hyvä;A;
+pieni;small;pieni;A;
+suuri;large;suuri;A;
+kaunis;beautiful;kaunis;A;
+olla;to be;olla;V;3
+puhua;to speak;puhua;V;1
+lukea;to read;lukea;V;1
+asua;to live;asua;V;1
+syödä;to eat;syödä;V;2
+tehdä;"to do; make";tehdä;V;2
+mennä;to go;mennä;V;3
+juosta;to run;juosta;V;3
+haluta;to want;haluta;V;4
+tarvita;to need;tarvita;V;5
+vanheta;to grow old;vanheta;V;6

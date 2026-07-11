@@ -1,0 +1,10 @@
+Copyright (c) 2026 finnish-inflection-cli contributors
+All rights reserved.
+
+No permission is granted to use, copy, modify, merge, publish, distribute,
+sublicense, or sell copies of this software or its maintainer-authored default
+vocabulary except with prior written permission from the copyright holders.
+
+The historical book_of_mormon_complete.csv file and data/vocab_cache.json are
+not covered by any grant in this notice. Their provenance and redistribution
+terms are unknown; they are excluded from built distributions.

@@ -1,22 +1,60 @@
-import csv
+"""Validated vocabulary documents and named user vocabulary sets.
+
+The JSON format in this module is the single interchange format used by the
+offline builder, packaged vocabulary, and user imports.  Keeping validation at
+this boundary means drill code never has to defend itself from partial records.
+"""
+
+from __future__ import annotations
+
+import hashlib
 import json
-import sys
+import os
+import re
+import warnings
+from importlib.resources import files
 from pathlib import Path
-from uralicNLP import uralicApi
+from typing import TYPE_CHECKING, Any, Callable, Iterable, NotRequired, TypedDict, cast
+
 from platformdirs import user_data_dir
 
-# For packaged data access
-if sys.version_info >= (3, 9):
-    from importlib.resources import files
-else:
-    from importlib_resources import files
+if TYPE_CHECKING:
+    from src.nlp.engine import MorphologyAdapter
 
 APP_NAME = "finnish-inflection-cli"
+SCHEMA_VERSION = 1
+SUPPORTED_POS = {"N", "A", "V"}
+_SET_NAME = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_-]{0,63}$")
 
-_vocab_cache: dict | None = None
+
+class VocabularyError(ValueError):
+    """A vocabulary file is invalid or a requested set operation is unsafe."""
+
+
+class VocabularyEntry(TypedDict):
+    """One validated word available to question builders."""
+
+    fin: str
+    lemma: str
+    eng: str
+    pos: str
+    verb_type: NotRequired[int]
+
+
+class VocabularyMetadata(TypedDict):
+    name: str
+    source_sha256: str
+    source: NotRequired[str]
+
+
+class VocabularyDocument(TypedDict):
+    schema_version: int
+    metadata: VocabularyMetadata
+    entries: list[VocabularyEntry]
+
 
 def classify_verb_type(lemma: str) -> int:
-    """Classifies a Finnish verb lemma into verb types 1-6."""
+    """Classify a canonical Finnish verb lemma into verb types 1–6."""
     if lemma.endswith(("eta", "etä")):
         return 6
     if lemma.endswith(("ita", "itä")):
@@ -28,7 +66,7 @@ def classify_verb_type(lemma: str) -> int:
     if (
         len(lemma) >= 3
         and lemma[-2] == "t"
-        and lemma[-1] in ("a", "ä")
+        and lemma[-1] in "aä"
         and lemma[-3] in "aeiouyäö"
     ):
         return 4
@@ -36,141 +74,356 @@ def classify_verb_type(lemma: str) -> int:
         return 1
     return 0
 
-def categorize_word(word: str, english_hint: str = "") -> tuple[str, str]:
-    """Uses uralicApi to categorize a word and find its lemma."""
+
+def _validate_entry(raw: Any, index: int) -> VocabularyEntry:
+    if not isinstance(raw, dict):
+        raise VocabularyError(f"entry {index} must be an object")
+    required = {"fin", "lemma", "eng", "pos"}
+    missing = sorted(required - raw.keys())
+    if missing:
+        raise VocabularyError(f"entry {index} is missing: {', '.join(missing)}")
+    item = dict(raw)
+    for field in required:
+        if not isinstance(item[field], str):
+            raise VocabularyError(f"entry {index} field {field} must be text")
+    if not item["fin"].strip() or not item["lemma"].strip() or not item["eng"].strip():
+        raise VocabularyError(f"entry {index} has an empty required value")
+    if item["pos"] not in SUPPORTED_POS:
+        raise VocabularyError(
+            f"entry {index} has unsupported part of speech {item['pos']!r}"
+        )
+    if item["pos"] == "V":
+        if item.get("verb_type") not in range(1, 7):
+            raise VocabularyError(f"entry {index} has invalid verb_type")
+    else:
+        item.pop("verb_type", None)
+    return cast(VocabularyEntry, item)
+
+
+def validate_vocabulary_document(document: Any) -> VocabularyDocument:
+    if (
+        not isinstance(document, dict)
+        or document.get("schema_version") != SCHEMA_VERSION
+    ):
+        raise VocabularyError(
+            f"unsupported or missing schema version (expected {SCHEMA_VERSION})"
+        )
+    metadata = document.get("metadata")
+    if not isinstance(metadata, dict):
+        raise VocabularyError("metadata must be an object")
+    fingerprint = metadata.get("source_sha256")
+    if not isinstance(fingerprint, str) or not re.fullmatch(
+        r"[0-9a-f]{64}", fingerprint
+    ):
+        raise VocabularyError("metadata source_sha256 must be a SHA-256 fingerprint")
+    if not isinstance(metadata.get("name"), str) or not metadata["name"].strip():
+        raise VocabularyError("metadata name is required")
+    entries = document.get("entries")
+    if not isinstance(entries, list):
+        raise VocabularyError("entries must be a list")
+    validated = [_validate_entry(item, index) for index, item in enumerate(entries, 1)]
+    keys: set[tuple[str, str]] = set()
+    for index, item in enumerate(validated, 1):
+        key = (item["lemma"].casefold(), item["pos"])
+        if key in keys:
+            raise VocabularyError(
+                f"entry {index} duplicates lemma {item['lemma']!r} and part of speech"
+            )
+        keys.add(key)
+    return cast(
+        VocabularyDocument,
+        {
+            "schema_version": SCHEMA_VERSION,
+            "metadata": dict(metadata),
+            "entries": validated,
+        },
+    )
+
+
+def make_vocabulary_document(
+    entries: Iterable[VocabularyEntry], *, source_bytes: bytes, name: str
+) -> VocabularyDocument:
+    document = {
+        "schema_version": SCHEMA_VERSION,
+        "metadata": {
+            "name": name,
+            "source_sha256": hashlib.sha256(source_bytes).hexdigest(),
+        },
+        "entries": list(entries),
+    }
+    return validate_vocabulary_document(document)
+
+
+def load_vocabulary_document(
+    path: Path | str, *, source_bytes: bytes | None = None
+) -> VocabularyDocument:
     try:
-        analyses = uralicApi.analyze(word, "fin")
-        if not analyses:
-            return "?", word
-        
-        # Determine POS and lemma
-        v_lemma = None
-        a_lemma = None
-        n_lemma = None
-        
-        # Lemmatize provides the full base word
-        lemmas = uralicApi.lemmatize(word, "fin")
-        primary_lemma = lemmas[0] if lemmas else word
-        
-        for analysis_tuple in analyses:
-            analysis_str = analysis_tuple[0]
-            # Skip participles/negative participles when looking for a pure Verb base
-            is_participle = any(tag in analysis_str for tag in ["+PrfPrc", "+PrsPrc", "+NegPrc", "+AgPrc"])
-            
-            if "+V" in analysis_str and not v_lemma and not is_participle: 
-                v_lemma = analysis_str.split('+')[0].replace('#', '')
-            if "+A" in analysis_str and not a_lemma: a_lemma = primary_lemma
-            if "+N" in analysis_str and not n_lemma: n_lemma = primary_lemma
+        with Path(path).open(encoding="utf-8") as handle:
+            document = validate_vocabulary_document(json.load(handle))
+        if source_bytes is not None:
+            fingerprint = hashlib.sha256(source_bytes).hexdigest()
+            if document["metadata"]["source_sha256"] != fingerprint:
+                raise VocabularyError("vocabulary cache is stale for its source")
+        return document
+    except VocabularyError:
+        raise
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        raise VocabularyError(f"could not read vocabulary: {exc}") from exc
 
-        # Use English hint to break ties
-        hint = english_hint.lower()
-        pos_pref = None
-        if hint.startswith("to "): pos_pref = "V"
-        elif any(word in hint for word in ["(v)", "verb"]): pos_pref = "V"
-        elif any(word in hint for word in ["(n)", "noun"]): pos_pref = "N"
-        elif any(word in hint for word in ["(adj)", "adjective"]): pos_pref = "A"
 
-        if pos_pref == "V" and v_lemma: return "V", v_lemma
-        if pos_pref == "A" and a_lemma: return "A", a_lemma
-        if pos_pref == "N" and n_lemma: return "N", n_lemma
+def write_vocabulary_document(path: Path | str, document: Any) -> None:
+    """Validate then atomically replace *path*, preserving an existing good file."""
+    validated = validate_vocabulary_document(document)
+    destination = Path(path)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    temporary = destination.with_suffix(destination.suffix + ".tmp")
+    try:
+        with temporary.open("w", encoding="utf-8") as handle:
+            json.dump(validated, handle, ensure_ascii=False, indent=2)
+            handle.write("\n")
+            handle.flush()
+            os.fsync(handle.fileno())
+        os.replace(temporary, destination)
+    finally:
+        try:
+            temporary.unlink()
+        except FileNotFoundError:
+            pass
 
-        # Default order of preference if no strong hint
-        if v_lemma and (word.endswith(("a", "ä", "da", "dä", "ta", "tä")) or pos_pref == "V"):
-            return "V", v_lemma
-        
-        if a_lemma: return "A", a_lemma
-        if n_lemma: return "N", n_lemma
-        if v_lemma: return "V", v_lemma
-            
-    except Exception as e:
-        print(f"Error categorizing '{word}': {e}")
-        
+
+def load_or_rebuild_vocabulary(
+    path: Path | str,
+    *,
+    source_bytes: bytes,
+    rebuild: Callable[[], VocabularyDocument],
+) -> VocabularyDocument:
+    """Load a current cache or atomically rebuild corrupt, old, or stale data."""
+    try:
+        return load_vocabulary_document(path, source_bytes=source_bytes)
+    except VocabularyError:
+        document = rebuild()
+        validated = validate_vocabulary_document(document)
+        expected = hashlib.sha256(source_bytes).hexdigest()
+        if validated["metadata"]["source_sha256"] != expected:
+            raise VocabularyError(
+                "rebuilt vocabulary does not match the current source"
+            )
+        write_vocabulary_document(path, validated)
+        return load_vocabulary_document(path, source_bytes=source_bytes)
+
+
+class VocabularyStore:
+    """Manage named validated sets beneath a platform-specific user directory."""
+
+    def __init__(self, root: Path | str | None = None):
+        self.root = (
+            Path(root)
+            if root is not None
+            else Path(user_data_dir(APP_NAME)) / "vocabularies"
+        )
+        self.selection_path = self.root / "selected"
+
+    def _path(self, name: str) -> Path:
+        if not _SET_NAME.fullmatch(name):
+            raise VocabularyError(
+                "set name must contain only letters, numbers, underscores, or hyphens"
+            )
+        return self.root / f"{name}.json"
+
+    def install(self, name: str, document: Any, *, replace: bool = False) -> None:
+        path = self._path(name)
+        if path.exists() and not replace:
+            raise VocabularyError(
+                f"vocabulary set {name!r} already exists; use replace"
+            )
+        validated = validate_vocabulary_document(document)
+        validated["metadata"]["name"] = name
+        write_vocabulary_document(path, validated)
+
+    def load(self, name: str) -> VocabularyDocument:
+        path = self._path(name)
+        if not path.exists():
+            raise VocabularyError(f"vocabulary set {name!r} does not exist")
+        return load_vocabulary_document(path)
+
+    def list_sets(self) -> list[dict[str, Any]]:
+        selected = self.selected_name()
+        if not self.root.exists():
+            return []
+        result = []
+        for path in sorted(self.root.glob("*.json")):
+            try:
+                document = load_vocabulary_document(path)
+            except VocabularyError:
+                continue
+            result.append(
+                {
+                    "name": path.stem,
+                    "selected": path.stem == selected,
+                    "entries": len(document["entries"]),
+                }
+            )
+        return result
+
+    def select(self, name: str) -> None:
+        if name == "default":
+            self.root.mkdir(parents=True, exist_ok=True)
+            self.selection_path.unlink(missing_ok=True)
+            return
+        self.load(name)
+        self.root.mkdir(parents=True, exist_ok=True)
+        temporary = self.selection_path.with_suffix(".tmp")
+        temporary.write_text(name + "\n", encoding="utf-8")
+        os.replace(temporary, self.selection_path)
+
+    def selected_name(self) -> str | None:
+        document, recovery_notice = self.load_selected()
+        if recovery_notice:
+            warnings.warn(recovery_notice, RuntimeWarning, stacklevel=2)
+        return document["metadata"]["name"] if document is not None else None
+
+    def load_selected(self) -> tuple[VocabularyDocument | None, str | None]:
+        """Load the selected set or recover safely to the packaged default.
+
+        Invalid selection pointers are removed. Invalid selected documents are
+        moved aside so a later import cannot silently overwrite evidence that
+        may help the user repair their set.
+        """
+        try:
+            name = self.selection_path.read_text(encoding="utf-8").strip()
+            self._path(name)
+        except FileNotFoundError:
+            return None, None
+        except (OSError, UnicodeError, VocabularyError) as exc:
+            self.selection_path.unlink(missing_ok=True)
+            return (
+                None,
+                f"Invalid vocabulary selection was cleared ({exc}). Using the default set.",
+            )
+        path = self._path(name)
+        if not path.exists():
+            self.selection_path.unlink(missing_ok=True)
+            return (
+                None,
+                f"Selected vocabulary {name!r} is missing. Selection was cleared; using the default set.",
+            )
+        try:
+            return load_vocabulary_document(path), None
+        except VocabularyError as exc:
+            quarantine = path.with_suffix(path.suffix + ".invalid")
+            counter = 1
+            while quarantine.exists():
+                quarantine = path.with_suffix(path.suffix + f".invalid-{counter}")
+                counter += 1
+            try:
+                os.replace(path, quarantine)
+                location = f" It was moved to {quarantine}."
+            except OSError:
+                location = (
+                    " It could not be moved; inspect or remove it before reimporting."
+                )
+            self.selection_path.unlink(missing_ok=True)
+            return None, (
+                f"Selected vocabulary {name!r} is invalid ({exc}).{location} "
+                "Using the default set."
+            )
+
+    def remove(self, name: str) -> None:
+        path = self._path(name)
+        if not path.exists():
+            raise VocabularyError(f"vocabulary set {name!r} does not exist")
+        was_selected = self.selected_name() == name
+        path.unlink()
+        if was_selected:
+            self.selection_path.unlink(missing_ok=True)
+
+
+def categorize_word(
+    word: str,
+    english_hint: str = "",
+    morphology: "MorphologyAdapter | None" = None,
+) -> tuple[str, str]:
+    """Categorize a word with complete UralicNLP analyzer strings."""
+    if morphology is None:
+        from src.nlp.engine import UralicNlpAdapter
+
+        morphology = UralicNlpAdapter()
+
+    try:
+        analyses = morphology.analyze(word, "fin") or []
+        lemmas = morphology.lemmatize(word, "fin") or []
+    except Exception:
+        return "?", word
+    primary_lemma = lemmas[0] if lemmas else word
+    candidates: dict[str, str] = {}
+    for analysis in analyses:
+        analysis_string = (
+            analysis[0] if isinstance(analysis, (tuple, list)) else str(analysis)
+        )
+        tags = analysis_string.split("+")[1:]
+        lemma = analysis_string.split("+", 1)[0].replace("#", "") or primary_lemma
+        if "V" in tags and not {"PrfPrc", "PrsPrc", "NegPrc", "AgPrc"}.intersection(
+            tags
+        ):
+            candidates.setdefault("V", lemma)
+        if "A" in tags:
+            candidates.setdefault("A", primary_lemma)
+        if "N" in tags:
+            candidates.setdefault("N", primary_lemma)
+    hint = english_hint.casefold()
+    preferred = (
+        "V"
+        if hint.startswith("to ") or "verb" in hint
+        else "N"
+        if "noun" in hint
+        else "A"
+        if "adjective" in hint
+        else None
+    )
+    if preferred in candidates:
+        return preferred, candidates[preferred]
+    if len(candidates) == 1:
+        pos = next(iter(candidates))
+        return pos, candidates[pos]
     return "?", word
 
-def load_book_of_mormon_vocab(filepath: str = None):
-    """
-    Loads and categorizes the BOM vocabulary based on omorfi parsing.
-    Caches the result on disk and in memory.
-    """
-    global _vocab_cache
-    if _vocab_cache is not None:
-        return _vocab_cache["nouns"], _vocab_cache["verbs"]
 
-    data_dir = Path(user_data_dir(APP_NAME))
-    data_dir.mkdir(parents=True, exist_ok=True)
-    cache_path = data_dir / "vocab_cache.json"
-    
-    if cache_path.exists():
-        try:
-            with open(cache_path, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                nouns = data.get("nouns", [])
-                verbs = data.get("verbs", [])
-                cache_updated = False
-                for verb in verbs:
-                    if "verb_type" not in verb:
-                        verb["verb_type"] = classify_verb_type(verb.get("lemma", verb.get("fin", "")))
-                        cache_updated = True
-                if cache_updated:
-                    with open(cache_path, "w", encoding="utf-8") as wf:
-                        json.dump({"nouns": nouns, "verbs": verbs}, wf, ensure_ascii=False, indent=2)
-                if nouns or verbs:
-                    _vocab_cache = {"nouns": nouns, "verbs": verbs}
-                    return nouns, verbs
-        except Exception:
-            pass
-            
-    if filepath is None:
-        csv_resource = files('src').joinpath('../book_of_mormon_complete.csv')
-        if not csv_resource.exists():
-            csv_resource = Path("book_of_mormon_complete.csv")
-            
-        if not csv_resource.exists():
-            print(f"Warning: book_of_mormon_complete.csv not found.")
-            return [], []
-        
-        with csv_resource.open(mode='r', encoding='utf-8') as f:
-            return _parse_csv(f, cache_path)
+def _packaged_document() -> VocabularyDocument:
+    resource = files("src.data").joinpath("default_vocab.json")
+    try:
+        with resource.open(encoding="utf-8") as handle:
+            return validate_vocabulary_document(json.load(handle))
+    except (OSError, json.JSONDecodeError, VocabularyError) as exc:
+        raise VocabularyError(
+            f"packaged default vocabulary is unavailable or invalid: {exc}"
+        ) from exc
+
+
+def load_book_of_mormon_vocab(
+    filepath: str | None = None,
+) -> tuple[list[VocabularyEntry], list[VocabularyEntry]]:
+    """Compatibility API returning nouns/adjectives and verbs from the active set."""
+    if filepath:
+        document = load_vocabulary_document(filepath)
     else:
-        with open(filepath, mode='r', encoding='utf-8') as f:
-            return _parse_csv(f, cache_path)
-
-def _parse_csv(f, cache_path):
-    global _vocab_cache
-    nouns = []
-    verbs = []
-    print("Categorizing vocabulary using uralicNLP. This might take a few moments on the first run...")
-    reader = csv.DictReader(f, delimiter=';')
-    for row in reader:
-        front = row.get("Front", "").strip()
-        back = row.get("Back", "").strip()
-        if not front:
-            continue
-        
-        category, lemma = categorize_word(front, back)
-        item = {"fin": front, "lemma": lemma, "eng": back, "pos": category}
-        if category in ("N", "A"):
-            nouns.append(item)
-        elif category == "V":
-            item["verb_type"] = classify_verb_type(lemma)
-            verbs.append(item)
-                
-    with open(cache_path, "w", encoding="utf-8") as f:
-        json.dump({"nouns": nouns, "verbs": verbs}, f, ensure_ascii=False, indent=2)
-
-    _vocab_cache = {"nouns": nouns, "verbs": verbs}
+        store = VocabularyStore()
+        document, recovery_notice = store.load_selected()
+        if recovery_notice:
+            warnings.warn(recovery_notice, RuntimeWarning, stacklevel=2)
+        document = document or _packaged_document()
+    nouns = [item for item in document["entries"] if item["pos"] in {"N", "A"}]
+    verbs = [item for item in document["entries"] if item["pos"] == "V"]
     return nouns, verbs
 
-def get_nouns_list():
-    nouns, _ = load_book_of_mormon_vocab()
-    return nouns
 
-def get_verbs_list():
-    _, verbs = load_book_of_mormon_vocab()
-    return verbs
+def get_nouns_list() -> list[VocabularyEntry]:
+    return load_book_of_mormon_vocab()[0]
 
-def get_verbs_by_type(verb_types: list[int]) -> list[dict]:
-    """Returns only verbs matching the selected verb types."""
-    _, verbs = load_book_of_mormon_vocab()
+
+def get_verbs_list() -> list[VocabularyEntry]:
+    return load_book_of_mormon_vocab()[1]
+
+
+def get_verbs_by_type(verb_types: list[int]) -> list[VocabularyEntry]:
     allowed = set(verb_types)
-    return [verb for verb in verbs if verb.get("verb_type") in allowed]
+    return [verb for verb in get_verbs_list() if verb["verb_type"] in allowed]

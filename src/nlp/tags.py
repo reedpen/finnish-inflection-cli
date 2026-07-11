@@ -19,15 +19,12 @@ NOUN_CASES = {
     "Instructive (-in)": "+Ins",
 }
 
-NOUN_NUMBERS = {
-    "Singular": "+Sg",
-    "Plural": "+Pl"
-}
+NOUN_NUMBERS = {"Singular": "+Sg", "Plural": "+Pl"}
 
 VERB_TENSES_MOODS = {
     "Present": "+Ind+Prs",
     "Past": "+Ind+Prt",
-    "Conditional": "+Cond+Prs"
+    "Conditional": "+Cond+Prs",
 }
 
 VERB_PERSONS = {
@@ -37,7 +34,7 @@ VERB_PERSONS = {
     "1st Person Pl (We)": "+Pl1",
     "2nd Person Pl (You)": "+Pl2",
     "3rd Person Pl (They)": "+Pl3",
-    "Passive": "Passive" 
+    "Passive": "Passive",
 }
 
 VERB_TYPES = {
@@ -58,6 +55,7 @@ VERB_PARTICIPLES = {
     "Negative (MATON)": "+V+NegPrc",
 }
 
+
 def _build_case_tag(pos_tag: str, case_tag: str, num_tag: str) -> str:
     """Builds the full Omorfi tag, handling cases with special number/suffix rules."""
     # Comitative: no number distinction, requires 3rd person possessive suffix
@@ -68,11 +66,13 @@ def _build_case_tag(pos_tag: str, case_tag: str, num_tag: str) -> str:
         return f"{pos_tag}+Pl+Ins"
     return f"{pos_tag}{num_tag}{case_tag}"
 
+
 def get_noun_tag(case: str, number: str, pos: str = "N") -> str:
     """Returns the combined Omorfi tag for a noun or adjective."""
     case_tag = NOUN_CASES.get(case, "+Nom")
     num_tag = NOUN_NUMBERS.get(number, "+Sg")
     return _build_case_tag(f"+{pos}", case_tag, num_tag)
+
 
 def get_verb_tag(tense_mood: str, person: str) -> str:
     """Returns the combined Omorfi tag for a verb."""
@@ -82,6 +82,7 @@ def get_verb_tag(tense_mood: str, person: str) -> str:
     else:
         # Action verbs (e.g., +V+Act+Ind+Prs+Sg1)
         return f"+V+Act{VERB_TENSES_MOODS.get(tense_mood, '+Ind+Prs')}{VERB_PERSONS.get(person, '+Sg3')}"
+
 
 def get_participle_tag(participle: str, case: str, number: str) -> str:
     """Returns the combined Omorfi tag for a verb participle declined in a case."""

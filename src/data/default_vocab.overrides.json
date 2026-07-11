@@ -1,0 +1,7 @@
+{
+  "nainen": {"lemma": "nainen", "pos": "N"},
+  "uusi": {"lemma": "uusi", "pos": "A"},
+  "hyvä": {"lemma": "hyvä", "pos": "A"},
+  "pieni": {"lemma": "pieni", "pos": "A"},
+  "suuri": {"lemma": "suuri", "pos": "A"}
+}
